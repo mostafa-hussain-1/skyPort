@@ -18,6 +18,7 @@ namespace skyPort {
 			main->fav_view_panel->Visible = false;
 			main->data_booking_panal->Controls->Clear();
 			main->data_booking_panal->Visible = true;
+			main->check_out_panal->Visible = true;
 
 
 			for (int i = 1; i <= total_travelers; i++)
