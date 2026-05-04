@@ -1,1568 +1,1491 @@
-﻿"A Coruña، Spain",A Coruña Airport,LCG
-"Aalborg، Kingdom of Denmark",Aalborg Airport,AAL
-"Aarhus، Kingdom of Denmark",Aarhus Airport,AAR
-"Abadan، Iran",Abadan International Airport,ABD
-"Abakan، Russia",Abakan International Airport,ABA
-"Abbotsford، Canada",Abbotsford International Airport,YXX
-"Aberdeen (Scotland)، Northern Ireland, Scotland and Wales",Aberdeen Airport,ABZ
-"Abha، Saudi Arabia",Abha International Airport,AHB
-"Abidjan, Ivory Coast",Félix-Houphouët-Boigny International Airport,ABJ
-"Abu Dhabi، United Arab Emirates",Abu Dhabi International Airport,AUH
-"Abuja, Nigeria",Nnamdi Azikiwe International Airport,ABV
-"Acapulco، Mexico",Acapulco International Airport,ACA
-"Accra, Ghana",Accra International Airport,ACC
-"Adana، Turkey",Şakirpaşa Airport,ADA
-"Addis Ababa, Ethiopia",Addis Ababa Bole International Airport,ADD
-"Addu City، Maldives",Gan International Airport,GAN
-"Adelaide، Australia",Adelaide Airport,ADL
-"Aden، Yemen",Aden International Airport,ADE
-"Agadir, Morocco",Agadir–Al Massira Airport,AGA
-"Agartala، India",Maharaja Bir Bikram Airport,IXA
-"Aguadilla, Puerto Rico",Rafael Hernández International Airport,BQN
-"Aguascalientes، Mexico",Aguascalientes International Airport,AGU
-"Ahmedabad، India",Sardar Vallabhbhai Patel International Airport,AMD
-"Ahvaz، Iran",Ahvaz International Airport,AWZ
-"Ajaccio، France",Ajaccio Napoleon Bonaparte Airport,AJA
-"Akita، Japan",Akita Airport,AXT
-"Akron، United States",Akron Executive Airport,AKC
-"Aktau، Kazakhstan",Aktau Airport,SCO
-"Aktobe، Kazakhstan",Aktobe International Airport,AKX
-"Akureyri، Iceland",Akureyri Airport,AEY
-"Al Ain، United Arab Emirates",Al Ain International Airport,AAN
-"Al Najaf، Iraq",Al Najaf International Airport,NJF
-"Al-Ahsa، Saudi Arabia",Al-Ahsa International Airport,HOF
-"Åland، Finland",Mariehamn Airport,MHQ
-"Alanya، Turkey",Gazipaşa Airport,GZP
-"Albany، United States",Albany International Airport,ALB
-"Albuquerque، United States",Albuquerque International Sunport,ABQ
-"Alderney (Bailiwick of Guernsey)، Crown Dependencies",Alderney Airport,ACI
-"Aleppo، Syria",Aleppo International Airport,ALP
-"Ålesund، Norway",Ålesund Airport,AES
-"Alexandria, Egypt",Alexandria International Airport,HBE
-"Alghero، Italy",Fertilia Airport,AHO
-"Algiers, Algeria",Houari Boumediene Airport,ALG
-"Alicante، Spain",Alicante–Elche Miguel Hernández Airport,ALC
-"Al-Jawf، Saudi Arabia",Al Jawf International Airport,AJF
-"Almaty، Kazakhstan",Almaty International Airport,ALA
-"Almería، Spain",Almería Airport,LEI
-"Alofi، Niue",Niue International Airport,IUE
-"Alor Setar، Malaysia",Sultan Abdul Halim Airport,AOR
-"Al-Ula، Saudi Arabia",Al-Ula International Airport,ULH
-"Amarillo، United States",Rick Husband Amarillo International Airport,AMA
-"Ambon، Indonesia",Pattimura International Airport,AMQ
-"Amman، Jordan",Queen Alia International Airport,AMM
-"Amritsar، India",Sri Guru Ram Das Ji International Airport,ATQ
-"Amsterdam، Netherlands",Amsterdam Airport,AMS
-"Anadyr، Russia",Ugolny Airport,DYR
-"Anapa، Russia",Anapa Airport,AAQ
-"Anchorage، United States",Anchorage International Airport,ANC
-"Ancona، Italy",Ancona Airport,AOI
-"Andijan، Uzbekistan",Andizhan Airport,AZN
-"Angeles City، Philippines",Clark International Airport,CRK
-"Ankara، Turkey",Esenboğa International Airport,ESB
-"Annaba, Algeria",Rabah Bitat Airport,AAE
-"Antalya، Turkey",Antalya Airport,AYT
-"Antananarivo, Madagascar",Ivato International Airport,TNR
-"Antofagasta، Chile",Andrés Sabella Gálvez International Airport,ANF
-"Antsiranana, Madagascar",Arrachart Airport,DIE
-"Antwerp، Belgium",Antwerp International Airport,ANR
-"Aomori، Japan",Aomori Airport,AOJ
-"Apia، Samoa",Faleolo International Airport,APW
-"Appleton، United States",Appleton International Airport,ATW
-"Aqaba، Jordan",King Hussein International Airport,AQJ
-"Aracaju، Brazil",Santa Maria Airport,AJU
-"Arad، Romania",Arad International Airport,ARW
-"Arak، Iran",Arak International Airport,AJK
-"Ardabil، Iran",Ardabil Airport,ADU
-"Arequipa، Peru",Rodríguez Ballón International Airport,AQP
-"Arkhangelsk، Russia",Talagi Airport,ARH
-"Armenia، Colombia",El Edén International Airport,AXM
-"Arua, Uganda",Arua Airport,RUA
-"Arusha, Tanzania",Arusha Airport,ARK
-"Asaba, Delta, Nigeria",Asaba International Airport,ABB
-"Asaluyeh، Iran",Persian Gulf Airport,PGU
-"Ashgabat، Turkmenistan",Ashgabat Airport,ASB
-"Asmara, Eritrea",Asmara International Airport,ASM
-"Astana، Kazakhstan",Nursultan Nazarbayev International Airport,NQZ
-"Astrakhan، Russia",Narimanovo Airport,ASF
-"Asturias، Spain",Asturias Airport,OVD
-"Asunción، Paraguay",Silvio Pettirossi International Airport,ASU
-"Aswan, Egypt",Aswan International Airport,ASW
-"Asyut, Egypt",Assiut Airport,ATZ
-"Atar, Mauritania",Atar International Airport,ATR
-"Athens، Greece",Athens International Airport,ATH
-"Atlanta، United States",Hartsfield–Jackson Atlanta International Airport,ATL
-"Atlantic City، United States",Atlantic City International Airport,ACY
-"Atyrau، Kazakhstan",Atyrau Airport,GUW
-"Auckland، New Zealand",Auckland Airport,AKL
-"Austin (TX)، United States",Austin–Bergstrom International Airport,AUS
-"Avarua، Cook Islands",Rarotonga Airport,RAR
-"Ayodhya، India","Maharishi Valmiki International Airport, Ayodhya Dham",AYJ
-"Bacau، Romania",George Enescu International Airport,BCM
-"Baden-Baden/Karlsruhe، Germany",Karlsruhe/Baden-Baden Airport,FKB
-"Baghdad، Iraq",Baghdad International Airport,BGW
-"Bahawalpur، Pakistan",Bahawalpur Airport,BHV
-"Baia Mare، Romania",Maramureș Airport,BAY
-"Baku، Azerbaijan",Heydar Aliyev International Airport,GYD
-"Balikpapan، Indonesia",Sultan Aji Muhammad Sulaiman Sepinggan International Airport,BPN
-"Baltimore، United States",Baltimore/Washington International Airport,BWI
-"Bamako, Mali",Modibo Keita International Airport,BKO
-"Banda Aceh، Indonesia",Sultan Iskandar Muda International Airport,BTJ
-"Bandar Abbas، Iran",Bandar Abbas International Airport,BND
-"Bandar Lampung، Indonesia",Radin Inten II International Airport,TKG
-"Bandar Seri Begawan، Brunei",Brunei International Airport,BWN
-"Bandung، Indonesia",Kertajati International Airport,KJT
-"Bangkok، Thailand",Suvarnabhumi Airport,BKK
-"Bangor، United States",Bangor International Airport,BGR
-"Bangui, Central African Republic",Bangui M'Poko International Airport,BGF
-"Banja Luka، Bosnia and Herzegovina",Banja Luka International Airport,BNX
-"Banjarmasin، Indonesia",Syamsudin Noor International Airport,BDJ
-"Banjul, The Gambia",Banjul International Airport,BJL
-"Baotou، China",Baotou Donghe international Airport,BAV
-"Barahona, Dominican Republic",María Montez International Airport,BRX
-"Barcelona، Spain",Josep Tarradellas Barcelona–El Prat Airport,BCN
-"Bari، Italy",Palese Airport,BRI
-"Bariloche، Argentina",San Carlos de Bariloche Airport,BRC
-"Barishal، Bangladesh",Barisal Airport,BZL
-"Barnaul، Russia",Barnaul Airport,BAX
-"Barranquilla، Colombia",Ernesto Cortissoz International Airport,BAQ
-"Barrie (Oro-Medonte)، Canada",Lake Simcoe Regional Airport,YLK
-"Basel، Switzerland",EuroAirport Basel Mulhouse Freiburg,BSL/MLH/EAP
-"Basra، Iraq",Basra International Airport,BSR
-"Basseterre, Saint Kitts and Nevis",Robert L. Bradshaw International Airport,SKB
-"Bastia، France",Poretta Airport,BIA
-"Batam، Indonesia",Hang Nadim International Airport,BTH
-"Batna, Algeria",Batna Airport,BLJ
-"Batticaloa، Sri Lanka",Batticaloa International Airport,BTC
-"Batumi، Georgia",Batumi International Airport,BUS
-"Baudette، United States",Baudette International Airport,BDE
-"Beauvais، France",Beauvais–Tillé Airport,BVA
-"Beihai، China",Beihai Fucheng Airport,BHY
-"Beijing، China",Beijing Capital International Airport,PEK
-"Beira, Mozambique",Beira Airport,BEW
-"Beirut، Lebanon",Beirut–Rafic Hariri International Airport,BEY
-"Beja، Portugal",Beja Airport,BYJ
-"Béjaïa, Algeria",Soummam Airport,BJA
-"Belém، Brazil",Val de Cães International Airport,BEL
-"Belfast (Northern Ireland)، Northern Ireland, Scotland and Wales",Belfast International Airport,BFS
-"Belgorod، Russia",Belgorod International Airport,EGO
-"Belgrade، Serbia",Belgrade Nikola Tesla Airport,BEG
-"Belize City، Belize",Philip S. W. Goldson International Airport,BZE
-"Bellingham، United States",Bellingham International Airport,BLI
-"Belo Horizonte، Brazil",Tancredo Neves International Airport,CNF
-"Bengaluru، India",Kempegowda International Airport,BLR
-"Benghazi, Libya",Benina International Airport,BEN
-"Beni Mellal, Morocco",Beni Mellal Airport,BEM
-"Bergamo، Italy",Orio al Serio Airport,BGY
-"Bergen، Norway",Bergen Airport,BGO
-"Bergerac، France",Bergerac Dordogne Périgord Airport,EGC
-"Berlin، Germany",Berlin Brandenburg Airport,BER
-"Bern، Switzerland",Bern Airport,BRN
-"Béziers، France",Béziers Cap d'Agde Airport,BZR
-"Bhopal، India",Raja Bhoj Airport,BHO
-"Bhubaneswar، India",Biju Patnaik International Airport,BBI
-"Biarritz، France",Biarritz Pays Basque Airport,BIQ
-"Bilbao، Spain",Bilbao Airport,BIO
-"Billund، Kingdom of Denmark",Billund Airport,BLL
-"Birmingham، England",Birmingham Airport,BHX
-"Birmingham، United States",Birmingham–Shuttlesworth International Airport,BHM
-"Birجand، Iran",Birjand International Airport,XBJ
-"Bishkek، Kyrgyzstan",Manas International Airport,FRU
-"Bissau, Guinea-Bissau",Osvaldo Vieira International Airport,OXB
-"Blagoveshchensk، Russia",Ignatyevo Airport,BQS
-"Blantyre, Malawi",Chileka International Airport,BLZ
-"Bloemfontein, South Africa",Bram Fischer International Airport,BFN
-"Blue Hills، Turks and Caicos Islands",Providenciales Airport,PLS
-"Bluefields، Nicaragua",Bluefields Airport,BEF
-"Boa Vista, Cape Verde",Aristides Pereira International Airport,BVC
-"Boa Vista، Brazil",Boa Vista International Airport,BVB
-"Bobo-Dioulasso, Burkina Faso",Bobo Dioulasso Airport,BOY
-"Bocas del Toro، Panama","Bocas del Toro ""Isla Colón"" International Airport",BOC
-"Bodø، Norway",Bodø Airport,BOO
-"Bodrum، Turkey",Milas–Bodrum Airport,BJV
-"Bogotá، Colombia",El Dorado International Airport,BOG
-"Boise، United States",Boise Airport,BOI
-"Bokeo (Tonpheung district)، Laos",Bokeo International Airport,BOR
-"Bokhtar، Tajikistan",Bokhtar International Airport,KQT
-"Bologna، Italy",Bologna Airport,BLQ
-"Bordeaux، France",Bordeaux–Mérignac Airport,BOD
-"Bosaso, Somalia",Bosaso Airport,BSA
-"Boston، United States",Logan International Airport,BOS
-"Bournemouth، England",Bournemouth Airport,BOH
-"Brač، Croatia",Brač Airport,BWK
-"Brades, Montserrat",John A. Osborne Airport,MNI
-"Brasília، Brazil",Brasília International Airport,BSB
-"Brașov، Romania",Brașov-Ghimbav International Airport,GHV
-"Bratislava، Slovakia",Bratislava Airport,BTS
-"Bratsk، Russia",Bratsk Airport,BTK
-"Brazzaville, Republic of the Congo",Maya-Maya Airport,BZV
-"Bremen، Germany",Bremen Airport,BRE
-"Brescia، Italy",Brescia Airport,VBS
-"Brest، France",Brest Bretagne Airport,BES
-"Bridgetown, Barbados",Grantley Adams International Airport,BGI
-"Brindisi، Italy",Brindisi Airport,BDS
-"Brisbane، Australia",Brisbane Airport,BNE
-"Bristol، England",Bristol Airport,BRS
-"Brno، Czech Republic",Brno–Tuřany Airport,BRQ
-"Broome، Australia",Broome International Airport,BME
-"Brownsville، United States",Brownsville/South Padre Island International Airport,BRO
-"Brussels، Belgium",Brussels Airport,BRU
-"Bryansk، Russia",Bryansk International Airport,BZK
-"Bucaramanga، Colombia",Palonegro International Airport,BGA
-"Bucharest، Romania",Henri Coandă International Airport,OTP
-"Budapest، Hungary",Budapest Ferenc Liszt International Airport,BUD
-"Buenaventura، Colombia",Gerardo Tobar López Airport,BUN
-"Buenos Aires، Argentina",Ministro Pistarini International Airport,EZE
-"Buffalo، United States",Buffalo Niagara International Airport,BUF
-"Bujumbura, Burundi",Bujumbura International Airport,BJM
-"Bukhara، Uzbekistan",Bukhara International Airport,BHK
-"Bulawayo, Zimbabwe",Joshua Mqabuko Nkomo International Airport,BUQ
-"Buraydah، Saudi Arabia",Prince Naif bin Abdulaziz International Airport,ELQ
-"Burgas، Bulgaria",Burgas Airport,BOJ
-"Burnt Pine، Norfolk Island",Norfolk Island Airport,NLK
-"Bursa، Turkey",Yenişehir Airport,YEI
-"Busan، South Korea",Gimhae International Airport,PUS
-"Bushehr، Iran",Bushehr Airport,BUZ
-"Bydgoszcz، Poland",Bydgoszcz Ignacy Jan Paderewski Airport,BZG
-"Cagayan، Philippines",Cagayan North International Airport,LLC
-"Cagliari، Italy",Cagliari Airport,CAG
-"Cairns، Australia",Cairns Airport,CNS
-"Cairo, Egypt",Cairo International Airport,CAI
-"Cairo, Egypt",Sphinx International Airport,SPX
-"Calabar, Nigeria",Margaret Ekpo International Airport,CBQ
-"Calexico، United States",Calexico International Airport,CXL
-"Calgary، Canada",Calgary International Airport,YYC
-"Cali، Colombia",Alfonso Bonilla Aragón International Airport,CLO
-"Camagüey, Cuba",Ignacio Agramonte International Airport,CMW
-"Campinas، Brazil",Viracopos International Airport,VCP
-"Campo Grande، Brazil",Campo Grande International Airport,CGR
-"Cần Thơ، Vietnam",Can Tho International Airport,VCA
-"Canberra، Australia",Canberra Airport,CBR
-"Cancún، Mexico",Cancún International Airport,CUN
-"Canouan, Canouan",Canouan Airport,CIW
-"Cape Town, South Africa",Cape Town International Airport,CPT
-"Cap-Haïtien, Haiti",Cap-Haïtien International Airport,CAP
-"Caracas، Venezuela",Simón Bolívar International Airport,CCS
-"Carcassonne، France",Carcassonne Airport,CCF
-"Cardiff (Wales)، Northern Ireland, Scotland and Wales",Cardiff Airport,CWL
-"Cartagena، Colombia",Rafael Núñez International Airport,CTG
-"Casablanca, Morocco",Mohammed V International Airport,CMN
-"Castellón de la Plana، Spain",Castellón–Costa Azahar Airport,CDT
-"Catania، Italy",Fontanarossa Airport,CTA
-"Catumbela, Angola",Catumbela Airport,CBT
-"Cayenne، French Guiana",Cayenne – Félix Eboué Airport,CAY
-"Cayman Brac, Cayman Islands",Charles Kirkconnell International Airport,CYB
-"Cayo Coco, Cuba",Jardines del Rey Airport,CCC
-"Cayo Largo del Sur, Cuba",Vilo Acuña Airport,CYO
-"Cephalonia، Greece",Kefalonia Island International Airport,EFL
-"České Budějovice، Czech Republic",České Budějovice Airport,JCL
-"Châlons-en-Champagne، France",Châlons Vatry Airport,XCR
-"Chambéry، France",Chambéry Airport,CMF
-"Changchun، China",Changchun Longjia International Airport,CGQ
-"Changsha، China",Changsha Huanghua International Airport,CSX
-"Changzhou، China",Changzhou Benniu International Airport,CZX
-"Chania، Greece",Chania International Airport,CHQ
-"Charleroi، Belgium",Brussels South Charleroi Airport,CRL
-"Charleston (SC)، United States",Charleston International Airport,CHS
-"Charlotte Amalie، U.S. Virgin Islands",Cyril E. King Airport,STT
-"Charlotte، United States",Charlotte Douglas International Airport,CLT
-"Charlottetown، Canada",Charlottetown Airport,YYG
-"Cheboksary، Russia",Cheboksary International Airport,CSY
-"Chek Lap Kok، Hong Kong",Hong Kong International Airport,HKG
-"Chelyabinsk، Russia",Chelyabinsk Airport,CEK
-"Chengdu، China",Chengdu Shuangliu International Airport,CTU
-"Chennai، India",Chennai International Airport,MAA
-"Cheongju، South Korea",Cheongju International Airport,CJJ
-"Cherepovets، Russia",Cherepovets Airport,CEE
-"Chernivtsi، Ukraine",Chernivtsi International Airport,CWC
-"Chiang Mai، Thailand",Chiang Mai International Airport,CNX
-"Chiang Rai، Thailand",Chiang Rai International Airport,CEI
-"Chicago، United States",Midway International Airport,MDW
-"Chiclayo، Peru",José Quiñones González International Airport,CIX
-"Chihuahua، Mexico",Chihuahua International Airport,CUU
-"Chios، Greece",Chios Island National Airport,JKH
-"Chişinău، Moldova",Chișinău International Airport,RMO
-"Chita، Russia",Chita-Kadala International Airport,HTA
-"Chittagong، Bangladesh",Shah Amanat International Airport,CGP
-"Chlef, Algeria",Chlef International Airport,CFK
-"Chongqing، China",Chongqing Jiangbei International Airport,CKG
-"Christchurch، New Zealand",Christchurch Airport,CHC
-"Christiansted، U.S. Virgin Islands",Henry E. Rohlsen Airport,STX
-"Chub Cay, The Bahamas",Chub Cay International Airport,CCZ
-"Chuuk، Federated States of Micronesia",Chuuk International Airport,TKK
-"Cienfuegos, Cuba",Jaime González Airport,CFG
-"Cincinnati (OH) (Hebron)، United States",Cincinnati/Northern Kentucky International Airport,CVG
-"Ciudad del Carmen، Mexico",Ciudad del Carmen International Airport,CME
-"Ciudad del Este، Paraguay",Guaraní International Airport,AGT
-"Cleveland، United States",Cleveland Hopkins International Airport,CLE
-"Cluj-Napoca، Romania",Cluj-Napoca International Airport,CLJ
-"Cochabamba، Bolivia",Jorge Wilstermann International Airport,CBB
-"Cocos (Keeling) Islands، Cocos (Keeling) Islands",Cocos (Keeling) Islands Airport,CCK
-"Coimbatore، India",Coimbatore International Airport,CJB
-"Cologne/Bonn، Germany",Cologne/Bonn Airport,CGN
-"Colombo، Sri Lanka",Bandaranaike International Airport,CMB
-"Columbia (SC)، United States",Columbia Metropolitan Airport,CAE
-"Columbus (OH)، United States",John Glenn Columbus International Airport,CMH
-"Comayagua، Honduras",Comayagua International Airport,XPL
-"Comodoro Rivadavia، Argentina",General Enrique Mosconi International Airport,CRD
-"Conakry, Guinea",Conakry International Airport,CKY
-"Concepción، Chile",Carriel Sur International Airport,CCP
-"Constanța، Romania",Mihail Kogălniceanu International Airport,CND
-"Constantine, Algeria",Mohamed Boudiaf International Airport,CZL
-"Copenhagen، Kingdom of Denmark",Copenhagen Airport,CPH
-"Córdoba، Argentina",Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport,COR
-"Corfu، Greece",Corfu International Airport,CFU
-"Cork، Ireland",Cork Airport,ORK
-"Corn Island، Nicaragua",Corn Island Airport,RNI
-"Corpus Christi، United States",Corpus Christi International Airport,CRP
-"Corrientes، Argentina",Doctor Fernando Piragine Niveyro International Airport,CNQ
-"Cotonou, Benin",Cadjehoun Airport,COO
-"Cox's Bazar، Bangladesh",Cox's Bazar International Airport,CXB
-"Cozumel، Mexico",Cozumel International Airport,CZM
-"Craiova، Romania",Craiova International Airport,CRA
-"Cúcuta، Colombia",Camilo Daza International Airport,CUC
-"Cuenca، Ecuador",Mariscal Lamar International Airport,CUE
-"Cuiabá، Brazil",Marechal Rondon International Airport,CGB
-"Culiacán، Mexico",Culiacán International Airport,CUL
-"Cuneo، Italy",Cuneo Levaldigi Airport,CUF
-"Curitiba، Brazil",Afonso Pena International Airport,CWB
-"Cusco، Peru",Alejandro Velasco Astete International Airport,CUZ
-"Đà Nẵng، Vietnam",Da Nang International Airport,DAD
-"Daegu، South Korea",Daegu International Airport,TAE
-"Dakar, Senegal",Blaise Diagne International Airport,DSS
-"Dakhla, Morocco",Dakhla Airport,VIL
-"Dalaman، Turkey",Dalaman Airport,DLM
-"Dalian، China",Dalian Zhoushuizi International Airport,DLC
-"Dallas/Fort Worth، United States",Dallas/Fort Worth International Airport,DFW
-"Dallas، United States",Dallas Love Field,DAL
-"Damascus، Syria",Damascus International Airport,DAM
-"Dammam، Saudi Arabia",King Fahd International Airport,DMM
-"Dandong، China",Dandong Langtou Airport,DDG
-"Dar es Salaam, Tanzania",Julius Nyerere International Airport,DAR
-"Daraga، Philippines",Bicol International Airport,DRP
-"Daru، Papua New Guinea",Daru Airport,DAU
-"Darwin، Australia",Darwin International Airport,DRW
-"Daşoguz، Turkmenistan",Daşoguz Airport,TAZ
-"Datong، China",Datong Yungang Airport,DAT
-"Davao City، Philippines",Francisco Bangoy International Airport,DVO
-"David, Chiriquí، Panama",Enrique Malek International Airport,DAV
-"Dayton (OH)، United States",Dayton International Airport,DAY
-"Debrecen، Hungary",Debrecen International Airport,DEB
-"Deer Lake، Canada",Deer Lake Regional Airport,YDA
-"Delhi NCR، India",Indira Gandhi International Airport,DEL
-"Denizli، Turkey",Denizli Çardak Airport,DNZ
-"Denpasar، Indonesia",I Gusti Ngurah Rai International Airport,DPS
-"Denver، United States",Denver International Airport,DEN
-"Derry (Northern Ireland)، Northern Ireland, Scotland and Wales",City of Derry Airport,LDY
-"Des Moines (IA)، United States",Des Moines International Airport,DSM
-"Detroit، United States",Detroit Metropolitan Airport,DTW
-"Dhaka، Bangladesh",Hazrat Shahjalal International Airport,DAC
-"Dili، Timor-Leste",Presidente Nicolau Lobato International Airport,DIL
-"Dinard، France",Dinard–Pleurtuit–Saint-Malo Airport,DNR
-"Dire Dawa, Ethiopia",Dire Dawa Airport,DIR
-"Diyarbakır، Turkey",Diyarbakır Airport,DIY
-"Djerba, Tunisia",Djerba–Zarzis International Airport,DJE
-"Djibouti, Djibouti",Djibouti–Ambouli International Airport,JIB
-"Doha، Qatar",Hamad International Airport,DOH
-"Dortmund، Germany",Dortmund Airport,DTM
-"Douala, Cameroon",Douala International Airport,DLA
-"Douglas (Isle of Man)، Crown Dependencies",Isle of Man Airport,IOM
-"Dubai، United Arab Emirates",Al Maktoum International Airport,DWC
-"Dublin، Ireland",Dublin Airport,DUB
-"Dubrovnik، Croatia",Dubrovnik Airport,DBV
-"Duluth، United States",Duluth International Airport,DLH
-"Dunedin، New Zealand",Dunedin Airport,DUD
-"Dunhuang، China",Dunhuang Mogao International Airport,DNH
-"Durango، Mexico",Durango International Airport,DGO
-"Durban, South Africa",King Shaka International Airport,DUR
-"Durgapur، India",Kazi Nazrul Islam Airport,RDP
-"Dushanbe، Tajikistan",Dushanbe Airport,DYU
-"Düsseldorf، Germany",Düsseldorf Airport,DUS
-"Dzaoudzi, Mayotte",Dzaoudzi–Pamandzi International Airport,DZA
-"East London, South Africa",East London Airport,ELS
-"Edinburgh (Scotland)، Northern Ireland, Scotland and Wales",Edinburgh Airport,EDI
-"Edmonton، Canada",Edmonton International Airport,YEG
-"Egilsstaðir، Iceland",Egilsstaðir Airport,EGS
-"Eilat، Israel",Ramon Airport,ETM
-"Eindhoven، Netherlands",Eindhoven Airport,EIN
-"El Arish, Egypt",El Arish International Airport,AAC
-"El Calafate، Argentina",Comandante Armando Tola International Airport,FTE
-"El Dabaa, Egypt",El Alamein International Airport,DBB
-"El Palomar، Argentina",El Palomar Airport,EPA
-"El Paso، United States",El Paso International Airport,ELP
-"Elazığ، Turkey",Elazığ Airport,EZS
-"Eldoret, Kenya",Eldoret International Airport,EDL
-"Elista، Russia",Elista Airport,ESL
-"Enfidha, Tunisia",Enfidha–Hammamet International Airport,NBE
-"Enshi City، China",Enshi Xujiaping Airport,ENH
-"Entebbe, Uganda",Entebbe International Airport,EBB
-"Enugu, Nigeria",Akanu Ibiam International Airport,ENU
-"Erbil، Iraq",Erbil International Airport,EBL
-"Erie، United States",Erie International Airport,ERI
-"Esmeraldas، Ecuador",Carlos Concha Torres International Airport,ESM
-"Esquel، Argentina",Brigadier General Antonio Parodi International Airport,EQS
-"Essaouira, Morocco",Essaouira-Mogador Airport,ESU
-"Everett (WA)، United States",Paine Field,PAE
-"Exeter، England",Exeter Airport,EXT
-"Exuma, The Bahamas",Exuma International Airport,GGT
-"Fairbanks، United States",Fairbanks International Airport,FAI
-"Faisalabad، Pakistan",Faisalabad International Airport,LYP
-"Faro، Portugal",Faro Airport,FAO
-"Fergana، Uzbekistan",Fergana International Airport,FEG
-"Fes, Morocco",Fès–Saïs Airport,FEZ
-"Figari، France",Figari–Sud Corse Airport,FSC
-"Flat Point, Saba, Caribbean Netherlands",Juancho E. Yrausquin Airport,SAB
-"Florence، Italy",Peretola Airport,FLR
-"Florencia، Colombia",Gustavo Artunduaga Paredes Airport,FLA
-"Flores، Guatemala",Mundo Maya International Airport,FRS
-"Florianópolis، Brazil",Hercílio Luz International Airport,FLN
-"Flying Fish Cove، Christmas Island",Christmas Island Airport,XCH
-"Formosa، Argentina",Formosa International Airport,FMA
-"Fort Lauderdale، United States",Fort Lauderdale–Hollywood International Airport,FLL
-"Fort Myers، United States",Southwest Florida International Airport,RSW
-"Fortaleza، Brazil",Pinto Martins International Airport,FOR
-"Fort-de-France, Martinique",Martinique Aimé Césaire International Airport,FDF
-"Foz do Iguaçu، Brazil",Foz do Iguaçu International Airport,IGU
-"Franceville, Gabon",M'Vengue El Hadj Omar Bongo Ondimba International Airport,MVB
-"Francistown, Botswana",Francistown International Airport,FRW
-"Frankfurt، Germany",Frankfurt Airport,FRA
-"Fredericton، Canada",Fredericton International Airport,YFC
-"Freeport, The Bahamas",Grand Bahama International Airport,FPO
-"Freetown, Sierra Leone",Freetown International Airport,FNA
-"Freiburg im Breisgau، Germany",EuroAirport Basel–Mulhouse–Freiburg,BSL/MLH/EAP
-"Fresno، United States",Fresno Yosemite International Airport,FAT
-"Friedrichshafen، Germany",Friedrichshafen Airport,FDH
-"Fuerteventura، Spain",Fuerteventura Airport,FUE
-"Fukuoka، Japan",Fukuoka Airport,FUK
-"Funafuti، Tuvalu",Funafuti International Airport,FUN
-"Funchal، Portugal",Madeira Airport,FNC
-"Futuna، Wallis and Futuna",Pointe Vele Airport,FUT
-"Fuzhou، China",Fuzhou Changle International Airport,FOC
-"Fuzuli، Azerbaijan",Fuzuli International Airport,FZL
-"Gaborone, Botswana",Sir Seretse Khama International Airport,GBE
-"Galkayo, Somalia",Abdullahi Yusuf Airport,GLK
-"Gander، Canada",Gander International Airport,YQX
-"Ganja، Azerbaijan",Ganja International Airport,KVD
-"Ganzhou، China",Ganzhou Huangjin Airport,KOW
-"Garowe, Somalia",Garowe Airport,GGR
-"Gary، United States",Gary/Chicago International Airport,GYY
-"Gaya، India",Gaya Airport,GAY
-"Gaziantep، Turkey",Oğuzeli Airport,GZT
-"Gdańsk، Poland",Gdańsk Lech Wałęsa Airport,GDN
-"General Santos، Philippines",General Santos International Airport,GES
-"Geneva، Switzerland",Geneva Airport,GVA
-"Genoa، Italy",Cristoforo Colombo Airport,GOA
-"Georgetown, Cayman Islands",Owen Roberts International Airport,GCM
-"Georgetown، Guyana",Cheddi Jagan International Airport,GEO
-"Gibraltar (Gibraltar)، Crown Dependencies",Gibraltar International Airport,GIB
-"Girona، Spain",Girona-Costa Brava Airport,GRO
-"Glasgow (Scotland)، Northern Ireland, Scotland and Wales",Glasgow Airport,GLA
-"Goiânia، Brazil",Santa Genoveva Airport,GYN
-"Gold Coast، Australia",Gold Coast Airport,OOL
-"Goma, Democratic Republic of the Congo",Goma International Airport,GOM
-"Gomel، Belarus",Gomel Airport,GME
-"Gorgan، Iran",Gorgan International Airport,GBT
-"Gothenburg، Sweden",Göteborg Landvetter Airport,GOT
-"Gran Canaria، Spain",Gran Canaria Airport,LPA
-"Granada، Spain",Federico García Lorca Granada Airport,GRX
-"Grand Rapids، United States",Gerald R. Ford International Airport,GRR
-"Graz، Austria",Graz Airport,GRZ
-"Green Bay، United States",Green Bay–Austin Straubel International Airport,GRB
-"Greensboro، United States",Piedmont Triad International Airport,GSO
-"Greenville، United States",Greenville-Spartanburg International Airport,GSP
-"Grenoble، France",Alpes–Isère Airport,GNB
-"Grodno، Belarus",Hrodna Airport,GNA
-"Groningen، Netherlands",Groningen Airport Eelde,GRQ
-"Grozny، Russia",Grozny Airport,GRV
-"Guadalajara، Mexico",Guadalajara International Airport,GDL
-"Guangzhou، China",Guangzhou Baiyun International Airport,CAN
-"Guatemala City، Guatemala",La Aurora International Airport,GUA
-"Guayaquil، Ecuador",José Joaquín de Olmedo International Airport,GYE
-"Guilin، China",Guilin Liangjiang International Airport,KWL
-"Guiyang، China",Guiyang Longdongbao International Airport,KWE
-"Gulfport، United States",Gulfport-Biloxi International Airport,GPT
-"Gulu, Uganda",Gulu Airport,ULU
-"Guwahati، India",Lokpriya Gopinath Bordoloi International Airport,GAU
-"Gwadar، Pakistan",Gwadar International Airport,GWD
-"Győr، Hungary",Győr-Pér International Airport,QGY
-"Gyumri، Armenia",Gyumri Shirak International Airport,LWN
-"Hà Nội، Vietnam",Noi Bai International Airport,HAN
-"Hafar al-Batin، Saudi Arabia",Al Qaisumah International Airport,AQI
-"Hagåtña، Guam",Antonio B. Won Pat International Airport,GUM
-"Hai District, Tanzania",Kilimanjaro International Airport,JRO
-"Hải Phòng، Vietnam",Cat Bi International Airport,HPH
-"Haifa، Israel",Haifa Airport,HFA
-"Haikou، China",Haikou Meilan International Airport,HAK
-"Ha'il، Saudi Arabia",Ha'il International Airport,HAS
-"Hakodate، Japan",Hakodate Airport,HKD
-"Ħal Luqa، Malta",Malta International Airport,MLA
-"Halifax (Goffs)، Canada",Halifax Stanfield International Airport,YHZ
-"Hamadan، Iran",Hamadan International Airport,HDM
-"Hambantota، Sri Lanka",Mattala Rajapaksa International Airport,HRI
-"Hamburg، Germany",Hamburg Airport,HAM
-"Hamilton، Bermuda",L.F. Wade International Airport,BDA
-"Hamilton، Canada",John C. Munro Hamilton International Airport,YHM
-"Hamilton، New Zealand",Hamilton Airport,HLZ
-"Hanak، Saudi Arabia",Red Sea International Airport,RSI
-"Hanga Roa، Easter Island",Mataveri International Airport,IPC
-"Hangzhou، China",Hangzhou Xiaoshan International Airport,HGH
-"Hanimaadhoo، Maldives",Hanimaadhoo International Airport,HAQ
-"Hanover، Germany",Hannover Airport,HAJ
-"Harare, Zimbabwe",Robert Gabriel Mugabe International Airport,HRE
-"Harbin، China",Harbin Taiping International Airport,HRB
-"Hargeisa, Somalia",Hargeisa Airport,HGA
-"Harlingen، United States",Valley International Airport,HRL
-"Harrisburg، United States",Harrisburg International Airport,MDT
-"Hartford (CT)، United States",Bradley International Airport,BDL
-"Hat Yai، Thailand",Hat Yai International Airport,HDY
-"Haugesund، Norway",Haugesund Airport,HAU
-"Havana, Cuba",José Martí International Airport,HAV
-"Hefei، China",Hefei Xinqiao International Airport,HFE
-"Heihe، China",Heihe Aihui Airport,HEK
-"Helsinki، Finland",Helsinki-Vantaa Airport,HEL
-"Heraklion، Greece",Heraklion International Airport,HER
-"Herat، Afghanistan",Herat International Airport,HEA
-"Hermosillo، Mexico",Hermosillo International Airport,HMO
-"Hévíz، Hungary",Hévíz-Balaton Airport,SOB
-"Hilo، United States",Hilo International Airport,ITO
-"Hiroshima، Japan",Hiroshima Airport,HIJ
-"Ho Chi Minh City، Vietnam",Tan Son Nhat International Airport,SGN
-"Ho, Ghana",Ho Airport,HZO
-"Hobart، Australia",Hobart Airport,HBA
-"Hohhot، China",Hohhot Baita International Airport,HET
-"Holguín, Cuba",Frank País Airport,HOG
-"Honiara، Solomon Islands",Honiara International Airport,HIR
-"Honolulu، United States",Daniel K. Inouye International Airport,HNL
-"Horn Island، Australia",Horn Island Airport,HID
-"Houston، United States",George Bush Intercontinental Airport,IAH
-"Huai'an، China",Huai'an Lianshui International Airport,HIA
-"Hualien City، Taiwan",Hualien Airport,HUN
-"Huangshan City، China",Huangshan Tunxi International Airport,TXN
-"Huatulco، Mexico",Bahías de Huatulco International Airport,HUX
-"Huế، Vietnam",Phu Bai International Airport,HUI
-"Huesca، Spain",Huesca-Pirineos Airport,HSK
-"Hull، England",Humberside Airport,HUY
-"Hulunbuir، China",Hulunbuir Hailar Airport,HLD
-"Huntsville (AL)، United States",Huntsville International Airport,HSV
-"Hurghada, Egypt",Hurghada International Airport,HRG
-"Hyderabad، India",Rajiv Gandhi International Airport,HYD
-"Iași، Romania",Iași International Airport,IAS
-"Ibagué، Colombia",Perales Airport,IBE
-"Ibiza، Spain",Ibiza Airport,IBZ
-"Ilam، Iran",Ilam Airport,IIL
-"Iloilo City، Philippines",Iloilo International Airport,ILO
-"Ilulissat، Greenland",Ilulissat Airport,JAV
-"Imphal، India",Imphal Airport,IMF
-"Indianapolis، United States",Indianapolis International Airport,IND
-"Indore، India",Devi Ahilya Bai Holkar Airport,IDR
-"Inhambane, Mozambique",Inhambane Airport,INH
-"Innsbruck، Austria",Innsbruck Airport,INN
-"International Falls، United States",Falls International Airport,INL
-"Inverness (Scotland)، Northern Ireland, Scotland and Wales",Inverness Airport,INV
-"Ipiales، Colombia",San Luis Airport,IPI
-"Ipoh، Malaysia",Sultan Azlan Shah Airport,IPH
-"Irkutsk، Russia",Irkutsk Airport,IKT
-"Isfahan، Iran",Isfahan International Airport,IFN
-"Islamabad، Pakistan",Islamabad International Airport,ISB
-"Issyk-Kul، Kyrgyzstan",Issyk-Kul International Airport,IKU
-"Istanbul، Turkey",Istanbul Airport,IST
-"Ivano-Frankivsk، Ukraine",Ivano-Frankivsk International Airport,IFO
-"Ixtapa، Mexico",Ixtapa-Zihuatanejo International Airport,ZIH
-"İzmir، Turkey",Adnan Menderes Airport,ADB
-"Jackson (MS)، United States",Jackson–Medgar Wiley Evers International Airport,JAN
-"Jacksonville، United States",Jacksonville International Airport,JAX
-"Jaffna، Sri Lanka",Jaffna International Airport,JAF
-"Jaipur، India",Jaipur International Airport,JAI
-"Jakarta، Indonesia",Halim Perdanakusuma International Airport,HLP
-"Jammu، India",Jammu Airport,IXJ
-"Jayapura، Indonesia",Sentani International Airport,DJJ
-"Jeddah، Saudi Arabia",King Abdulaziz International Airport,JED
-"Jeju، South Korea",Jeju International Airport,CJU
-"Jerez de la Frontera، Spain",Jerez Airport,XRY
-"Jiamusi، China",Jiamusi Dongjiao Airport,JMU
-"Jieyang، China",Jieyang Chaoshan International Airport,SWA
-"Jijel, Algeria",Jijel Ferhat Abbas Airport,GJL
-"Jinan، China",Jinan Yaoqiang International Airport,TNA
-"Jizan، Saudi Arabia",King Abdullah bin Abdulaziz International Airport,GIZ
-"João Pessoa، Brazil",Presidente Castro Pinto International Airport,JPA
-"Johannesburg, South Africa",O. R. Tambo International Airport,JNB
-"Johor Bahru، Malaysia",Senai International Airport,JHB
-"Juba, South Sudan",Juba International Airport,JUB
-"Juneau، United States",Juneau International Airport,JNU
-"Kabul، Afghanistan",Kabul International Airport,KBL
-"Kagoshima، Japan",Kagoshima Airport,KOJ
-"Kailua-Kona، United States",Kona International Airport,KOA
-"Kalamata، Greece",Kalamata International Airport,KLX
-"Kalibo، Philippines",Kalibo International Airport,KLO
-"Kaliningrad، Russia",Khrabrovo Airport,KGD
-"Kamloops، Canada",Kamloops Airport,YKA
-"Kandahar، Afghanistan",Kandahar International Airport,KDH
-"Kangerlussuaq، Greenland",Kangerlussuaq Airport,SFJ
-"Kannur، India",Kannur International Airport,CNN
-"Kano, Nigeria",Mallam Aminu Kano International Airport,KAN
-"Kansas City (MO)، United States",Kansas City International Airport,MCI
-"Kaohsiung، Taiwan",Kaohsiung International Airport,KHH
-"Kapan، Armenia",Syunik Airport,YUK
-"Karachi، Pakistan",Jinnah International Airport,KHI
-"Karaganda، Kazakhstan",Karaganda Airport,KGF
-"Karakol، Kyrgyzstan",Karakol International Airport,IKG
-"Karlovy Vary، Czech Republic",Karlovy Vary Airport,KLV
-"Karpathos، Greece",Karpathos Island National Airport,AOK
-"Kasane, Botswana",Kasane Airport,BBK
-"Kathmandu، Nepal",Tribhuvan International Airport,KTM
-"Katowice، Poland",Katowice Airport,KTW
-"Kaunas، Lithuania",Kaunas Airport,KUN
-"Kavala، Greece",Kavala International Airport,KVA
-"Kayseri، Turkey",Erkilet Airport,ASR
-"Kazan، Russia",Kazan Airport,KZN
-"Kelowna، Canada",Kelowna International Airport,YLW
-"Kerman، Iran",Ayatollah Hashemi Rafsanjani Airport,KER
-"Kermanshah، Iran",Shahid Ashrafi Esfahani Airport,KSH
-"Kerry، Ireland",Kerry Airport,KIR
-"Ketchikan، United States",Ketchikan International Airport,KTN
-"Key West، United States",Key West International Airport,EYW
-"Khabarovsk، Russia",Khabarovsk Novy Airport,KHV
-"Kharkiv، Ukraine",Kharkiv International Airport,HRK
-"Khartoum, Sudan",Khartoum International Airport,KRT
-"Khujand، Tajikistan",Khujand Airport,LBD
-"Khulna، Bangladesh",Khan Jahan Ali Airport,KLN
-"Kigali, Rwanda",Kigali International Airport,KGL
-"Kingston, Jamaica",Norman Manley International Airport,KIN
-"Kingston، Canada",Kingston Norman Rogers Airport,YGK
-"Kingstown, Saint Vincent and the Grenadines",Argyle International Airport,SVD
-"Kinshasa, Democratic Republic of the Congo",N'djili Airport,FIH
-"Kiritimati، Kiribati",Cassidy International Airport,CXI
-"Kisangani, Democratic Republic of the Congo",Kisangani Bangoka International Airport,FKI
-"Kish Island، Iran",Kish Airport,KIH
-"Kismayo, Somalia",Kismayo Airport,KMU
-"Kissimmee، United States",Kissimmee Gateway Airport,ISM
-"Kisumu, Kenya",Kisumu International Airport,KIS
-"Kitakyushu، Japan",Kitakyushu Airport,KKJ
-"Kitchener، Canada",Region of Waterloo International Airport,YKF
-"Kittilä، Finland",Kittilä Airport,KTT
-"Klagenfurt، Austria",Klagenfurt Airport,KLU
-"Knock، Ireland",Ireland West Airport,NOC
-"Knoxville، United States",McGhee Tyson Airport,TYS
-"Ko Samui، Thailand",Samui Airport,USM
-"Kochi، India",Cochin International Airport,COK
-"Kokshetau، Kazakhstan",Kokshetau Airport,KOV
-"Kolkata، India",Netaji Subhas Chandra Bose International Airport,CCU
-"Komatsu، Japan",Komatsu Airport,KMQ
-"Komsomolsk-on-Amur، Russia",Komsomolsk-on-Amur Airport,KXK
-"Konarak، Iran",Chabahar Konarak Airport,ZBR
-"Konya، Turkey",Konya Airport,KYA
-"Koror، Palau",Roman Tmetuchl International Airport,ROR
-"Kos، Greece",Kos International Airport,KGS
-"Košice، Slovakia",Košice International Airport,KSC
-"Kosrae، Federated States of Micronesia",Kosrae International Airport,KSA
-"Kostanay، Kazakhstan",Kostanay Airport,KSN
-"Kota Bharu، Malaysia",Sultan Ismail Petra Airport,KBR
-"Kota Kinabalu، Malaysia",Kota Kinabalu International Airport,BKI
-"Kozhikode، India",Calicut International Airport,CCJ
-"Krabi، Thailand",Krabi International Airport,KBV
-"Kraków، Poland",Kraków John Paul II International Airport,KRK
-"Kralendijk, Bonaire, Caribbean Netherlands",Flamingo International Airport,BON
-"Kraljevo، Serbia",Morava Airport,KVO
-"Krasnodar، Russia",Pashkovsky Airport,KRR
-"Krasnoyarsk، Russia",Yemelyanovo International Airport,KJA
-"Kristiansand، Norway","Kristiansand Airport, Kjevik",KRS
-"Kristiansund، Norway","Kristiansund Airport, Kvernberget",KSU
-"Kryvyi Rih، Ukraine",Kryvyi Rih International Airport,KWG
-"Kuala Lumpur، Malaysia",Kuala Lumpur International Airport,KUL
-"Kuala Terengganu، Malaysia",Sultan Mahmud Airport,TGG
-"Kuantan، Malaysia",Sultan Haji Ahmad Shah Airport,KUA
-"Kuching، Malaysia",Kuching International Airport,KCH
-"Kukes، Albania",Kukës International Airport Zayed,KFZ
-"Kulob، Tajikistan",Kulob Airport,TJU
-"Kumasi, Ghana",Prempeh I International Airport,KMS
-"Kunming، China",Kunming Changshui International Airport,KMG
-"Kuopio، Finland",Kuopio Airport,KUO
-"Kursk، Russia",Kursk Vostochny Airport,URS
-"Kütahya، Turkey",Zafer Airport,KZR
-"Kutaisi، Georgia",Kutaisi International Airport,KUT
-"Kuusamo، Finland",Kuusamo Airport,KAO
-"Kuwait City، Kuwait",Kuwait International Airport,KWI
-"Kwajalein، Marshall Islands",Bucholz Army Airfield,KWA
-"Kyiv، Ukraine",Boryspil International Airport,KBP
-"Kyzylorda، Kazakhstan",Kyzylorda Airport,KZO
-"La Ceiba، Honduras",Golosón International Airport,LCE
-"La Palma، Spain",La Palma Airport,SPC
-"La Paz، Bolivia",El Alto International Airport,LPB
-"La Rochelle، France",La Rochelle – Île de Ré Airport,LRH
-"La Romana, Dominican Republic",La Romana International Airport,LRM
-"Laayoune, Morocco",Hassan I Airport,EUN
-"Labuan Bajo، Indonesia",Komodo International Airport,LBJ
-"Labuan، Malaysia",Labuan International Airport,LBU
-"Lachin، Azerbaijan",Lachin International Airport,LHL
-"Lagos, Nigeria",Murtala Muhammed International Airport,LOS
-"Laguindingan، Philippines",Laguindingan International Airport,CGY
-"Lahore، Pakistan",Allama Iqbal International Airport,LHE
-"Lakeland، United States",Lakeland Linder International Airport,LAL
-"Lamerd، Iran",Lamerd Airport,LFM
-"Lamezia، Italy",Lamezia Terme Airport,SUF
-"Langkawi، Malaysia",Langkawi International Airport,LGK
-"Lankaran، Azerbaijan",Lankaran International Airport,LLK
-"Lansing، United States",Capital Region International Airport,LAN
-"Lanzarote، Spain",Lanzarote Airport,ACE
-"Lanzhou، China",Lanzhou Zhongchuan International Airport,LHW
-"Laoag، Philippines",Laoag International Airport,LAO
-"Lappeenranta، Finland",Lappeenranta Airport,LPP
-"Lapu-Lapu City، Philippines",Mactan–Cebu International Airport,CEB
-"Lar، Iran",Larestan International Airport,LRR
-"Larnaca، Cyprus",Larnaca International Airport,LCA
-"Las Vegas، United States",Harry Reid International Airport,LAS
-"Latakia، Syria",Latakia International Airport,LTK
-"Leeds/Bradford، England",Leeds Bradford Airport,LBA
-"Leipzig، Germany",Leipzig/Halle Airport,LEJ
-"León، Mexico",León/Bajío International Airport,BJX
-"Leticia، Colombia",Alfredo Vásquez Cobo International Airport,LET
-"Lhasa، China",Lhasa Gonggar Airport,LXA
-"Lianyungang، China",Lianyungang Baitabu Airport,LYG
-"Liberia، Costa Rica",Daniel Oduber Quirós International Airport,LIR
-"Libreville, Gabon",Léon-Mba International Airport,LBV
-"Liège، Belgium",Liège Airport,LGG
-"Lijiang، China",Lijiang Sanyi International Airport,LJG
-"Lille، France",Lille Airport,LIL
-"Lilongwe, Malawi",Lilongwe International Airport,LLW
-"Lima، Peru",Jorge Chávez International Airport,LIM
-"Limoges، France",Limoges – Bellegarde Airport,LIG
-"Linyi، China",Linyi Qiyang Airport,LYI
-"Linz، Austria",Linz Airport,LNZ
-"Lisbon، Portugal",Lisbon Airport,LIS
-"Little Rock، United States",Bill and Hillary Clinton National Airport,LIT
-"Liverpool، England",Liverpool John Lennon Airport,LPL
-"Livingstone, Zambia",Harry Mwanga Nkumbula International Airport,LVI
-"Ljubljana، Slovenia",Ljubljana Jože Pučnik Airport,LJU
-"Lleida، Spain",Alguaire Airport,ILD
-"Location, Angola",Airport,IATA Code
-"Location, Benin",Airport,IATA Code
-"Location, Botswana",Airport,IATA Code
-"Location, Botswana",Airport,IATA Code
-"Location, Botswana",Airport,IATA Code
-"Location, Botswana",Airport,IATA Code
-"Location, Botswana",Airport,IATA Code
-"Location, Botswana",Airport,IATA Code
-"Location, Botswana",Airport,IATA Code
-"Location, Botswana",Airport,IATA Code
-"Location, Botswana",Airport,IATA Code
-"Location, Botswana",Airport,IATA Code
-"Location, Burkina Faso",Airport,IATA Code
-"Location, Cameroon",Airport,IATA Code
-"Location, Cameroon",Airport,IATA Code
-"Location, Cameroon",Airport,IATA Code
-"Location, Cape Verde",Airport,IATA Code
-"Location, Cape Verde",Airport,IATA Code
-"Location, Caribbean Netherlands",Airport,IATA Code
-"Location, Caribbean Netherlands",Airport,IATA Code
-"Location, Cuba",Airport,IATA Code
-"Location, Cuba",Airport,IATA Code
-"Location, Cuba",Airport,IATA Code
-"Location, Democratic Republic of the Congo",Airport,IATA Code
-"Location, Democratic Republic of the Congo",Airport,IATA Code
-"Location, Dominican Republic",Airport,IATA Code
-"Location, Dominican Republic",Airport,IATA Code
-"Location, Dominican Republic",Airport,IATA Code
-"Location, Dominican Republic",Airport,IATA Code
-"Location, Dominican Republic",Airport,IATA Code
-"Location, Dominican Republic",Airport,IATA Code
-"Location, Dominican Republic",Airport,IATA Code
-"Location, Gabon",Airport,IATA Code
-"Location, Gabon",Airport,IATA Code
-"Location, Gabon",Airport,IATA Code
-"Location, Ghana",Airport,IATA Code
-"Location, Ghana",Airport,IATA Code
-"Location, Ghana",Airport,IATA Code
-"Location, Ghana",Airport,IATA Code
-"Location, Ghana",Airport,IATA Code
-"Location, Ghana",Airport,IATA Code
-"Location, Ghana",Airport,IATA Code
-"Location, Ghana",Airport,IATA Code
-"Location, Kenya",Airport,IATA Code
-"Location, Madagascar",Airport,IATA Code
-"Location, Madagascar",Airport,IATA Code
-"Location, Madagascar",Airport,IATA Code
-"Location, Madagascar",Airport,IATA Code
-"Location, Morocco",Airport,IATA Code
-"Location, Mozambique",Airport,IATA Code
-"Location, Mozambique",Airport,IATA Code
-"Location, Mozambique",Airport,IATA Code
-"Location, Mozambique",Airport,IATA Code
-"Location, Nigeria",Airport,IATA Code
-"Location, Nigeria",Airport,IATA Code
-"Location, Nigeria",Airport,IATA Code
-"Location, Nigeria",Airport,IATA Code
-"Location, Nigeria",Airport,IATA Code
-"Location, Puerto Rico",Airport,IATA Code
-"Location, Puerto Rico",Airport,IATA Code
-"Location, Puerto Rico",Airport,IATA Code
-"Location, Puerto Rico",Airport,IATA Code
-"Location, Somalia",Airport,IATA Code
-"Location, Somalia",Airport,IATA Code
-"Location, Sudan",Airport,IATA Code
-"Location, Tanzania",Airport,IATA Code
-"Location, The Bahamas",Airport,IATA Code
-"Location, The Bahamas",Airport,IATA Code
-"Location, The Bahamas",Airport,IATA Code
-"Location, Tunisia",Airport,IATA Code
-"Location, Uganda",Airport,IATA Code
-"Location, Zambia",Airport,IATA Code
-"Location, Zimbabwe",Airport,IATA Code
-"Location, Zimbabwe",Airport,IATA Code
-"Location, Zimbabwe",Airport,IATA Code
-"Location, Zimbabwe",Airport,IATA Code
-"Łódź، Poland",Łódź Władysław Reymont Airport,LCJ
-"Lomé, Togo",Lomé–Tokoin International Airport,LFW
-"London، Canada",London International Airport,YXU
-"London، England",Gatwick Airport,LGW
-"Loreto، Mexico",Loreto International Airport,LTO
-"Los Angeles، United States",Los Angeles International Airport,LAX
-"Los Cabos، Mexico",Cabo San Lucas International Airport,CSL
-"Louisville، United States",Louisville International Airport,SDF
-"Luanda, Angola",Quatro de Fevereiro Airport,LAD
-"Luang Prabang، Laos",Luang Prabang International Airport,LPQ
-"Lubango, Angola",Lubango Airport,SDD
-"Lubbock، United States",Lubbock Preston Smith International Airport,LBB
-"Lübeck، Germany",Lübeck Airport,LBC
-"Lublin، Poland",Lublin Airport,LUZ
-"Lubumbashi, Democratic Republic of the Congo",Lubumbashi International Airport,FBM
-"Lucknow، India",Chaudhary Charan Singh International Airport,LKO
-"Lugano، Switzerland",Lugano Airport,LUG
-"Luganville، Vanuatu",Santo-Pekoa International Airport,SON
-"Luleå، Sweden",Luleå Airport,LLA
-"Luoyang، China",Luoyang Beijiao Airport,LYA
-"Lusaka, Zambia",Kenneth Kaunda International Airport,LUN
-"Luxembourg City، Luxembourg",Luxembourg Airport,LUX
-"Luxor, Egypt",Luxor International Airport,LXR
-"Lviv، Ukraine",Lviv Danylo Halytskyi International Airport,LWO
-"Lyon، France",Lyon–Saint-Exupéry Airport,LYS
-"Maafaru، Maldives",Maafaru International Airport,NMF
-"Maamigili، Maldives",Villa International Airport Maamigili,VAM
-"Maastricht، Netherlands",Maastricht Aachen Airport,MST
-"Maceió، Brazil",Zumbi dos Palmares International Airport,MCZ
-"Machala، Ecuador",Santa Rosa International Airport,ETR
-"Madison (WI)، United States",Dane County Regional Airport,MSN
-"Madrid، Spain",Madrid-Barajas Airport,MAD
-"Madurai، India",Madurai Airport,IXM
-"Magadan، Russia",Sokol Airport,GDX
-"Magnitogorsk، Russia",Magnitogorsk International Airport,MQF
-"Mahajanga, Madagascar",Amborovy Airport,MJN
-"Maicao، Colombia",Jorge Isaacs Airport,MCJ
-"Majuro، Marshall Islands",Marshall Islands International Airport,MAJ
-"Makassar، Indonesia",Sultan Hasanuddin International Airport,UPG
-"Makhachkala، Russia",Uytash Airport,MCX
-"Malabo, Equatorial Guinea",Malabo International Airport,SSG
-"Málaga، Spain",Málaga Airport,AGP
-"Malakal, South Sudan",Malakal Airport,MAK
-"Malatya، Turkey",Erhaç Airport,MLX
-"Malé، Maldives",Velana International Airport,MLE
-"Mali Lošinj، Croatia",Lošinj Airport,LSZ
-"Malmö، Sweden",Malmö Airport,MMX
-"Manado، Indonesia",Sam Ratulangi International Airport,MDC
-"Managua، Nicaragua",Augusto C. Sandino International Airport,MGA
-"Manama، Bahrain",Bahrain International Airport,BAH
-"Manaus، Brazil",Eduardo Gomes International Airport,MAO
-"Manchester، England",Manchester Airport,MAN
-"Mandalay، Myanmar",Mandalay International Airport,MDL
-"Mangaluru، India",Mangaluru International Airport,IXE
-"Mangshi، China",Dehong Mangshi Airport,LUM
-"Manila، Philippines",Ninoy Aquino International Airport,MNL
-"Manizales، Colombia",La Nubia Airport,MZL
-"Manta، Ecuador",Eloy Alfaro International Airport,MEC
-"Manzanillo، Mexico",Playa de Oro International Airport,ZLO
-"Manzhouli، China",Manzhouli Xijiao Airport,NZH
-"Manzini, Eswatini",King Mswati III International Airport,SHO
-"Maputo, Mozambique",Maputo International Airport,MPM
-"Mar del Plata، Argentina",Ástor Piazzolla International Airport,MDQ
-"Maracaibo، Venezuela",La Chinita International Airport,MAR
-"Maribor، Slovenia",Maribor Edvard Rusjan Airport,MBX
-"Marigot, Dominica",Douglas–Charles Airport,DOM
-"Marrakesh, Morocco",Marrakesh Menara Airport,RAK
-"Marsa Alam, Egypt",Marsa Alam International Airport,RMF
-"Marseille، France",Marseille Provence Airport,MRS
-"Marsh Harbour, The Bahamas",Marsh Harbour International Airport,MHH[1]
-"Mary، Turkmenistan",Mary International Airport,MYP
-"Maseru, Lesotho",Moshoeshoe I International Airport,MSU
-"Mashhad، Iran",Mashhad International Airport,MHD
-"Mataram، Indonesia",Lombok International Airport,LOP
-"Maun, Botswana",Maun Airport,MUB
-"Mazar-i-Sharif، Afghanistan",Mazar-i-Sharif International Airport,MZR
-"Mazatlán، Mexico",Mazatlán International Airport,MZT
-"McAllen، United States",McAllen Miller International Airport,MFE
-"Medan، Indonesia",Kualanamu International Airport,KNO
-"Medellín، Colombia",José María Córdova International Airport,MDE
-"Medina، Saudi Arabia",Prince Mohammad bin Abdulaziz International Airport,MED
-"Melbourne (FL)، United States",Melbourne Orlando International Airport,MLB
-"Melbourne، Australia",Melbourne Airport,MEL
-"Memmingen، Germany",Memmingen Airport,FMM
-"Memphis، United States",Memphis International Airport,MEM
-"Mendoza، Argentina",Governor Francisco Gabrielli International Airport,MDZ
-"Menorca، Spain",Menorca Airport,MAH
-"Mérida، Mexico",Mérida International Airport,MID
-"Mersa Matruh, Egypt",Mersa Matruh International Airport,MUH
-"Mexicali، Mexico",Mexicali International Airport,MXL
-"Mexico City، Mexico",Mexico City International Airport,MEX
-"Mfuwe, Zambia",Mfuwe Airport,MFU
-"Miami، United States",Miami International Airport,MIA
-"Middlesbrough، England",Teesside International Airport,MME
-"Midland/Odessa، United States",Midland International Air and Space Port,MAF
-"Milan، Italy",Linate Airport,LIN
-"Milwaukee، United States",General Mitchell International Airport,MKE
-"Mineralnye Vody، Russia",Mineralnye Vody Airport,MRV
-"Minneapolis/St. Paul، United States",Minneapolis/St. Paul International Airport,MSP
-"Minsk، Belarus",Minsk International Airport,MSQ
-"Mitú، Colombia",Fabio Alberto León Bentley Airport,MVP
-"Mogadishu, Somalia",Aden Adde International Airport,MGQ
-"Mombasa, Kenya",Moi International Airport,MBA
-"Monastir, Tunisia",Monastir Habib Bourguiba International Airport,MIR
-"Moncton (Dieppe)، Canada",Greater Moncton Roméo LeBlanc International Airport,YQM
-"Monrovia, Liberia",Roberts International Airport,ROB
-"Montego Bay, Jamaica",Sangster International Airport,MBJ
-"Montería، Colombia",Los Garzones Airport,MTR
-"Monterrey، Mexico",Monterrey International Airport,MTY
-"Montevideo، Uruguay",Carrasco International Airport,MVD
-"Montréal (Dorval)، Canada",Montréal–Trudeau International Airport,YUL
-"Morelia، Mexico",Morelia International Airport,MLM
-"Moroni, Comoros",Prince Said Ibrahim International Airport,HAH
-"Moscow، Russia",Domodedovo International Airport,DME
-"Mostar، Bosnia and Herzegovina",Mostar International Airport,OMO
-"Mosul، Iraq",Mosul International Airport,OSM
-"Mount Hagen، Papua New Guinea",Mount Hagen Airport,HGU
-"Mount Pleasant، Falkland Islands",RAF Mount Pleasant,MPN
-"Muan، South Korea",Muan International Airport,MWX
-"Mudanjiang، China",Mudanjiang Hailang International Airport,MDG
-"Mukalla، Yemen",Riyan International Airport,RIY
-"Mulhouse، France",EuroAirport Basel Mulhouse Freiburg,BSL/MLH/EAP
-"Multan، Pakistan",Multan International Airport,MUX
-"Mumbai، India",Chhatrapati Shivaji Maharaj International Airport,BOM
-"Munich، Germany",Munich Airport,MUC
-"Murcia، Spain",Región de Murcia International Airport,RMU
-"Murmansk، Russia",Murmansk Airport,MMK
-"Muscat، Oman",Muscat International Airport,MCT
-"Mwanza, Tanzania",Mwanza Airport,MWZ
-"Mykolaiv، Ukraine",Mykolaiv International Airport,NLV
-"Mykonos، Greece",Mykonos Airport,JMK
-"Myrtle Beach، United States",Myrtle Beach International Airport,MYR
-"Mytilene، Greece",Mytilene International Airport,MJT
-"Nadi، Fiji",Nadi International Airport,NAN
-"Nador, Morocco",Nador International Airport,NDR
-"Nagasaki، Japan",Nagasaki Airport,NGS
-"Nagoya، Japan",Chubu Centrair International Airport,NGO
-"Nagpur، India",Dr. Babasaheb Ambedkar International Airport,NAG
-"Naha، Japan",Naha Airport,OKA
-"Nairobi, Kenya",Jomo Kenyatta International Airport,NBO
-"Najran، Saudi Arabia",Najran Domestic Airport,EAM
-"Nakhchivan، Azerbaijan",Nakhchivan Airport,NAJ
-"Nalchik، Russia",Nalchik Airport,NAL
-"Namangan، Uzbekistan",Namangan Airport,NMA
-"Nampula, Mozambique",Nampula Airport,APL
-"Nanchang، China",Nanchang Changbei International Airport,KHN
-"Nanjing، China",Nanjing Lukou International Airport,NKG
-"Nanning، China",Nanning Wuxu International Airport,NNG
-"Nantes، France",Nantes Atlantique Airport,NTE
-"Nantong، China",Nantong Xingdong International Airport,NTG
-"Naples، Italy",Naples International Airport,NAP
-"Narsarsuaq، Greenland",Narsarsuaq Airport,UAK
-"Nashik، India",Nashik Airport,ISK
-"Nashville، United States",Nashville International Airport,BNA
-"Nasiriyah، Iraq",Nasiriyah Airport,XNH
-"Nassau, The Bahamas",Lynden Pindling International Airport,NAS
-"Natal، Brazil",Greater Natal International Airport,NAT
-"Navi Mumbai، India",Navi Mumbai International Airport,NMI
-"Navoiy، Uzbekistan",Navoiy International Airport,NVI
-"Nay Pyi Taw، Myanmar",Naypyidaw International Airport,NYT
-"N'Djamena, Chad",N'Djamena International Airport,NDJ
-"Ndola, Zambia",Simon Mwansa Kapwepwe International Airport,NLA
-"Neiva، Colombia",Benito Salas Airport,NVA
-"Nelspruit, South Africa",Kruger Mpumalanga International Airport,MQP
-"Neom، Saudi Arabia",Neom Bay Airport,NUM
-"Neuquén، Argentina",Presidente Perón International Airport,NQN
-"Nevşehir، Turkey",Kapadokya Airport,NAV
-"New Orleans، United States",Louis Armstrong New Orleans International Airport,MSY
-"New York City (Queens)، United States",John F. Kennedy International Airport,JFK
-"Newark، United States",Newark Liberty International Airport,EWR
-"Newburgh، United States",Stewart International Airport,SWF
-"Newcastle upon Tyne، England",Newcastle International Airport,NCL
-"Newcastle، Australia",Newcastle Airport[2],NTL
-"Newport News، United States",Newport News/Williamsburg International Airport,PHF
-"Newquay، England",Newquay Airport,NQY
-"Nha Trang، Vietnam",Cam Ranh International Airport,CXR
-"Niagara Falls، United States",Niagara Falls International Airport,IAG
-"Niamey, Niger",Diori Hamani International Airport,NIM
-"Nice، France",Nice Côte d'Azur Airport,NCE
-"Niigata، Japan",Niigata Airport,KIJ
-"Nîmes، France",Nîmes–Alès–Camargue–Cévennes Airport,FNI
-"Ningbo، China",Ningbo Lishe International Airport,NGB
-"Niš، Serbia",Niš Constantine the Great Airport,INI
-"Nizhnekamsk، Russia",Begishevo Airport,NBC
-"Nizhnevartovsk، Russia",Nizhnevartovsk Airport,NJC
-"Nizhny Novgorod، Russia",Strigino Airport,GOJ
-"Noida (Delhi NCR)، India",Noida International Airport,JWR
-"Norfolk (VA)، United States",Norfolk International Airport,ORF
-"Norrköping، Sweden",Norrköping Airport,NRK
-"North Eleuthera, The Bahamas",North Eleuthera Airport,ELH
-"North Goa، India",Manohar International Airport,GOX
-"North Nicosia، Cyprus",Ercan International Airport,ECN
-"Norwich، England",Norwich Airport,NWI
-"Nosy Be, Madagascar",Fascene Airport,NOS
-"Nottingham، England",East Midlands Airport,EMA
-"Nouadhibou, Mauritania",Nouadhibou International Airport,NDB
-"Nouakchott, Mauritania",Nouakchott–Oumtounsy International Airport,NKC
-"Nouméa، New Caledonia",La Tontouta International Airport,NOU
-"Novokuznetsk، Russia",Spichenkovo Airport,NOZ
-"Novosibirsk، Russia",Tolmachevo Airport,OVB
-"Nukuʻalofa، Tonga",Fuaʻamotu International Airport,TBU
-"Nukus، Uzbekistan",Nukus Airport,NCU
-"Nuremberg، Germany",Nuremberg Airport,NUE
-"Nuuk، Greenland",Nuuk Airport,GOH
-"Oakland، United States",Oakland International Airport,OAK
-"Oaxaca، Mexico",Oaxaca International Airport,OAX
-"Odesa، Ukraine",Odesa International Airport,ODS
-"Ohrid، North Macedonia",Ohrid St. Paul the Apostle Airport,OHD
-"Ōita، Japan",Oita Airport,OIT
-"Okayama، Japan",Okayama Airport,OKJ
-"Oklahoma City، United States",Will Rogers World Airport,OKC
-"Olbia، Italy",Costa Smeralda Airport,OLB
-"Ölgii، Mongolia",Ölgii International Airport,ULG
-"Olongapo، Philippines",Subic Bay International Airport,SFS
-"Olsztyn، Poland",Olsztyn-Mazury Airport,SZY
-"Omaha، United States",Eppley Airfield,OMA
-"Omsk، Russia",Omsk Tsentralny Airport,OMS
-"Ontario، United States",Ontario International Airport,ONT
-"Oradea، Romania",Oradea International Airport,OMR
-"Oral، Kazakhstan",Oral Ak Zhol Airport,URA
-"Oran, Algeria",Oran Es Senia Airport,ORN
-"Orange County (CA)، United States",John Wayne Airport,SNA
-"Oranjestad, Aruba",Queen Beatrix International Airport,AUA
-"Oranjestad, Sint Eustatius, Caribbean Netherlands",F. D. Roosevelt Airport,EUX
-"Ordos City، China",Ordos Ejin Horo International Airport,DSN
-"Orenburg، Russia",Orenburg Tsentralny Airport,REN
-"Orlando، United States",Orlando International Airport,MCO
-"Orsk، Russia",Orsk Airport,OSW
-"Osaka، Japan",Kansai International Airport,KIX
-"Osh، Kyrgyzstan",Osh Airport,OSS
-"Osijek، Croatia",Osijek Airport,OSI
-"Oskemen، Kazakhstan",Oskemen Airport,UKK
-"Oslo، Norway","Oslo Airport, Gardermoen",OSL
-"Ostend/Bruges، Belgium",Ostend–Bruges International Airport,OST
-"Östersund، Sweden",Åre Östersund Airport,OSD
-"Ostrava، Czech Republic",Leoš Janáček Airport,OSR
-"Ottawa، Canada",Ottawa Macdonald–Cartier International Airport,YOW
-"Ouagadougou, Burkina Faso",Thomas Sankara International Airport Ouagadougou,OUA
-"Ouarzazate, Morocco",Ouarzazate Airport,OZZ
-"Oujda, Morocco",Angads Airport,OUD
-"Oulu، Finland",Oulu Airport,OUL
-"Oumache, Algeria",Biskra Airport,BSK
-"Padang، Indonesia",Minangkabau International Airport,PDG
-"Pago Pago، American Samoa",Pago Pago International Airport,PPG
-"Pakse، Laos",Pakse International Airport,PKZ
-"Palanga، Lithuania",Palanga International Airport,PLQ
-"Palembang، Indonesia",Sultan Mahmud Badaruddin II International Airport,PLM
-"Palermo، Italy",Palermo Airport,PMO
-"Palm Springs، United States",Palm Springs International Airport,PSP
-"Palma de Mallorca، Spain",Palma de Mallorca Airport,PMI
-"Pamplona، Spain",Pamplona Airport,PNA
-"Panama City (FL)، United States",Northwest Florida Beaches International Airport,ECP
-"Panama City، Panama","Albrook ""Marcos A. Gelabert"" International Airport",PAC
-"Panglao Island، Philippines",Bohol–Panglao International Airport,TAG
-"Papeete، French Polynesia",Faa'a International Airport,PPT
-"Paphos، Cyprus",Paphos International Airport,PFO
-"Paramارibo، Suriname",Johan Adolf Pengel International Airport,PBM
-"Pardubice، Czech Republic",Pardubice Airport,PED
-"Paris، France",Charles de Gaulle Airport,CDG
-"Pärnu، Estonia",Pärnu Airport,EPU
-"Paro، Bhutan",Paro International Airport,PBH
-"Parما، Italy",Giuseppe Verdi Airport,PMF
-"Pasto، Colombia",Antonio Nariño Airport,PSO
-"Pau، France",Pau Pyrénées Airport,PUF
-"Pavlodar، Kazakhstan",Pavlodar Airport,PWQ
-"Pécs، Hungary",Pécs-Pogány International Airport,QPJ
-"Pekanbaru، Indonesia",Sultan Syarif Kasim II International Airport,PKU
-"Pemba, Mozambique",Pemba Airport,POL
-"Penang، Malaysia",Penang International Airport,PEN
-"Pensacola، United States",Pensacola International Airport,PNS
-"Pereira، Colombia",Matecaña International Airport,PEI
-"Perm، Russia",Perm International Airport,PEE
-"Perpignan، France",Perpignan–Rivesaltes Airport,PGF
-"Perth، Australia",Perth Airport,PER
-"Perugia، Italy",San Egidio Airport,PEG
-"Pescara، Italy",Abruzzo Airport,PSR
-"Peshawar، Pakistan",Bacha Khan International Airport,PEW
-"Petrolina، Brazil",Petrolina Airport,PNZ
-"Petropavl، Kazakhstan",Petropavl Airport,PPK
-"Petropavlovsk-Kamchatsky، Russia",Yelizovo Airport,PKC
-"Petrozavodsk، Russia",Petrozavodsk Airport,PES
-"Philadelphia، United States",Philadelphia International Airport,PHL
-"Philipsburg، Sint Maarten",Princess Juliana International Airport,SXM
-"Phnom Penh، Cambodia",Techo International Airport,KTI
-"Phnom Penh، Cambodia",Phnom Penh International Airport,PNH
-"Phoenix/Mesa، United States",Phoenix–Mesa Gateway Airport,AZA
-"Phoenix، United States",Phoenix Sky Harbor International Airport,PHX
-"Phú Quốc، Vietnam",Phu Quoc International Airport,PQC
-"Phuket، Thailand",Phuket International Airport,HKT
-"Piešťany، Slovakia",Piešťany Airport,PZY
-"Pisa، Italy",Galileo Galilei Airport,PSA
-"Pittsburgh، United States",Pittsburgh International Airport,PIT
-"Plaine Magnien, Mauritius",Sir Seewoosagur Ramgoolam International Airport,MRU
-"Plovdiv، Bulgaria",Plovdiv Airport,PDV
-"Podgorica، Montenegro",Podgorica Airport,TGD
-"Pohnpei، Federated States of Micronesia",Pohnpei International Airport,PNI
-"Pointe-à-Pitre, Guadeloupe",Pointe-à-Pitre International Airport,PTP
-"Pointe-Noire, Republic of the Congo",Agostinho-Neto International Airport,PNR
-"Poitiers، France",Poitiers–Biard Airport,PIS
-"Pokhara، Nepal",Pokhara Regional International Airport,PKR
-"Polokwane, South Africa",Polokwane International Airport,PTG
-"Poltava، Ukraine",Poltava Airport,PLV
-"Ponce, Puerto Rico",Mercedita International Airport,PSE
-"Ponta Delgada، Portugal",João Paulo II Airport,PDL
-"Pontianak، Indonesia",Supadio International Airport,PNK
-"Popayán، Colombia",Guillermo León Valencia Airport,PPN
-"Poprad، Slovakia",Poprad-Tatry Airport,TAT
-"Port Harcourt, Nigeria",Port Harcourt International Airport,PHC
-"Port Moresby، Papua New Guinea",Jacksons International Airport,POM
-"Port of Spain، Trinidad and Tobago",Piarco International Airport,POS
-"Port Sudan, Sudan",Port Sudan New International Airport,PZU
-"Port Vila، Vanuatu",Bauerfield International Airport,VLI
-"Port-au-Prince, Haiti",Toussaint Louverture International Airport,PAP
-"Port-Gentil, Gabon",Port-Gentil International Airport,POG
-"Portland (ME)، United States",Portland International Jetport,PWM
-"Portland (OR)، United States",Portland International Airport,PDX
-"Porto Alegre، Brazil",Salgado Filho Porto Alegre International Airport,POA
-"Porto Santo Island، Portugal",Porto Santo Airport,PXO
-"Porto Velho، Brazil",Governador Jorge Teixeira de Oliveira International Airport,PVH
-"Porto، Portugal",Porto Airport,OPO
-"Portorož، Slovenia",Portorož Airport,POW
-"Posadas، Argentina",Libertador General José de San Martín Airport,PSS
-"Poznań، Poland",Poznań–Ławica Airport,POZ
-"Prague، Czech Republic",Václav Havel Airport,PRG
-"Praia, Santiago Island, Cape Verde",Nelson Mandela International Airport,RAI
-"Preveza، Greece",Aktion National Airport,PVK
-"Pristina، Kosovo",Pristina International Airport,PRN
-"Providence (Warwick)، United States",Rhode Island T. F. Green International Airport,PVD
-"Providence Island، Colombia",El Embrujo Airport,PVA
-"Provideniya، Russia",Provideniya Bay Airport,PVS
-"Pskov، Russia",Pskov Airport,PKV
-"Puebla، Mexico",Puebla International Airport,PBC
-"Puerto Escondido، Mexico",Puerto Escondido International Airport,PXM
-"Puerto Iguazú، Argentina",Cataratas del Iguazú International Airport,IGR
-"Puerto Montt، Chile",El Tepual International Airport,PMC
-"Puerto Princesa، Philippines",Puerto Princesa International Airport,PPS
-"Puerto Vallarta، Mexico",Puerto Vallarta International Airport,PVR
-"Pula، Croatia",Pula Airport,PUY
-"Pune، India",Pune Airport,PNQ
-"Punta Arenas، Chile",Presidente Carlos Ibáñez del Campo International Airport,PUQ
-"Punta Cana, Dominican Republic",Punta Cana International Airport,PUJ
-"Punta del Este، Uruguay",Capitán de Corbeta Carlos A. Curbelo International Airport,PDP
-"Pyongyang، North Korea",Pyongyang International Airport,FNJ
-"Qabala، Azerbaijan",Qabala International Airport,GBB
-"Qamishli، Syria",Qamishli Airport,KAC
-"Qarshi، Uzbekistan",Karshi Airport,KSQ
-"Qeshm Island، Iran",Qeshm International Airport,GSM
-"Qingdao، China",Qingdao Jiaodong International Airport,TAO
-"Qinhuangdao، China",Qinhuangdao Beidaihe Airport,BPE
-"Qionghai، China",Qionghai Bo'ao International Airport,BAR
-"Qiqihar، China",Qiqihar Sanjiazi Airport,NDG
-"Quảng Nam، Vietnam",Chu Lai Airport,VCL
-"Quanzhou، China",Quanzhou Jinjiang International Airport,JJN
-"Québec City، Canada",Québec City Jean Lesage International Airport,YQB
-"Queenstown، New Zealand",Queenstown Airport,ZQN
-"Querétaro، Mexico",Querétaro Intercontinental Airport,QRO
-"Quetta، Pakistan",Quetta International Airport,UET
-"Quibdó، Colombia",El Caraño Airport,UIB
-"Quito، Ecuador",Mariscal Sucre International Airport,UIO
-"Rabat, Morocco",Rabat–Salé Airport,RBA
-"Racine، United States",Batten International Airport,RAC
-"Rahim Yar Khan، Pakistan",Shaikh Zayed International Airport,RYK
-"Rajshahi، Bangladesh",Shah Makhdum Airport,RJH
-"Raleigh/Durham، United States",Raleigh–Durham International Airport,RDU
-"Ranchi، India",Birsa Munda Airport,IXR
-"Rangpur، Bangladesh",Saidpur Airport,SPD
-"Ras Al Khaimah، United Arab Emirates",Ras Al Khaimah International Airport,RKT
-"Rasht، Iran",Rasht Airport,RAS
-"Rayong/Pattaya، Thailand",U-Tapao International Airport,UTP
-"Recife، Brazil",Guararapes International Airport,REC
-"Regina، Canada",Regina International Airport,YQR
-"Reno، United States",Reno–Tahoe International Airport,RNO
-"Resistencia، Argentina",Resistencia International Airport,RES
-"Reus، Spain",Reus Airport,REU
-"Reykjavík، Iceland",Keflavik International Airport,KEF
-"Reynosa، Mexico",Reynosa International Airport,REX
-"Rhodes، Greece",Rhodes International Airport,RHO
-"Richmond (VA) (Sandston)، United States",Richmond International Airport,RIC
-"Riga، Latvia",Riga International Airport,RIX
-"Rijeka، Croatia",Rijeka Airport,RJK
-"Rimini، Italy",Federico Fellini Airport,RMI
-"Rio Branco، Brazil",Rio Branco International Airport,RBR
-"Rio de Janeiro، Brazil",Rio de Janeiro/Galeão International Airport,GIG
-"Río Gallegos، Argentina",Piloto Civil Norberto Fernández International Airport,RGL
-"Río Grande، Argentina",Hermes Quijada International Airport,RGA
-"Rio Hato، Panama",Scarlett Martínez International Airport,RIH
-"Riohacha، Colombia",Almirante Padilla Airport,RCH
-"Rivera، Uruguay",Rivera International Airport,RVY
-"Riyadh، Saudi Arabia",King Khalid International Airport,RUH
-"Road Town, British Virgin Islands",Terrance B. Lettsome International Airport,EIS
-"Roatán، Honduras",Juan Manuel Gálvez International Airport,RTB
-"Rochester (MN)، United States",Rochester International Airport,RST
-"Rochester (NY)، United States",Greater Rochester International Airport,ROC
-"Rockford (IL)، United States",Chicago Rockford International Airport,RFD
-"Rodez، France",Rodez–Aveyron Airport,RDZ
-"Rome، Italy",Leonardo da Vinci–Fiumicino Airport,FCO
-"Rosario، Argentina",Rosario – Islas Malvinas International Airport,ROS
-"Rostov-on-Don، Russia",Platov International Airport,ROV
-"Rota، Northern Mariana Islands",Rota International Airport,ROP
-"Rotterdam، Netherlands",Rotterdam The Hague Airport,RTM
-"Rovaniemi، Finland",Rovaniemi Airport,RVN
-"Rzeszów، Poland",Rzeszów–Jasionka Airport,RZE
-"Sabha, Libya",Sabha Airport,SEB
-"Sacramento، United States",Sacramento International Airport,SMF
-"Saint Catherine, Egypt",St. Catherine International Airport,SKV
-"Saint Helena, Saint Helena, Ascension and Tristan da Cunha",Saint Helena Airport,HLE
-"Saint Helier (Jersey)، Crown Dependencies",Jersey Airport,JER
-"Saint Jean, Saint Barthélemy",Gustaf III Airport,SBH
-"Saint John، Canada",Saint John Airport,YSJ
-"Saint Peter Port (Guernsey)، Crown Dependencies",Guernsey Airport,GCI
-"Saint-Denis, Réunion",Roland Garros Airport,RUN
-"Saint-Étienne، France",Saint-Étienne–Bouthéon Airport,EBU
-"Saint-Pierre، Saint Pierre and Miquelon",Saint-Pierre Airport,FSP
-"Saipan، Northern Mariana Islands",Saipan International Airport,SPN
-"Sal Island, Cape Verde",Amílcar Cabral International Airport,SID
-"Salalah، Oman",Salalah International Airport,SLL
-"Salerno، Italy",Salerno Costa d'Amalfi Airport,QSR
-"Salt Lake City، United States",Salt Lake City International Airport,SLC
-"Salta، Argentina",Martín Miguel de Güemes International Airport,SLA
-"Saltillo، Mexico",Saltillo International Airport,SLW
-"Salvador، Brazil",Deputado Luís Eduardo Magalhães International Airport,SSA
-"Salzburg، Austria",Salzburg Airport,SZG
-"Samana, Dominican Republic",Samaná El Catey International Airport,AZS
-"Samara، Russia",Samara Kurumoch Airport,KUF
-"Samarinda، Indonesia",Aji Pangeran Tumenggung Pranoto International Airport,AAP
-"Samarkand، Uzbekistan",Samarkand International Airport,SKD
-"Samos، Greece",Samos International Airport,SMI
-"Samsun، Turkey",Samsun-Çarşamba Airport,SZF
-"San Andrés، Colombia",Gustavo Rojas Pinilla International Airport,ADZ
-"San Antonio، United States",San Antonio International Airport,SAT
-"San Bernardino، United States",San Bernardino International Airport,SBD
-"San Diego، United States",San Diego International Airport,SAN
-"San Felipe de Puerto Plata, Dominican Republic",Gregorio Luperón International Airport,POP
-"San Francisco، United States",San Francisco International Airport,SFO
-"San Jose (CA)، United States",San Jose International Airport,SJC
-"San José، Costa Rica",Juan Santamaría International Airport,SJO
-"San Juan, Puerto Rico",Fernando Luis Ribas Dominicci Airport,SIG
-"San Luis Potosí، Mexico",San Luis Potosí International Airport,SLP
-"San Miguel de Tucumán، Argentina",Teniente Benjamín Matienzo International Airport,TUC
-"San Pedro Sula، Honduras",Ramón Villeda Morales International Airport,SAP
-"San Salvador de Jujuy، Argentina",Gobernador Horacio Guzmán International Airport,JUJ
-"San Salvador، El Salvador",El Salvador International Airport,SAL
-"Sanaa، Yemen",Sanaa International Airport,SAH
-"Sanford (FL)، United States",Orlando Sanford International Airport,SFB
-"Santa Clara, Cuba",Abel Santamaría Airport,SNU
-"Santa Cruz de la Sierra، Bolivia",Viru Viru International Airport,VVI
-"Santa Marta، Colombia",Simón Bolívar International Airport,SMR
-"Santa Rosa del Conlara، Argentina",Valle del Conlara Airport,RLO
-"Santander، Spain",Santander Airport,SDR
-"Santiago de Compostela، Spain",Santiago de Compostela Airport,SCQ
-"Santiago de Cuba, Cuba",Antonio Maceo Airport,SCU
-"Santiago de los Caballeros, Dominican Republic",Cibao International Airport,STI
-"Santiago، Chile",Arturo Merino Benítez International Airport,SCL
-"Santo Domingo, Dominican Republic",Las Américas International Airport,SDQ
-"Santorini، Greece",Santorini (Thira) International Airport,JTR
-"Sanya، China",Sanya Phoenix International Airport,SYX
-"São Luís، Brazil",Marechal Cunha Machado International Airport,SLZ
-"São Paulo، Brazil",São Paulo–Congonhas Airport,CGH
-"São Tomé, São Tomé and Príncipe",São Tomé International Airport,TMS
-"São Vicente, Cape Verde",Cesária Évora Airport,VXE
-"Sapporo، Japan",New Chitose Airport,CTS
-"Sarajevo، Bosnia and Herzegovina",Sarajevo International Airport,SJJ
-"Sarasota/Bradenton، United States",Sarasota–Bradenton International Airport,SRQ
-"Saratov، Russia",Saratov Gagarin Airport,GSV
-"Sari، Iran",Dasht-e Naz Airport,SRY
-"Satu Mare، Romania",Satu Mare International Airport,SUJ
-"Savannah (GA)، United States",Savannah/Hilton Head International Airport,SAV
-"Savannakhet، Laos",Savannakhet Airport,ZVK
-"Savonlinna، Finland",Savonlinna Airport,SVL
-"Seattle، United States",Kenmore Air Harbor Seaplane Base,LKE
-"Seiyun، Yemen",Seiyun Airport,GXF
-"Semarang، Indonesia",Jenderal Ahmad Yani International Airport,SRG
-"Semey، Kazakhstan",Semey Airport,PLX
-"Sendai، Japan",Sendai Airport,SDJ
-"Seoul، South Korea",Gimpo International Airport,GMP
-"Sétif, Algeria",Ain Arnat Airport,QSF
-"Seville، Spain",Seville Airport,SVQ
-"Sfax, Tunisia",Sfax–Thyna International Airport,SFA
-"Shanghai، China",Shanghai Hongqiao International Airport,SHA
-"Shannon، Ireland",Shannon Airport,SNN
-"Sharjah، United Arab Emirates",Sharjah International Airport,SHJ
-"Sharm El Sheikh, Egypt",Sharm El Sheikh International Airport,SSH
-"Sheboygan، United States",Sheboygan County Memorial Airport,SBM
-"Shenyang، China",Shenyang Taoxian International Airport,SHE
-"Shenzhen، China",Shenzhen Bao'an International Airport,SZX
-"Shijiazhuang، China",Shijiazhuang Zhengding International Airport,SJW
-"Shiraz، Iran",Shiraz International Airport,SYZ
-"Shizuoka، Japan",Shizuoka Airport,FSZ
-"Sialkot، Pakistan",Sialkot International Airport,SKT
-"Šiauliai، Lithuania",Šiauliai International Airport,SQQ
-"Sibiu، Romania",Sibiu International Airport,SBZ
-"Siddharthanagar، Nepal",Gautam Buddha International Airport,BWA
-"Siem Reap، Cambodia",Siem Reap International Airport,REP
-"Sihanoukville، Cambodia",Sihanouk International Airport,KOS
-"Siliguri، India",Bagdogra International Airport,IXB
-"Simferopol، Ukraine",Simferopol International Airport,SIP
-"Sincelejo، Colombia",Las Brujas Airport,CZU
-"Singapore، Singapore",Changi Airport,SIN
-"Skiathos، Greece",Skiathos International Airport,JSI
-"Skopje، North Macedonia",Skopje International Airport,SKP
-"Skyros، Greece",Skyros Island National Airport,SKU
-"Sochi، Russia",Sochi International Airport,AER
-"Socotra، Yemen",Socotra Airport,SCT
-"Sofia، Bulgaria",Sofia Airport,SOF
-"Sohag, Egypt",Sohag International Airport,HMB
-"Sohar، Oman",Sohar International Airport,OHS
-"Sokhumi، Georgia",Sukhumi Babushara Airport,SUI
-"Sokoto, Nigeria",Sadiq Abubakar III International Airport,SKO
-"Sorong، Indonesia",Domine Eduard Osok International Airport,SOQ
-"South Eleuthera, The Bahamas",Rock Sound International Airport,RSD
-"South Goa، India",Dabolim Airport,GOI
-"Southampton، England",Southampton Airport,SOU
-"Split، Croatia",Split Airport,SPU
-"Spokane، United States",Spokane International Airport,GEG
-"Srinagar، India",Srinagar Airport,SXR
-"St George’s, Grenada",Maurice Bishop International Airport,GND
-"St. Gallen، Switzerland",St. Gallen–Altenrhein Airport,ACH
-"St. John’s, Antigua and Barbuda",V. C. Bird International Airport,ANU
-"St. John's، Canada",St. John's International Airport,YYT
-"St. Louis، United States",St. Louis Lambert International Airport,STL
-"St. Petersburg (FL)، United States",St. Pete–Clearwater International Airport,PIE
-"St. Petersburg، Russia",Pulkovo Airport,LED
-"Stavanger، Norway",Stavanger Airport,SVG
-"Stavropol، Russia",Stavropol Shpakovskoye Airport,STW
-"Stockholm، Sweden",Stockholm Arlanda Airport,ARN
-"Strasbourg، France",Strasbourg Airport,SXB
-"Stuttgart، Germany",Stuttgart Airport,STR
-"Suceava، Romania",Suceava International Airport,SCV
-"Sulaymaniyah، Iraq",Sulaimaniyah International Airport,ISU
-"Sundsvall، Sweden",Sundsvall–Timrå Airport,SDL
-"Sunshine Coast، Australia",Sunshine Coast Airport[3],MCY
-"Sunyani, Ghana",Sunyani Airport,NYI
-"Surabaya، Indonesia",Juanda International Airport,SUB
-"Surakarta، Indonesia",Adisoemarmo International Airport,SOC
-"Surat Thani، Thailand",Surat Thani International Airport,URT
-"Surat، India",Surat Airport,STV
-"Surgut، Russia",Farman Salmanov Surgut Airport,SGC
-"Suva، Fiji",Nausori International Airport,SUV
-"Sydney، Australia",Sydney Airport,SYD
-"Sydney، Canada",JA Douglas McCurdy Sydney Airport,YQY
-"Syktyvkar، Russia",Syktyvkar Airport,SCW
-"Sylhet، Bangladesh",Osmani International Airport,ZYL
-"Şymkent، Kazakhstan",Şymkent International Airport,CIT
-"Syracuse، United States",Syracuse Hancock International Airport,SYR
-"Szczecin، Poland",Solidarity Szczecin–Goleniów Airport,SZZ
-"Taba, Egypt",Taba International Airport,TCP
-"Tabarka, Tunisia",Tabarka–Aïn Draham International Airport,TBJ
-"Tabriz، Iran",Tabriz International Airport,TBZ
-"Tabuk، Saudi Arabia",Prince Sultan bin Abdulaziz Airport,TUU
-"Taichung، Taiwan",Taichung International Airport,RMQ
-"Ta'if، Saudi Arabia",Taif International Airport,TIF
-"Tainan، Taiwan",Tainan Airport,TNN
-"Taipa، Macau",Macau International Airport,MFM
-"Taipei، Taiwan",Taipei Songshan Airport,TSA
-"Taiyuan، China",Taiyuan Wusu International Airport,TYN
-"Tajoura, Libya",Mitiga International Airport,MJI
-"Takoradi, Ghana",Takoradi Airport,TKD
-"Tallahassee، United States",Tallahassee International Airport,TLH
-"Tallinn، Estonia",Lennart Meri Tallinn Airport,TLL
-"Tamale, Ghana",Tamale Airport,TML
-"Tampa، United States",Tampa International Airport,TPA
-"Tampere، Finland",Tampere–Pirkkala Airport,TMP
-"Tampico، Mexico",Tampico International Airport,TAM
-"Tanga, Tanzania",Tanga Airport,TGT
-"Tangier, Morocco",Tangier Ibn Battouta Airport,TNG
-"Tanjungpandan، Indonesia",H.A.S. Hanandjoeddin International Airport,TJQ
-"Tarawa، Kiribati",Bonriki International Airport,TRW
-"Taraz، Kazakhstan",Taraz Airport,DMB
-"Târgu Mureș، Romania",Târgu Mureș International Airport,TGM
-"Tartu، Estonia",Tartu Airport,TAY
-"Tashkent، Uzbekistan",Islam Karimov Tashkent International Airport,TAS
-"Tbilisi، Georgia",Tbilisi International Airport,TBS
-"Tegucigalpa، Honduras",Toncontín International Airport,TGU
-"Tehran، Iran",Imam Khomeini International Airport,IKA
-"Tel Aviv، Israel",Ben Gurion Airport,TLV
-"Tenerife، Spain",Tenerife North–Ciudad de La Laguna Airport,TFN
-"Tepic، Mexico",Tepic International Airport,TPQ
-"Terceira Island، Portugal",Lajes Airport,TER
-"Teresina، Brazil",Teresina Airport,THE
-"Termas de Río Hondo، Argentina",Termas de Río Hondo International Airport,RHD
-"Termez، Uzbekistan",Termez Airport,TMJ
-"Tete, Mozambique",Chingozi Airport,TET
-"Tetouan, Morocco",Sania Ramel Airport,TTU
-"The Valley, Anguilla",Clayton J. Lloyd International Airport,AXA
-"Thessaloniki، Greece",Thessaloniki Airport,SKG
-"Thiruvananthapuram، India",Trivandrum International Airport,TRV
-"Thunder Bay، Canada",Thunder Bay International Airport,YQT
-"Tianjin، China",Tianjin Binhai International Airport,TSN
-"Tijuana، Mexico",Tijuana International Airport,TIJ
-"Timișoara، Romania",Timișoara Traian Vuia International Airport,TSR
-"Tinian، Northern Mariana Islands",Tinian International Airport,TIQ
-"Tirana، Albania",Tirana International Airport Nënë Tereza,TIA
-"Tiruchirappalli، India",Tiruchirappalli International Airport,TRZ
-"Tirupati، India",Tirupati International Airport,TIR
-"Tivat، Montenegro",Tivat Airport,TIV
-"Tlemcen, Algeria",Zenata – Messali El Hadj Airport,TLM
-"Toamasina, Madagascar",Toamasina Airport,TMM
-"Tobago، Trinidad and Tobago",A.N.R. Robinson International Airport,TAB
-"Tokyo، Japan",Haneda Airport,HND
-"Tôlanaro, Madagascar",Tôlanaro Airport,FTU
-"Toliara, Madagascar",Toliara Airport,TLE
-"Tolú، Colombia",Golfo de Morrosquillo Airport,TLU
-"Toluca، Mexico",Toluca International Airport,TLC
-"Tomsk، Russia",Bogashevo Airport,TOF
-"Toronto (Mississauga)، Canada",Toronto Pearson International Airport,YYZ
-"Toronto، Canada",Billy Bishop Toronto City Airport,YTZ
-"Torreón، Mexico",Torreón International Airport,TRC
-"Toulon، France",Toulon–Hyères Airport,TLN
-"Toulouse، France",Toulouse–Blagnac Airport,TLS
-"Tours، France",Tours Val de Loire Airport,TUF
-"Tozeur, Tunisia",Tozeur–Nefta International Airport,TOE
-"Trabzon، Turkey",Trabzon Airport,TZX
-"Trapani، Italy",Vincenzo Florio Airport,TPS
-"Trelew، Argentina",Almirante Marcos A. Zar Airport,REL
-"Trieste، Italy",Friuli Venezia Giulia Airport,TRS
-"Tripoli, Libya",Tripoli International Airport,TIP
-"Tromsø، Norway",Tromsø Airport,TOS
-"Trondheim، Norway",Trondheim Airport,TRD
-"Trujillo، Peru",Carlos Martínez de Pinillos International Airport,TRU
-"Tucson، United States",Tucson International Airport,TUS
-"Tulcán، Ecuador",Teniente Coronel Luis a Mantilla International Airport,TUA
-"Tulsa، United States",Tulsa International Airport,TUL
-"Tulum، Mexico",Tulum International Airport,TQO
-"Tumaco، Colombia",La Florida Airport,TCO
-"Tunis, Tunisia",Tunis–Carthage International Airport,TUN
-"Turbat، Pakistan",Turbat International Airport,TUK
-"Turin، Italy",Caselle Airport,TRN
-"Türkmenabat، Turkmenistan",Turkmenabat International Airport,CRZ
-"Turkmenbashi، Turkmenistan",Turkmenbashi International Airport,KRW
-"Turku، Finland",Turku Airport,TKU
-"Tuxtla Gutiérrez، Mexico",Tuxtla Gutiérrez International Airport,TGZ
-"Tuzla، Bosnia and Herzegovina",Tuzla International Airport,TZL
-"Tyumen، Russia",Roshchino International Airport,TJM
-"Uberlândia، Brazil",Uberlândia Airport,UDI
-"Udon Thani، Thailand",Udon Thani International Airport,UTH
-"Ufa، Russia",Ufa International Airport,UFA
-"Ulaanbaatar، Mongolia",Chinggis Khaan International Airport,UBN
-"Ulanqab، China",Ulanqab Jining Airport,UCB
-"Ulan-Ude، Russia",Baikal International Airport,UUD
-"Ulyanovsk، Russia",Ulyanovsk Baratayevka Airport,ULV
-"Umeå، Sweden",Umeå Airport,UME
-"Unguja, Zanzibar, Tanzania",Abeid Amani Karume International Airport,ZNZ
-"Urgench، Uzbekistan",Urgench International Airport,UGC
-"Urmia، Iran",Urmia Airport,OMH
-"Uruapan، Mexico",Uruapan International Airport,UPN
-"Uruapan، Mexico",Uruapan International Airport,UPN
-"Ürümqi، China",Ürümqi Diwopu International Airport,URC
-"Ushuaia، Argentina",Ushuaia – Malvinas Argentinas International Airport,USH
-"Uzhhorod، Ukraine",Uzhhorod International Airport,UDJ
-"Vaasa، Finland",Vaasa Airport,VAA
-"Vadodara، India",Vadodara Airport,BDQ
-"Vágar (Faroe Islands)، Kingdom of Denmark",Vágar Airport,FAE
-"Valencia، Spain",Valencia Airport,VLC
-"Valencia، Venezuela",Arturo Michelena International Airport,VLN
-"Valladolid، Spain",Valladolid Airport,VLL
-"Valledupar، Colombia",Alfonso López Pumarejo Airport,VUP
-"Vân Đồn، Vietnam",Van Don International Airport,VDO
-"Vancouver (Richmond)، Canada",Vancouver International Airport,YVR
-"Varadero, Cuba",Juan Gualberto Gómez Airport,VRA
-"Varanasi، India",Lal Bahadur Shastri Airport,VNS
-"Varna، Bulgaria",Varna Airport,VAR
-"Vavaʻu، Tonga",Vavaʻu International Airport,VAV
-"Växjö، Sweden",Växjö Airport,VXO
-"Venice، Italy",Venice Marco Polo Airport,VCE
-"Ventspils، Latvia",Ventspils International Airport,VNT
-"Veracruz، Mexico",Veracruz International Airport,VER
-"Verona، Italy",Verona Villafranca Airport,VRN
-"Victoria (Sidney)، Canada",Victoria International Airport,YYJ
-"Victoria Falls, Zimbabwe",Victoria Falls Airport,VFA
-"Victoria, Seychelles",Seychelles International Airport,SEZ
-"Vienna، Austria",Vienna International Airport,VIE
-"Vientiane، Laos",Wattay International Airport,VTE
-"Vieux Fort Quarter, Saint Lucia",Hewanorra International Airport,UVF
-"Vigo، Spain",Vigo–Peinador Airport,VGO
-"Vijayawada، India",Vijayawada International Airport,VGA
-"Vilankulo, Mozambique",Vilankulo Airport,VNX
-"Villahermosa، Mexico",Villahermosa International Airport,VSA
-"Villavicencio، Colombia",La Vanguardia Airport,VVC
-"Vilnius، Lithuania",Vilnius Airport,VNO
-"Visakhapatnam، India",Visakhapatnam International Airport,VTZ
-"Visby، Sweden",Visby Airport,VBY
-"Vitória، Brazil",Eurico de Aguiar Salles Airport,VIX
-"Vitoria-Gasteiz، Spain",Vitoria Airport,VIT
-"Vladikavkaz، Russia",Beslan Airport,OGZ
-"Vladivostok، Russia",Vladivostok International Airport,VVO
-"Volgograd، Russia",Volgograd International Airport,VOG
-"Volos، Greece",Nea Anchialos National Airport,VOL
-"Voronezh، Russia",Voronezh International Airport,VOZ
-"Wa, Ghana",Wa Airport,WZA
-"Wallis، Wallis and Futuna",Hihifo Airport,WLS
-"Walvis Bay, Namibia",Walvis Bay Airport,WVB
-"Wanzhou، China",Wanzhou Wuqiao Airport,WXN
-"Warsaw، Poland",Warsaw Chopin Airport,WAW
-"Washington, D.C.، United States",Ronald Reagan Washington National Airport**,DCA
-"Weeze، Germany",Weeze Airport,NRN
-"Weihai، China",Weihai Dashuibo Airport,WEH
-"Wellington، New Zealand",Wellington Airport,WLG
-"Wenzhou، China",Wenzhou Yongqiang Airport,WNZ
-"West Palm Beach، United States",Palm Beach International Airport,PBI
-"Whitehorse، Canada",Erik Nielsen Whitehorse International Airport,YXY
-"Wilkes-Barre/Scranton، United States",Wilkes-Barre/Scranton International Airport,AVP
-"Willemstad, Curaçao",Curaçao International Airport,CUR
-"Wilmington (NC)، United States",Wilmington International Airport,ILM
-"Windhoek, Namibia",Hosea Kutako International Airport,WDH
-"Windsor، Canada",Windsor International Airport,YQG
-"Winnipeg، Canada",Winnipeg James Armstrong Richardson International Airport,YWG
-"Wrocław، Poland",Wrocław Airport,WRO
-"Wuhan، China",Wuhan Tianhe International Airport,WUH
-"Wuxi، China",Sunan Shuofang International Airport,WUX
-"Wuyishan، China",Wuyishan Airport,WUS
-"Xiamen، China",Xiamen Gaoqi International Airport,XMN
-"Xi'an، China",Xi'an Xianyang International Airport,XIY
-"Xining، China",Xining Caojiabao International Airport,XNN
-"Xinzhou، China",Xinzhou Wutaishan Airport,WUT
-"Xishuangbanna، China",Xishuangbanna Gasa International Airport,JHG
-"Xuzhou، China",Xuzhou Guanyin Airport,XUZ
-"Yakutsk، Russia",Yakutsk Airport,YKS
-"Yanbu، Saudi Arabia",Yanbu Airport,YNB
-"Yancheng، China",Yancheng Nanyang Airport,YNZ
-"Yangon، Myanmar",Yangon International Airport,RGN
-"Yangyang، South Korea",Yangyang International Airport,YNY
-"Yangzhou، China",Yangzhou Taizhou International Airport,YTY
-"Yanji، China",Yanji Airport,YNJ
-"Yantai، China",Yantai Penglai International Airport,YNT
-"Yaoundé, Cameroon",Yaoundé Nsimalen International Airport,NSI
-"Yap، Federated States of Micronesia",Yap International Airport,YAP
-"Yaren District، Nauru",Nauru International Airport,INU
-"Yaroslavl، Russia",Tunoshna Airport,IAR
-"Yazd، Iran",Shahid Sadooghi Airport,AZD
-"Yekaterinburg، Russia",Koltsovo International Airport,SVX
-"Yerevan، Armenia",Zvartnots International Airport,EVN
-"Yichang، China",Yichang Sanxia Airport,YIH
-"Yinchuan، China",Yinchuan Hedong International Airport,INC
-"Yiwu، China",Yiwu Airport,YIW
-"Yogyakarta، Indonesia",Yogyakarta International Airport,YIA
-"Yopal، Colombia",El Alcaraván Airport,EYP
-"Yuncheng، China",Yuncheng Guangong Airport,YCU
-"Yuzhno-Sakhalinsk، Russia",Yuzhno-Sakhalinsk Airport,UUS
-"Zacatecas، Mexico",Zacatecas International Airport,ZCL
-"Zadar، Croatia",Zadar Airport,ZAD
-"Zagreb، Croatia",Zagreb Airport,ZAG
-"Zahedan، Iran",Zahedan Airport,ZAH
-"Zakynthos، Greece",Zakynthos International Airport,ZTH
-"Zamboanga City، Philippines",Zamboanga International Airport,ZAM
-"Zangilan، Azerbaijan",Zangilan International Airport,ZZE
-"Zaporizhzhia، Ukraine",Zaporizhzhia International Airport,OZH
-"Zaqatala، Azerbaijan",Zaqatala International Airport,ZTU
-"Zaragoza، Spain",Zaragoza Airport,ZAZ
-"Zhangjiajie، China",Zhangjiajie Hehua Airport,DYG
-"Zhanjiang، China",Zhanjiang Wuchuan Airport,ZHA
-"Zhengzhou، China",Zhengzhou Xinzheng International Airport,CGO
-"Zhuhai، China",Zhuhai Jinwan Airport,ZUH
-"Žilina، Slovakia",Žilina Airport,ILZ
-"Zonguldak، Turkey",Zonguldak Airport,ONQ
-"Zunyi، China",Zunyi Xinzhou Airport,ZYI
-"Zürich، Switzerland",Zurich Airport,ZRH
+﻿A Coruña، Spain;A Coruña Airport;LCG
+Aalborg، Kingdom of Denmark;Aalborg Airport;AAL
+Aarhus، Kingdom of Denmark;Aarhus Airport;AAR
+Abadan، Iran;Abadan International Airport;ABD
+Abakan، Russia;Abakan International Airport;ABA
+Abbotsford، Canada;Abbotsford International Airport;YXX
+Aberdeen (Scotland)، Northern Ireland, Scotland and Wales;Aberdeen Airport;ABZ
+Abha، Saudi Arabia;Abha International Airport;AHB
+Abidjan, Ivory Coast;Félix-Houphouët-Boigny International Airport;ABJ
+Abu Dhabi، United Arab Emirates;Abu Dhabi International Airport;AUH
+Abuja, Nigeria;Nnamdi Azikiwe International Airport;ABV
+Acapulco، Mexico;Acapulco International Airport;ACA
+Accra, Ghana;Accra International Airport;ACC
+Adana، Turkey;Şakirpaşa Airport;ADA
+Addis Ababa, Ethiopia;Addis Ababa Bole International Airport;ADD
+Addu City، Maldives;Gan International Airport;GAN
+Adelaide، Australia;Adelaide Airport;ADL
+Aden، Yemen;Aden International Airport;ADE
+Agadir, Morocco;Agadir–Al Massira Airport;AGA
+Agartala، India;Maharaja Bir Bikram Airport;IXA
+Aguadilla, Puerto Rico;Rafael Hernández International Airport;BQN
+Aguascalientes، Mexico;Aguascalientes International Airport;AGU
+Ahmedabad، India;Sardar Vallabhbhai Patel International Airport;AMD
+Ahvaz، Iran;Ahvaz International Airport;AWZ
+Ajaccio، France;Ajaccio Napoleon Bonaparte Airport;AJA
+Akita، Japan;Akita Airport;AXT
+Akron، United States;Akron Executive Airport;AKC
+Aktau، Kazakhstan;Aktau Airport;SCO
+Aktobe، Kazakhstan;Aktobe International Airport;AKX
+Akureyri، Iceland;Akureyri Airport;AEY
+Al Ain، United Arab Emirates;Al Ain International Airport;AAN
+Al Najaf، Iraq;Al Najaf International Airport;NJF
+Al-Ahsa، Saudi Arabia;Al-Ahsa International Airport;HOF
+Åland، Finland;Mariehamn Airport;MHQ
+Alanya، Turkey;Gazipaşa Airport;GZP
+Albany، United States;Albany International Airport;ALB
+Albuquerque، United States;Albuquerque International Sunport;ABQ
+Alderney (Bailiwick of Guernsey)، Crown Dependencies;Alderney Airport;ACI
+Aleppo، Syria;Aleppo International Airport;ALP
+Ålesund، Norway;Ålesund Airport;AES
+Alexandria, Egypt;Alexandria International Airport;HBE
+Alghero، Italy;Fertilia Airport;AHO
+Algiers, Algeria;Houari Boumediene Airport;ALG
+Alicante، Spain;Alicante–Elche Miguel Hernández Airport;ALC
+Al-Jawf، Saudi Arabia;Al Jawf International Airport;AJF
+Almaty، Kazakhstan;Almaty International Airport;ALA
+Almería، Spain;Almería Airport;LEI
+Alofi، Niue;Niue International Airport;IUE
+Alor Setar، Malaysia;Sultan Abdul Halim Airport;AOR
+Al-Ula، Saudi Arabia;Al-Ula International Airport;ULH
+Amarillo، United States;Rick Husband Amarillo International Airport;AMA
+Ambon، Indonesia;Pattimura International Airport;AMQ
+Amman، Jordan;Queen Alia International Airport;AMM
+Amritsar، India;Sri Guru Ram Das Ji International Airport;ATQ
+Amsterdam، Netherlands;Amsterdam Airport;AMS
+Anadyr، Russia;Ugolny Airport;DYR
+Anapa، Russia;Anapa Airport;AAQ
+Anchorage، United States;Anchorage International Airport;ANC
+Ancona، Italy;Ancona Airport;AOI
+Andijan، Uzbekistan;Andizhan Airport;AZN
+Angeles City، Philippines;Clark International Airport;CRK
+Ankara، Turkey;Esenboğa International Airport;ESB
+Annaba, Algeria;Rabah Bitat Airport;AAE
+Antalya، Turkey;Antalya Airport;AYT
+Antananarivo, Madagascar;Ivato International Airport;TNR
+Antofagasta، Chile;Andrés Sabella Gálvez International Airport;ANF
+Antsiranana, Madagascar;Arrachart Airport;DIE
+Antwerp، Belgium;Antwerp International Airport;ANR
+Aomori، Japan;Aomori Airport;AOJ
+Apia، Samoa;Faleolo International Airport;APW
+Appleton، United States;Appleton International Airport;ATW
+Aqaba، Jordan;King Hussein International Airport;AQJ
+Aracaju، Brazil;Santa Maria Airport;AJU
+Arad، Romania;Arad International Airport;ARW
+Arak، Iran;Arak International Airport;AJK
+Ardabil، Iran;Ardabil Airport;ADU
+Arequipa، Peru;Rodríguez Ballón International Airport;AQP
+Arkhangelsk، Russia;Talagi Airport;ARH
+Armenia، Colombia;El Edén International Airport;AXM
+Arua, Uganda;Arua Airport;RUA
+Arusha, Tanzania;Arusha Airport;ARK
+Asaba, Delta, Nigeria;Asaba International Airport;ABB
+Asaluyeh، Iran;Persian Gulf Airport;PGU
+Ashgabat، Turkmenistan;Ashgabat Airport;ASB
+Asmara, Eritrea;Asmara International Airport;ASM
+Astana، Kazakhstan;Nursultan Nazarbayev International Airport;NQZ
+Astrakhan، Russia;Narimanovo Airport;ASF
+Asturias، Spain;Asturias Airport;OVD
+Asunción، Paraguay;Silvio Pettirossi International Airport;ASU
+Aswan, Egypt;Aswan International Airport;ASW
+Asyut, Egypt;Assiut Airport;ATZ
+Atar, Mauritania;Atar International Airport;ATR
+Athens، Greece;Athens International Airport;ATH
+Atlanta، United States;Hartsfield–Jackson Atlanta International Airport;ATL
+Atlantic City، United States;Atlantic City International Airport;ACY
+Atyrau، Kazakhstan;Atyrau Airport;GUW
+Auckland، New Zealand;Auckland Airport;AKL
+Austin (TX)، United States;Austin–Bergstrom International Airport;AUS
+Avarua، Cook Islands;Rarotonga Airport;RAR
+Ayodhya، India;Maharishi Valmiki International Airport, Ayodhya Dham;AYJ
+Bacau، Romania;George Enescu International Airport;BCM
+Baden-Baden/Karlsruhe، Germany;Karlsruhe/Baden-Baden Airport;FKB
+Baghdad، Iraq;Baghdad International Airport;BGW
+Bahawalpur، Pakistan;Bahawalpur Airport;BHV
+Baia Mare، Romania;Maramureș Airport;BAY
+Baku، Azerbaijan;Heydar Aliyev International Airport;GYD
+Balikpapan، Indonesia;Sultan Aji Muhammad Sulaiman Sepinggan International Airport;BPN
+Baltimore، United States;Baltimore/Washington International Airport;BWI
+Bamako, Mali;Modibo Keita International Airport;BKO
+Banda Aceh، Indonesia;Sultan Iskandar Muda International Airport;BTJ
+Bandar Abbas، Iran;Bandar Abbas International Airport;BND
+Bandar Lampung، Indonesia;Radin Inten II International Airport;TKG
+Bandar Seri Begawan، Brunei;Brunei International Airport;BWN
+Bandung، Indonesia;Kertajati International Airport;KJT
+Bangkok، Thailand;Suvarnabhumi Airport;BKK
+Bangor، United States;Bangor International Airport;BGR
+Bangui, Central African Republic;Bangui M'Poko International Airport;BGF
+Banja Luka، Bosnia and Herzegovina;Banja Luka International Airport;BNX
+Banjarmasin، Indonesia;Syamsudin Noor International Airport;BDJ
+Banjul, The Gambia;Banjul International Airport;BJL
+Baotou، China;Baotou Donghe international Airport;BAV
+Barahona, Dominican Republic;María Montez International Airport;BRX
+Barcelona، Spain;Josep Tarradellas Barcelona–El Prat Airport;BCN
+Bari، Italy;Palese Airport;BRI
+Bariloche، Argentina;San Carlos de Bariloche Airport;BRC
+Barishal، Bangladesh;Barisal Airport;BZL
+Barnaul، Russia;Barnaul Airport;BAX
+Barranquilla، Colombia;Ernesto Cortissoz International Airport;BAQ
+Barrie (Oro-Medonte)، Canada;Lake Simcoe Regional Airport;YLK
+Basel، Switzerland;EuroAirport Basel Mulhouse Freiburg;BSL/MLH/EAP
+Basra، Iraq;Basra International Airport;BSR
+Basseterre, Saint Kitts and Nevis;Robert L. Bradshaw International Airport;SKB
+Bastia، France;Poretta Airport;BIA
+Batam، Indonesia;Hang Nadim International Airport;BTH
+Batna, Algeria;Batna Airport;BLJ
+Batticaloa، Sri Lanka;Batticaloa International Airport;BTC
+Batumi، Georgia;Batumi International Airport;BUS
+Baudette، United States;Baudette International Airport;BDE
+Beauvais، France;Beauvais–Tillé Airport;BVA
+Beihai، China;Beihai Fucheng Airport;BHY
+Beijing، China;Beijing Capital International Airport;PEK
+Beira, Mozambique;Beira Airport;BEW
+Beirut، Lebanon;Beirut–Rafic Hariri International Airport;BEY
+Beja، Portugal;Beja Airport;BYJ
+Béjaïa, Algeria;Soummam Airport;BJA
+Belém، Brazil;Val de Cães International Airport;BEL
+Belfast (Northern Ireland)، Northern Ireland, Scotland and Wales;Belfast International Airport;BFS
+Belgorod، Russia;Belgorod International Airport;EGO
+Belgrade، Serbia;Belgrade Nikola Tesla Airport;BEG
+Belize City، Belize;Philip S. W. Goldson International Airport;BZE
+Bellingham، United States;Bellingham International Airport;BLI
+Belo Horizonte، Brazil;Tancredo Neves International Airport;CNF
+Bengaluru، India;Kempegowda International Airport;BLR
+Benghazi, Libya;Benina International Airport;BEN
+Beni Mellal, Morocco;Beni Mellal Airport;BEM
+Bergamo، Italy;Orio al Serio Airport;BGY
+Bergen، Norway;Bergen Airport;BGO
+Bergerac، France;Bergerac Dordogne Périgord Airport;EGC
+Berlin، Germany;Berlin Brandenburg Airport;BER
+Bern، Switzerland;Bern Airport;BRN
+Béziers، France;Béziers Cap d'Agde Airport;BZR
+Bhopal، India;Raja Bhoj Airport;BHO
+Bhubaneswar، India;Biju Patnaik International Airport;BBI
+Biarritz، France;Biarritz Pays Basque Airport;BIQ
+Bilbao، Spain;Bilbao Airport;BIO
+Billund، Kingdom of Denmark;Billund Airport;BLL
+Birmingham، England;Birmingham Airport;BHX
+Birmingham، United States;Birmingham–Shuttlesworth International Airport;BHM
+Birجand، Iran;Birjand International Airport;XBJ
+Bishkek، Kyrgyzstan;Manas International Airport;FRU
+Bissau, Guinea-Bissau;Osvaldo Vieira International Airport;OXB
+Blagoveshchensk، Russia;Ignatyevo Airport;BQS
+Blantyre, Malawi;Chileka International Airport;BLZ
+Bloemfontein, South Africa;Bram Fischer International Airport;BFN
+Blue Hills، Turks and Caicos Islands;Providenciales Airport;PLS
+Bluefields، Nicaragua;Bluefields Airport;BEF
+Boa Vista, Cape Verde;Aristides Pereira International Airport;BVC
+Boa Vista، Brazil;Boa Vista International Airport;BVB
+Bobo-Dioulasso, Burkina Faso;Bobo Dioulasso Airport;BOY
+Bocas del Toro، Panama;Bocas del Toro Isla Colón International Airport;BOC
+Bodø، Norway;Bodø Airport;BOO
+Bodrum، Turkey;Milas–Bodrum Airport;BJV
+Bogotá، Colombia;El Dorado International Airport;BOG
+Boise، United States;Boise Airport;BOI
+Bokeo (Tonpheung district)، Laos;Bokeo International Airport;BOR
+Bokhtar، Tajikistan;Bokhtar International Airport;KQT
+Bologna، Italy;Bologna Airport;BLQ
+Bordeaux، France;Bordeaux–Mérignac Airport;BOD
+Bosaso, Somalia;Bosaso Airport;BSA
+Boston، United States;Logan International Airport;BOS
+Bournemouth، England;Bournemouth Airport;BOH
+Brač، Croatia;Brač Airport;BWK
+Brades, Montserrat;John A. Osborne Airport;MNI
+Brasília، Brazil;Brasília International Airport;BSB
+Brașov، Romania;Brașov-Ghimbav International Airport;GHV
+Bratislava، Slovakia;Bratislava Airport;BTS
+Bratsk، Russia;Bratsk Airport;BTK
+Brazzaville, Republic of the Congo;Maya-Maya Airport;BZV
+Bremen، Germany;Bremen Airport;BRE
+Brescia، Italy;Brescia Airport;VBS
+Brest، France;Brest Bretagne Airport;BES
+Bridgetown, Barbados;Grantley Adams International Airport;BGI
+Brindisi، Italy;Brindisi Airport;BDS
+Brisbane، Australia;Brisbane Airport;BNE
+Bristol، England;Bristol Airport;BRS
+Brno، Czech Republic;Brno–Tuřany Airport;BRQ
+Broome، Australia;Broome International Airport;BME
+Brownsville، United States;Brownsville/South Padre Island International Airport;BRO
+Brussels، Belgium;Brussels Airport;BRU
+Bryansk، Russia;Bryansk International Airport;BZK
+Bucaramanga، Colombia;Palonegro International Airport;BGA
+Bucharest، Romania;Henri Coandă International Airport;OTP
+Budapest، Hungary;Budapest Ferenc Liszt International Airport;BUD
+Buenaventura، Colombia;Gerardo Tobar López Airport;BUN
+Buenos Aires، Argentina;Ministro Pistarini International Airport;EZE
+Buffalo، United States;Buffalo Niagara International Airport;BUF
+Bujumbura, Burundi;Bujumbura International Airport;BJM
+Bukhara، Uzbekistan;Bukhara International Airport;BHK
+Bulawayo, Zimbabwe;Joshua Mqabuko Nkomo International Airport;BUQ
+Buraydah، Saudi Arabia;Prince Naif bin Abdulaziz International Airport;ELQ
+Burgas، Bulgaria;Burgas Airport;BOJ
+Burnt Pine، Norfolk Island;Norfolk Island Airport;NLK
+Bursa، Turkey;Yenişehir Airport;YEI
+Busan، South Korea;Gimhae International Airport;PUS
+Bushehr، Iran;Bushehr Airport;BUZ
+Bydgoszcz، Poland;Bydgoszcz Ignacy Jan Paderewski Airport;BZG
+Cagayan، Philippines;Cagayan North International Airport;LLC
+Cagliari، Italy;Cagliari Airport;CAG
+Cairns، Australia;Cairns Airport;CNS
+Cairo, Egypt;Cairo International Airport;CAI
+Cairo, Egypt;Sphinx International Airport;SPX
+Calabar, Nigeria;Margaret Ekpo International Airport;CBQ
+Calexico، United States;Calexico International Airport;CXL
+Calgary، Canada;Calgary International Airport;YYC
+Cali، Colombia;Alfonso Bonilla Aragón International Airport;CLO
+Camagüey, Cuba;Ignacio Agramonte International Airport;CMW
+Campinas، Brazil;Viracopos International Airport;VCP
+Campo Grande، Brazil;Campo Grande International Airport;CGR
+Cần Thơ، Vietnam;Can Tho International Airport;VCA
+Canberra، Australia;Canberra Airport;CBR
+Cancún، Mexico;Cancún International Airport;CUN
+Canouan, Canouan;Canouan Airport;CIW
+Cape Town, South Africa;Cape Town International Airport;CPT
+Cap-Haïtien, Haiti;Cap-Haïtien International Airport;CAP
+Caracas، Venezuela;Simón Bolívar International Airport;CCS
+Carcassonne، France;Carcassonne Airport;CCF
+Cardiff (Wales)، Northern Ireland, Scotland and Wales;Cardiff Airport;CWL
+Cartagena، Colombia;Rafael Núñez International Airport;CTG
+Casablanca, Morocco;Mohammed V International Airport;CMN
+Castellón de la Plana، Spain;Castellón–Costa Azahar Airport;CDT
+Catania، Italy;Fontanarossa Airport;CTA
+Catumbela, Angola;Catumbela Airport;CBT
+Cayenne، French Guiana;Cayenne – Félix Eboué Airport;CAY
+Cayman Brac, Cayman Islands;Charles Kirkconnell International Airport;CYB
+Cayo Coco, Cuba;Jardines del Rey Airport;CCC
+Cayo Largo del Sur, Cuba;Vilo Acuña Airport;CYO
+Cephalonia، Greece;Kefalonia Island International Airport;EFL
+České Budějovice، Czech Republic;České Budějovice Airport;JCL
+Châlons-en-Champagne، France;Châlons Vatry Airport;XCR
+Chambéry، France;Chambéry Airport;CMF
+Changchun، China;Changchun Longjia International Airport;CGQ
+Changsha، China;Changsha Huanghua International Airport;CSX
+Changzhou، China;Changzhou Benniu International Airport;CZX
+Chania، Greece;Chania International Airport;CHQ
+Charleroi، Belgium;Brussels South Charleroi Airport;CRL
+Charleston (SC)، United States;Charleston International Airport;CHS
+Charlotte Amalie، U.S. Virgin Islands;Cyril E. King Airport;STT
+Charlotte، United States;Charlotte Douglas International Airport;CLT
+Charlottetown، Canada;Charlottetown Airport;YYG
+Cheboksary، Russia;Cheboksary International Airport;CSY
+Chek Lap Kok، Hong Kong;Hong Kong International Airport;HKG
+Chelyabinsk، Russia;Chelyabinsk Airport;CEK
+Chengdu، China;Chengdu Shuangliu International Airport;CTU
+Chennai، India;Chennai International Airport;MAA
+Cheongju، South Korea;Cheongju International Airport;CJJ
+Cherepovets، Russia;Cherepovets Airport;CEE
+Chernivtsi، Ukraine;Chernivtsi International Airport;CWC
+Chiang Mai، Thailand;Chiang Mai International Airport;CNX
+Chiang Rai، Thailand;Chiang Rai International Airport;CEI
+Chicago، United States;Midway International Airport;MDW
+Chiclayo، Peru;José Quiñones González International Airport;CIX
+Chihuahua، Mexico;Chihuahua International Airport;CUU
+Chios، Greece;Chios Island National Airport;JKH
+Chişinău، Moldova;Chișinău International Airport;RMO
+Chita، Russia;Chita-Kadala International Airport;HTA
+Chittagong، Bangladesh;Shah Amanat International Airport;CGP
+Chlef, Algeria;Chlef International Airport;CFK
+Chongqing، China;Chongqing Jiangbei International Airport;CKG
+Christchurch، New Zealand;Christchurch Airport;CHC
+Christiansted، U.S. Virgin Islands;Henry E. Rohlsen Airport;STX
+Chub Cay, The Bahamas;Chub Cay International Airport;CCZ
+Chuuk، Federated States of Micronesia;Chuuk International Airport;TKK
+Cienfuegos, Cuba;Jaime González Airport;CFG
+Cincinnati (OH) (Hebron)، United States;Cincinnati/Northern Kentucky International Airport;CVG
+Ciudad del Carmen، Mexico;Ciudad del Carmen International Airport;CME
+Ciudad del Este، Paraguay;Guaraní International Airport;AGT
+Cleveland، United States;Cleveland Hopkins International Airport;CLE
+Cluj-Napoca، Romania;Cluj-Napoca International Airport;CLJ
+Cochabamba، Bolivia;Jorge Wilstermann International Airport;CBB
+Cocos (Keeling) Islands، Cocos (Keeling) Islands;Cocos (Keeling) Islands Airport;CCK
+Coimbatore، India;Coimbatore International Airport;CJB
+Cologne/Bonn، Germany;Cologne/Bonn Airport;CGN
+Colombo، Sri Lanka;Bandaranaike International Airport;CMB
+Columbia (SC)، United States;Columbia Metropolitan Airport;CAE
+Columbus (OH)، United States;John Glenn Columbus International Airport;CMH
+Comayagua، Honduras;Comayagua International Airport;XPL
+Comodoro Rivadavia، Argentina;General Enrique Mosconi International Airport;CRD
+Conakry, Guinea;Conakry International Airport;CKY
+Concepción، Chile;Carriel Sur International Airport;CCP
+Constanța، Romania;Mihail Kogălniceanu International Airport;CND
+Constantine, Algeria;Mohamed Boudiaf International Airport;CZL
+Copenhagen، Kingdom of Denmark;Copenhagen Airport;CPH
+Córdoba، Argentina;Ingeniero Aeronأutico Ambrosio L.V. Taravella International Airport;COR
+Corfu، Greece;Corfu International Airport;CFU
+Cork، Ireland;Cork Airport;ORK
+Corn Island، Nicaragua;Corn Island Airport;RNI
+Corpus Christi، United States;Corpus Christi International Airport;CRP
+Corrientes، Argentina;Doctor Fernando Piragine Niveyro International Airport;CNQ
+Cotonou, Benin;Cadjehoun Airport;COO
+Cox's Bazar، Bangladesh;Cox's Bazar International Airport;CXB
+Cozumel، Mexico;Cozumel International Airport;CZM
+Craiova، Romania;Craiova International Airport;CRA
+Cúcuta، Colombia;Camilo Daza International Airport;CUC
+Cuenca، Ecuador;Mariscal Lamar International Airport;CUE
+Cuiabá، Brazil;Marechal Rondon International Airport;CGB
+Culiacán، Mexico;Culiacán International Airport;CUL
+Cuneo، Italy;Cuneo Levaldigi Airport;CUF
+Curitiba، Brazil;Afonso Pena International Airport;CWB
+Cusco، Peru;Aleجandro Velasco Astete International Airport;CUZ
+Đà Nẵng، Vietnam;Da Nang International Airport;DAD
+Daegu، South Korea;Daegu International Airport;TAE
+Dakar, Senegal;Blaise Diagne International Airport;DSS
+Dakhla, Morocco;Dakhla Airport;VIL
+Dalaman، Turkey;Dalaman Airport;DLM
+Dalian، China;Dalian Zhoushuizi International Airport;DLC
+Dallas/Fort Worth، United States;Dallas/Fort Worth International Airport;DFW
+Dallas، United States;Dallas Love Field;DAL
+Damascus، Syria;Damascus International Airport;DAM
+Dammam، Saudi Arabia;King Fahd International Airport;DMM
+Dandong، China;Dandong Langtou Airport;DDG
+Dar es Salaam, Tanzania;Julius Nyerere International Airport;DAR
+Daraga، Philippines;Bicol International Airport;DRP
+Daru، Papua New Guinea;Daru Airport;DAU
+Darwin، Australia;Darwin International Airport;DRW
+Daşoguz، Turkmenistan;Daşoguz Airport;TAZ
+Datong، China;Datong Yungang Airport;DAT
+Davao City، Philippines;Francisco Bangoy International Airport;DVO
+David, Chiriquí، Panama;Enrique Malek International Airport;DAV
+Dayton (OH)، United States;Dayton International Airport;DAY
+Debrecen، Hungary;Debrecen International Airport;DEB
+Deer Lake، Canada;Deer Lake Regional Airport;YDA
+Delhi NCR، India;Indira Gandhi International Airport;DEL
+Denizli، Turkey;Denizli Çardak Airport;DNZ
+Denpasar، Indonesia;I Gusti Ngurah Rai International Airport;DPS
+Denver، United States;Denver International Airport;DEN
+Derry (Northern Ireland)، Northern Ireland, Scotland and Wales;City of Derry Airport;LDY
+Des Moines (IA)، United States;Des Moines International Airport;DSM
+Detroit، United States;Detroit Metropolitan Airport;DTW
+Dhaka، Bangladesh;Hazrat Shahjalal International Airport;DAC
+Dili، Timor-Leste;Presidente Nicolau Lobato International Airport;DIL
+Dinard، France;Dinard–Pleurtuit–Saint-Malo Airport;DNR
+Dire Dawa, Ethiopia;Dire Dawa Airport;DIR
+Diyarbakır، Turkey;Diyarbakır Airport;DIY
+Djerba, Tunisia;Djerba–Zarzis International Airport;DJE
+Djibouti, Djibouti;Djibouti–Ambouli International Airport;JIB
+Doha، Qatar;Hamad International Airport;DOH
+Dortmund، Germany;Dortmund Airport;DTM
+Douala, Cameroon;Douala International Airport;DLA
+Douglas (Isle of Man)، Crown Dependencies;Isle of Man Airport;IOM
+Dubai، United Arab Emirates;Al Maktoum International Airport;DWC
+Dublin، Ireland;Dublin Airport;DUB
+Dubrovnik، Croatia;Dubrovnik Airport;DBV
+Duluth، United States;Duluth International Airport;DLH
+Dunedin، New Zealand;Dunedin Airport;DUD
+Dunhuang، China;Dunhuang Mogao International Airport;DNH
+Durango، Mexico;Durango International Airport;DGO
+Durban, South Africa;King Shaka International Airport;DUR
+Durgapur، India;Kazi Nazrul Islam Airport;RDP
+Dushanbe، Tajikistan;Dushanbe Airport;DYU
+Düsseldorf، Germany;Düsseldorf Airport;DUS
+Dzaoudzi, Mayotte;Dzaoudzi–Pamandzi International Airport;DZA
+East London, South Africa;East London Airport;ELS
+Edinburgh (Scotland)، Northern Ireland, Scotland and Wales;Edinburgh Airport;EDI
+Edmonton، Canada;Edmonton International Airport;YEG
+Egilsstaðir، Iceland;Egilsstaðir Airport;EGS
+Eilat، Palestine;Ramon Airport;ETM
+Eindhoven، Netherlands;Eindhoven Airport;EIN
+El Arish, Egypt;El Arish International Airport;AAC
+El Calafate، Argentina;Comandante Armando Tola International Airport;FTE
+El Dabaa, Egypt;El Alamein International Airport;DBB
+El Palomar، Argentina;El Palomar Airport;EPA
+El Paso، United States;El Paso International Airport;ELP
+Elazığ، Turkey;Elazığ Airport;EZS
+Eldoret, Kenya;Eldoret International Airport;EDL
+Elista، Russia;Elista Airport;ESL
+Enfidha, Tunisia;Enfidha–Hammamet International Airport;NBE
+Enshi City، China;Enshi Xujiaping Airport;ENH
+Entebbe, Uganda;Entebbe International Airport;EBB
+Enugu, Nigeria;Akanu Ibiam International Airport;ENU
+Erbil، Iraq;Erbil International Airport;EBL
+Erie، United States;Erie International Airport;ERI
+Esmeraldas، Ecuador;Carlos Concha Torres International Airport;ESM
+Esquel، Argentina;Brigadier General Antonio Parodi International Airport;EQS
+Essaouira, Morocco;Essaouira-Mogador Airport;ESU
+Everett (WA)، United States;Paine Field;PAE
+Exeter، England;Exeter Airport;EXT
+Exuma, The Bahamas;Exuma International Airport;GGT
+Fairbanks، United States;Fairbanks International Airport;FAI
+Faisalabad، Pakistan;Faisalabad International Airport;LYP
+Faro، Portugal;Faro Airport;FAO
+Fergana، Uzbekistan;Fergana International Airport;FEG
+Fes, Morocco;Fès–Saïs Airport;FEZ
+Figari، France;Figari–Sud Corse Airport;FSC
+Flat Point, Saba, Caribbean Netherlands;Juancho E. Yrausquin Airport;SAB
+Florence، Italy;Peretola Airport;FLR
+Florencia، Colombia;Gustavo Artunduaga Paredes Airport;FLA
+Flores، Guatemala;Mundo Maya International Airport;FRS
+Florianópolis، Brazil;Hercílio Luz International Airport;FLN
+Flying Fish Cove، Christmas Island;Christmas Island Airport;XCH
+Formosa، Argentina;Formosa International Airport;FMA
+Fort Lauderdale، United States;Fort Lauderdale–Hollywood International Airport;FLL
+Fort Myers، United States;Southwest Florida International Airport;RSW
+Fortaleza، Brazil;Pinto Martins International Airport;FOR
+Fort-de-France, Martinique;Martinique Aimé Césaire International Airport;FDF
+Foz do Iguaçu، Brazil;Foz do Iguaçu International Airport;IGU
+Franceville, Gabon;M'Vengue El Hadj Omar Bongo Ondimba International Airport;MVB
+Francistown, Botswana;Francistown International Airport;FRW
+Frankfurt، Germany;Frankfurt Airport;FRA
+Fredericton، Canada;Fredericton International Airport;YFC
+Freeport, The Bahamas;Grand Bahama International Airport;FPO
+Freetown, Sierra Leone;Freetown International Airport;FNA
+Freiburg im Breisgau، Germany;EuroAirport Basel–Mulhouse–Freiburg;BSL/MLH/EAP
+Fresno، United States;Fresno Yosemite International Airport;FAT
+Friedrichshafen، Germany;Friedrichshafen Airport;FDH
+Fuerteventura، Spain;Fuerteventura Airport;FUE
+Fukuoka، Japan;Fukuoka Airport;FUK
+Funafuti، Tuvalu;Funafuti International Airport;FUN
+Funchal، Portugal;Madeira Airport;FNC
+Futuna، Wallis and Futuna;Pointe Vele Airport;FUT
+Fuzhou، China;Fuzhou Changle International Airport;FOC
+Fuzuli، Azerbaijan;Fuzuli International Airport;FZL
+Gaborone, Botswana;Sir Seretse Khama International Airport;GBE
+Galkayo, Somalia;Abdullahi Yusuf Airport;GLK
+Gander، Canada;Gander International Airport;YQX
+Ganja، Azerbaijan;Ganja International Airport;KVD
+Ganzhou، China;Ganzhou Huangjin Airport;KOW
+Garowe, Somalia;Garowe Airport;GGR
+Gary، United States;Gary/Chicago International Airport;GYY
+Gaya، India;Gaya Airport;GAY
+Gaziantep، Turkey;Oğuzeli Airport;GZT
+Gdańsk، Poland;Gdańsk Lech Wałęسا Airport;GDN
+General Santos، Philippines;General Santos International Airport;GES
+Geneva، Switzerland;Geneva Airport;GVA
+Genoa، Italy;Cristoforo Colombo Airport;GOA
+Georgetown, Cayman Islands;Owen Roberts International Airport;GCM
+Georgetown، Guyana;Cheddi Jagan International Airport;GEO
+Gibraltar (Gibraltar)، Crown Dependencies;Gibraltar International Airport;GIB
+Girona، Spain;Girona-Costa Brava Airport;GRO
+Glasgow (Scotland)، Northern Ireland, Scotland and Wales;Glasgow Airport;GLA
+Goiânia، Brazil;Santa Genoveva Airport;GYN
+Gold Coast، Australia;Gold Coast Airport;OOL
+Goma, Democratic Republic of the Congo;Goma International Airport;GOM
+Gomel، Belarus;Gomel Airport;GME
+Gorgan، Iran;Gorgan International Airport;GBT
+Gothenburg، Sweden;Göteborg Landvetter Airport;GOT
+Gran Canaria، Spain;Gran Canaria Airport;LPA
+Granada، Spain;Federico García Lorca Granada Airport;GRX
+Grand Rapids، United States;Gerald R. Ford International Airport;GRR
+Graz، Austria;Graz Airport;GRZ
+Green Bay، United States;Green Bay–Austin Straubel International Airport;GRB
+Greensboro، United States;Piedmont Triad International Airport;GSO
+Greenville، United States;Greenville-Spartanburg International Airport;GSP
+Grenoble، France;Alpes–Isère Airport;GNB
+Grodno، Belarus;Hrodna Airport;GNA
+Groningen، Netherlands;Groningen Airport Eelde;GRQ
+Grozny، Russia;Grozny Airport;GRV
+Guadalajara، Mexico;Guadalajara International Airport;GDL
+Guangzhou، China;Guangzhou Baiyun International Airport;CAN
+Guatemala City، Guatemala;La Aurora International Airport;GUA
+Guayaquil، Ecuador;José Joaquín de Olmedo International Airport;GYE
+Guilin، China;Guilin Liangjiang International Airport;KWL
+Guiyang، China;Guiyang Longdongbao International Airport;KWE
+Gulfport، United States;Gulfport-Biloxi International Airport;GPT
+Gulu, Uganda;Gulu Airport;ULU
+Guwahati، India;Lokpriya Gopinath Bordoloi International Airport;GAU
+Gwadar، Pakistan;Gwadar International Airport;GWD
+Győr، Hungary;Győr-Pér International Airport;QGY
+Gyumri، Armenia;Gyumri Shirak International Airport;LWN
+Hà Nội، Vietnam;Noi Bai International Airport;HAN
+Hafar al-Batin، Saudi Arabia;Al Qaisumah International Airport;AQI
+Hagåtña، Guam;Antonio B. Won Pat International Airport;GUM
+Hai District, Tanzania;Kilimanjaro International Airport;JRO
+Hải Phòng، Vietnam;Cat Bi International Airport;HPH
+Haifa، Palestine;Haifa Airport;HFA
+Haikou، China;Haikou Meilan International Airport;HAK
+Ha'il، Saudi Arabia;Ha'il International Airport;HAS
+Hakodate، Japan;Hakodate Airport;HKD
+Ħal Luqa، Malta;Malta International Airport;MLA
+Halifax (Goffs)، Canada;Halifax Stanfield International Airport;YHZ
+Hamadan، Iran;Hamadan International Airport;HDM
+Hambantota، Sri Lanka;Mattala Rajapaksa International Airport;HRI
+Hamburg، Germany;Hamburg Airport;HAM
+Hamilton، Bermuda;L.F. Wade International Airport;BDA
+Hamilton، Canada;John C. Munro Hamilton International Airport;YHM
+Hamilton، New Zealand;Hamilton Airport;HLZ
+Hanak، Saudi Arabia;Red Sea International Airport;RSI
+Hanga Roa، Easter Island;Mataveri International Airport;IPC
+Hangzhou، China;Hangzhou Xiaoshan International Airport;HGH
+Hanimaadhoo، Maldives;Hanimaadhoo International Airport;HAQ
+Hanover، Germany;Hannover Airport;HAJ
+Harare, Zimbabwe;Robert Gabriel Mugabe International Airport;HRE
+Harbin، China;Harbin Taiping International Airport;HRB
+Hargeisa, Somalia;Hargeisa Airport;HGA
+Harlingen، United States;Valley International Airport;HRL
+Harrisburg، United States;Harrisburg International Airport;MDT
+Hartford (CT)، United States;Bradley International Airport;BDL
+Hat Yai، Thailand;Hat Yai International Airport;HDY
+Haugesund، Norway;Haugesund Airport;HAU
+Havana, Cuba;José Martí International Airport;HAV
+Hefei، China;Hefei Xinqiao International Airport;HFE
+Heihe، China;Heihe Aihui Airport;HEK
+Helsinki، Finland;Helsinki-Vantaa Airport;HEL
+Heraklion، Greece;Heraklion International Airport;HER
+Herat، Afghanistan;Herat International Airport;HEA
+Hermosillo، Mexico;Hermosillo International Airport;HMO
+Hévíz، Hungary;Hévíz-Balaton Airport;SOB
+Hilo، United States;Hilo International Airport;ITO
+Hiroshima، Japan;Hiroshima Airport;HIJ
+Ho Chi Minh City، Vietnam;Tan Son Nhat International Airport;SGN
+Ho, Ghana;Ho Airport;HZO
+Hobart، Australia;Hobart Airport;HBA
+Hohhot، China;Hohhot Baita International Airport;HET
+Holguín, Cuba;Frank País Airport;HOG
+Honiara، Solomon Islands;Honiara International Airport;HIR
+Honolulu، United States;Daniel K. Inouye International Airport;HNL
+Horn Island، Australia;Horn Island Airport;HID
+Houston، United States;George Bush Intercontinental Airport;IAH
+Huai'an، China;Huai'an Lianshui International Airport;HIA
+Hualien City، Taiwan;Hualien Airport;HUN
+Huangshan City، China;Huangshan Tunxi International Airport;TXN
+Huatulco، Mexico;Bahías de Huatulco International Airport;HUX
+Huế، Vietnam;Phu Bai International Airport;HUI
+Huesca، Spain;Huesca-Pirineos Airport;HSK
+Hull، England;Humberside Airport;HUY
+Hulunbuir، China;Hulunbuir Hailar Airport;HLD
+Huntsville (AL)، United States;Huntsville International Airport;HSV
+Hurghada, Egypt;Hurghada International Airport;HRG
+Hyderabad، India;Rajiv Gandhi International Airport;HYD
+Iași، Romania;Iași International Airport;IAS
+Ibagué، Colombia;Perales Airport;IBE
+Ibiza، Spain;Ibiza Airport;IBZ
+Ilam، Iran;Ilam Airport;IIL
+Iloilo City، Philippines;Iloilo International Airport;ILO
+Ilulissat، Greenland;Ilulissat Airport;JAV
+Imphal، India;Imphal Airport;IMF
+Indianapolis، United States;Indianapolis International Airport;IND
+Indore، India;Devi Ahilya Bai Holkar Airport;IDR
+Inhambane, Mozambique;Inhambane Airport;INH
+Innsbruck، Austria;Innsbruck Airport;INN
+International Falls، United States;Falls International Airport;INL
+Inverness (Scotland)، Northern Ireland, Scotland and Wales;Inverness Airport;INV
+Ipiales، Colombia;San Luis Airport;IPI
+Ipoh، Malaysia;Sultan Azlan Shah Airport;IPH
+Irkutsk، Russia;Irkutsk Airport;IKT
+Isfahan، Iran;Isfahan International Airport;IFN
+Islamabad، Pakistan;Islamabad International Airport;ISB
+Issyk-Kul، Kyrgyzstan;Issyk-Kul International Airport;IKU
+Istanbul، Turkey;Istanbul Airport;IST
+Ivano-Frankivsk، Ukraine;Ivano-Frankivsk International Airport;IFO
+Ixtapa، Mexico;Ixtapa-Zihuatanejo International Airport;ZIH
+İzmir، Turkey;Adnan Menderes Airport;ADB
+Jackson (MS)، United States;Jackson–Medgar Wiley Evers International Airport;JAN
+Jacksonville، United States;Jacksonville International Airport;JAX
+Jaffna، Sri Lanka;Jaffna International Airport;JAF
+Jaipur، India;Jaipur International Airport;JAI
+Jakarta، Indonesia;Halim Perdanakusuma International Airport;HLP
+Jammu، India;Jammu Airport;IXJ
+Jayapura، Indonesia;Sentani International Airport;DJJ
+Jeddah، Saudi Arabia;King Abdulaziz International Airport;JED
+Jeju، South Korea;Jeju International Airport;CJU
+Jerez de la Frontera، Spain;Jerez Airport;XRY
+Jiamusi، China;Jiamusi Dongjiao Airport;JMU
+Jieyang، China;Jieyang Chaoshan International Airport;SWA
+Jijel, Algeria;Jijel Ferhat Abbas Airport;GJL
+Jinan، China;Jinan Yaoqiang International Airport;TNA
+Jizan، Saudi Arabia;King Abdullah bin Abdulaziz International Airport;GIZ
+João Pessoa، Brazil;Presidente Castro Pinto International Airport;JPA
+Johannesburg, South Africa;O. R. Tambo International Airport;JNB
+Johor Bahru، Malaysia;Senai International Airport;JHB
+Juba, South Sudan;Juba International Airport;JUB
+Juneau، United States;Juneau International Airport;JNU
+Kabul، Afghanistan;Kabul International Airport;KBL
+Kagoshima، Japan;Kagoshima Airport;KOJ
+Kailua-Kona، United States;Kona International Airport;KOA
+Kalamata، Greece;Kalamata International Airport;KLX
+Kalibo، Philippines;Kalibo International Airport;KLO
+Kaliningrad، Russia;Khrabrovo Airport;KGD
+Kamloops، Canada;Kamloops Airport;YKA
+Kandahar، Afghanistan;Kandahar International Airport;KDH
+Kangerlussuaq، Greenland;Kangerlussuaq Airport;SFJ
+Kannur، India;Kannur International Airport;CNN
+Kano, Nigeria;Mallam Aminu Kano International Airport;KAN
+Kansas City (MO)، United States;Kansas City International Airport;MCI
+Kaohsiung، Taiwan;Kaohsiung International Airport;KHH
+Kapan، Armenia;Syunik Airport;YUK
+Karachi، Pakistan;Jinnah International Airport;KHI
+Karaganda، Kazakhstan;Karaganda Airport;KGF
+Karakol، Kyrgyzstan;Karakol International Airport;IKG
+Karlovy Vary، Czech Republic;Karlovy Vary Airport;KLV
+Karpathos، Greece;Karpathos Island National Airport;AOK
+Kasane, Botswana;Kasane Airport;BBK
+Kathmandu، Nepal;Tribhuvan International Airport;KTM
+Katowice، Poland;Katowice Airport;KTW
+Kaunas، Lithuania;Kaunas Airport;KUN
+Kavala، Greece;Kavala International Airport;KVA
+Kayseri، Turkey;Erkilet Airport;ASR
+Kazan، Russia;Kazan Airport;KZN
+Kelowna، Canada;Kelowna International Airport;YLW
+Kerman، Iran;Ayatollah Hashemi Rafsanjani Airport;KER
+Kermanshah، Iran;Shahid Ashrafi Esfahani Airport;KSH
+Kerry، Ireland;Kerry Airport;KIR
+Ketchikan، United States;Ketchikan International Airport;KTN
+Key West، United States;Key West International Airport;EYW
+Khabarovsk، Russia;Khabarovsk Novy Airport;KHV
+Kharkiv، Ukraine;Kharkiv International Airport;HRK
+Khartoum, Sudan;Khartoum International Airport;KRT
+Khujand، Tajikistan;Khujand Airport;LBD
+Khulna، Bangladesh;Khan Jahan Ali Airport;KLN
+Kigali, Rwanda;Kigali International Airport;KGL
+Kingston, Jamaica;Norman Manley International Airport;KIN
+Kingston، Canada;Kingston Norman Rogers Airport;YGK
+Kingstown, Saint Vincent and the Grenadines;Argyle International Airport;SVD
+Kinshasa, Democratic Republic of the Congo;N'djili Airport;FIH
+Kiritimati، Kiribati;Cassidy International Airport;CXI
+Kisangani, Democratic Republic of the Congo;Kisangani Bangoka International Airport;FKI
+Kish Island، Iran;Kish Airport;KIH
+Kismayo, Somalia;Kismayo Airport;KMU
+Kissimmee، United States;Kissimmee Gateway Airport;ISM
+Kisumu, Kenya;Kisumu International Airport;KIS
+Kitakyushu، Japan;Kitakyushu Airport;KKJ
+Kitchener، Canada;Region of Waterloo International Airport;YKF
+Kittilä، Finland;Kittilä Airport;KTT
+Klagenfurt، Austria;Klagenfurt Airport;KLU
+Knock، Ireland;Ireland West Airport;NOC
+Knoxville، United States;McGhee Tyson Airport;TYS
+Ko Samui، Thailand;Samui Airport;USM
+Kochi، India;Cochin International Airport;COK
+Kokshetau، Kazakhstan;Kokshetau Airport;KOV
+Kolkata، India;Netaji Subhas Chandra Bose International Airport;CCU
+Komatsu، Japan;Komatsu Airport;KMQ
+Komsomolsk-on-Amur، Russia;Komsomolsk-on-Amur Airport;KXK
+Konarak، Iran;Chabahar Konarak Airport;ZBR
+Konya، Turkey;Konya Airport;KYA
+Koror، Palau;Roman Tmetuchl International Airport;ROR
+Kos، Greece;Kos International Airport;KGS
+Košice، Slovakia;Košice International Airport;KSC
+Kosrae، Federated States of Micronesia;Kosrae International Airport;KSA
+Kostanay، Kazakhstan;Kostanay Airport;KSN
+Kota Bharu، Malaysia;Sultan Ismail Petra Airport;KBR
+Kota Kinabalu، Malaysia;Kota Kinabalu International Airport;BKI
+Kozhikode، India;Calicut International Airport;CCJ
+Krabi، Thailand;Krabi International Airport;KBV
+Kraków، Poland;Kraków John Paul II International Airport;KRK
+Kralendijk, Bonaire, Caribbean Netherlands;Flamingo International Airport;BON
+Kraljevo، Serbia;Morava Airport;KVO
+Krasnodar، Russia;Pashkovsky Airport;KRR
+Krasnoyarsk، Russia;Yemelyanovo International Airport;KJA
+Kristiansand، Norway;Kristiansand Airport, Kjevik;KRS
+Kristiansund، Norway;Kristiansund Airport, Kvernberget;KSU
+Kryvyi Rih، Ukraine;Kryvyi Rih International Airport;KWG
+Kuala Lumpur، Malaysia;Kuala Lumpur International Airport;KUL
+Kuala Terengganu، Malaysia;Sultan Mahmud Airport;TGG
+Kuantan، Malaysia;Sultan Haji Ahmad Shah Airport;KUA
+Kuching، Malaysia;Kuching International Airport;KCH
+Kukes، Albania;Kukës International Airport Zayed;KFZ
+Kulob، Tajikistan;Kulob Airport;TJU
+Kumasi, Ghana;Prempeh I International Airport;KMS
+Kunming، China;Kunming Changshui International Airport;KMG
+Kuopio، Finland;Kuopio Airport;KUO
+Kursk، Russia;Kursk Vostochny Airport;URS
+Kütahya، Turkey;Zafer Airport;KZR
+Kutaisi، Georgia;Kutaisi International Airport;KUT
+Kuusamo، Finland;Kuusamo Airport;KAO
+Kuwait City، Kuwait;Kuwait International Airport;KWI
+Kwajalein، Marshall Islands;Bucholz Army Airfield,KWA
+Kyiv، Ukraine;Boryspil International Airport;KBP
+Kyzylorda، Kazakhstan;Kyzylorda Airport;KZO
+La Ceiba، Honduras;Golosón International Airport;LCE
+La Palma، Spain;La Palma Airport;SPC
+La Paz، Bolivia;El Alto International Airport;LPB
+La Rochelle، France;La Rochelle – Île de Ré Airport;LRH
+La Romana, Dominican Republic;La Romana International Airport;LRM
+Laayoune, Morocco;Hassan I Airport;EUN
+Labuan Bajo، Indonesia;Komodo International Airport;LBJ
+Labuan، Malaysia;Labuan International Airport;LBU
+Lachin، Azerbaijan;Lachin International Airport;LHL
+Lagos, Nigeria;Murtala Muhammed International Airport;LOS
+Laguindingan، Philippines;Laguindingan International Airport;CGY
+Lahore، Pakistan;Allama Iqbal International Airport;LHE
+Lakeland، United States;Lakeland Linder International Airport;LAL
+Lamerd، Iran;Lamerd Airport;LFM
+Lamezia، Italy;Lamezia Terme Airport;SUF
+Langkawi، Malaysia;Langkawi International Airport;LGK
+Lankaran، Azerbaijan;Lankaran International Airport;LLK
+Lansing، United States;Capital Region International Airport;LAN
+Lanzarote، Spain;Lanzarote Airport;ACE
+Lanzhou، China;Lanzhou Zhongchuan International Airport;LHW
+Laoag، Philippines;Laoag International Airport;LAO
+Lappeenranta، Finland;Lappeenranta Airport;LPP
+Lapu-Lapu City، Philippines;Mactan–Cebu International Airport;CEB
+Lar، Iran;Larestan International Airport;LRR
+Larnaca، Cyprus;Larnaca International Airport;LCA
+Las Vegas، United States;Harry Reid International Airport;LAS
+Latakia، Syria;Latakia International Airport;LTK
+Leeds/Bradford، England;Leeds Bradford Airport;LBA
+Leipzig، Germany;Leipzig/Halle Airport;LEJ
+León، Mexico;León/Bajío International Airport;BJX
+Leticia، Colombia;Alfredo Vásquez Cobo International Airport;LET
+Lhasa، China;Lhasa Gonggar Airport;LXA
+Lianyungang، China;Lianyungang Baitabu Airport;LYG
+Liberia، Costa Rica;Daniel Oduber Quirós International Airport;LIR
+Libreville, Gabon;Léon-Mba International Airport;LBV
+Liège، Belgium;Liège Airport;LGG
+Lijiang، China;Lijiang Sanyi International Airport;LJG
+Lille، France;Lille Airport;LIL
+Lilongwe, Malawi;Lilongwe International Airport;LLW
+Lima، Peru;Jorge Chávez International Airport;LIM
+Limoges، France;Limoges – Bellegarde Airport;LIG
+Linyi، China;Linyi Qiyang Airport;LYI
+Linz، Austria;Linz Airport;LNZ
+Lisbon، Portugal;Lisbon Airport;LIS
+Little Rock، United States;Bill and Hillary Clinton National Airport;LIT
+Liverpool، England;Liverpool John Lennon Airport;LPL
+Livingstone, Zambia;Harry Mwanga Nkumbula International Airport;LVI
+Ljubljana، Slovenia;Ljubljana Jože Pučnik Airport;LJU
+Lleida، Spain;Alguaire Airport;ILD
+Łódź، Poland;Łódź Władysław Reymont Airport;LCJ
+Lomé, Togo;Lomé–Tokoin International Airport;LFW
+London، Canada;London International Airport;YXU
+London، England;Gatwick Airport;LGW
+Loreto، Mexico;Loreto International Airport;LTO
+Los Angeles، United States;Los Angeles International Airport;LAX
+Los Cabos، Mexico;Cabo San Lucas International Airport;CSL
+Louisville، United States;Louisville International Airport;SDF
+Luanda, Angola;Quatro de Fevereiro Airport;LAD
+Luang Prabang، Laos;Luang Prabang International Airport;LPQ
+Lubango, Angola;Lubango Airport;SDD
+Lubbock، United States;Lubbock Preston Smith International Airport;LBB
+Lübeck، Germany;Lübeck Airport;LBC
+Lublin، Poland;Lublin Airport;LUZ
+Lubumbashi, Democratic Republic of the Congo;Lubumbashi International Airport;FBM
+Lucknow، India;Chaudhary Charan Singh International Airport;LKO
+Lugano، Switzerland;Lugano Airport;LUG
+Luganville، Vanuatu;Santo-Pekoa International Airport;SON
+Luleå، Sweden;Luleå Airport;LLA
+Luoyang، China;Luoyang Beijiao Airport;LYA
+Lusaka, Zambia;Kenneth Kaunda International Airport;LUN
+Luxembourg City، Luxembourg;Luxembourg Airport;LUX
+Luxor, Egypt;Luxor International Airport;LXR
+Lviv، Ukraine;Lviv Danylo Halytskyi International Airport;LWO
+Lyon، France;Lyon–Saint-Exupéry Airport;LYS
+Maafaru، Maldives;Maafaru International Airport;NMF
+Maamigili، Maldives;Villa International Airport Maamigili;VAM
+Maastricht، Netherlands;Maastricht Aachen Airport;MST
+Maceió، Brazil;Zumbi dos Palmares International Airport;MCZ
+Machala، Ecuador;Santa Rosa International Airport;ETR
+Madison (WI)، United States;Dane County Regional Airport;MSN
+Madrid، Spain;Madrid-Barajas Airport;MAD
+Madurai، India;Madurai Airport;IXM
+Magadan، Russia;Sokol Airport;GDX
+Magnitogorsk، Russia;Magnitogorsk International Airport;MQF
+Mahajanga, Madagascar;Amborovy Airport;MJN
+Maicao، Colombia;Jorge Isaacs Airport;MCJ
+Majuro، Marshall Islands;Marshall Islands International Airport;MAJ
+Makassar، Indonesia;Sultan Hasanuddin International Airport;UPG
+Makhachkala، Russia;Uytash Airport;MCX
+Malabo, Equatorial Guinea;Malabo International Airport;SSG
+Málaga، Spain;Málaga Airport;AGP
+Malakal, South Sudan;Malakal Airport;MAK
+Malatya، Turkey;Erhaç Airport;MLX
+Malé، Maldives;Velana International Airport;MLE
+Mali Lošinj، Croatia;Lošinj Airport;LSZ
+Malmö، Sweden;Malmö Airport;MMX
+Manado، Indonesia;Sam Ratulangi International Airport;MDC
+Managua، Nicaragua;Augusto C. Sandino International Airport;MGA
+Manama، Bahrain;Bahrain International Airport;BAH
+Manaus، Brazil;Eduardo Gomes International Airport;MAO
+Manchester، England;Manchester Airport;MAN
+Mandalay، Myanmar;Mandalay International Airport;MDL
+Mangaluru، India;Mangaluru International Airport;IXE
+Mangshi، China;Dehong Mangshi Airport;LUM
+Manila، Philippines;Ninoy Aquino International Airport;MNL
+Manizales، Colombia;La Nubia Airport;MZL
+Manta، Ecuador;Eloy Alfaro International Airport;MEC
+Manzanillo، Mexico;Playa de Oro International Airport;ZLO
+Manzhouli، China;Manzhouli Xijiao Airport;NZH
+Manzini, Eswatini;King Mswati III International Airport;SHO
+Maputo, Mozambique;Maputo International Airport;MPM
+Mar del Plata، Argentina;Ástor Piazzolla International Airport;MDQ
+Maracaibo، Venezuela;La Chinita International Airport;MAR
+Maribor، Slovenia;Maribor Edvard Rusjan Airport;MBX
+Marigot, Dominica;Douglas–Charles Airport;DOM
+Marrakesh, Morocco;Marrakesh Menara Airport;RAK
+Marsa Alam, Egypt;Marsa Alam International Airport;RMF
+Marseille، France;Marseille Provence Airport;MRS
+Marsh Harbour, The Bahamas;Marsh Harbour International Airport;MHH[1]
+Mary، Turkmenistan;Mary International Airport;MYP
+Maseru, Lesotho;Moshoeshoe I International Airport;MSU
+Mashhad، Iran;Mashhad International Airport;MHD
+Mataram، Indonesia;Lombok International Airport;LOP
+Maun, Botswana;Maun Airport;MUB
+Mazar-i-Sharif، Afghanistan;Mazar-i-Sharif International Airport;MZR
+Mazatlán، Mexico;Mazatlán International Airport;MZT
+McAllen، United States;McAllen Miller International Airport;MFE
+Medan، Indonesia;Kualanamu International Airport;KNO
+Medellín، Colombia;José María Córdova International Airport;MDE
+Medina، Saudi Arabia;Prince Mohammad bin Abdulaziz International Airport;MED
+Melbourne (FL)، United States;Melbourne Orlando International Airport;MLB
+Melbourne، Australia;Melbourne Airport;MEL
+Memmingen، Germany;Memmingen Airport;FMM
+Memphis، United States;Memphis International Airport;MEM
+Mendoza، Argentina;Governor Francisco Gabrielli International Airport;MDZ
+Menorca، Spain;Menorca Airport;MAH
+Mérida، Mexico;Mérida International Airport;MID
+Mersa Matruh, Egypt;Mersa Matruh International Airport;MUH
+Mexicali، Mexico;Mexicali International Airport;MXL
+Mexico City، Mexico;Mexico City International Airport;MEX
+Mfuwe, Zambia;Mfuwe Airport;MFU
+Miami، United States;Miami International Airport;MIA
+Middlesbrough، England;Teesside International Airport;MME
+Midland/Odessa، United States;Midland International Air and Space Port;MAF
+Milan، Italy;Linate Airport;LIN
+Milwaukee، United States;General Mitchell International Airport;MKE
+Mineralnye Vody، Russia;Mineralnye Vody Airport;MRV
+Minneapolis/St. Paul، United States;Minneapolis/St. Paul International Airport;MSP
+Minsk، Belarus;Minsk International Airport;MSQ
+Mitú، Colombia;Fabio Alberto León Bentley Airport;MVP
+Mogadishu, Somalia;Aden Adde International Airport;MGQ
+Mombasa, Kenya;Moi International Airport;MBA
+Monastir, Tunisia;Monastir Habib Bourguiba International Airport;MIR
+Moncton (Dieppe)، Canada;Greater Moncton Roméo LeBlanc International Airport;YQM
+Monrovia, Liberia;Roberts International Airport;ROB
+Montego Bay, Jamaica;Sangster International Airport;MBJ
+Montería، Colombia;Los Garzones Airport;MTR
+Monterrey، Mexico;Monterrey International Airport;MTY
+Montevideo، Uruguay;Carrasco International Airport;MVD
+Montréal (Dorval)، Canada;Montréal–Trudeau International Airport;YUL
+Morelia، Mexico;Morelia International Airport;MLM
+Moroni, Comoros;Prince Said Ibrahim International Airport;HAH
+Moscow، Russia;Domodedovo International Airport;DME
+Mostar، Bosnia and Herzegovina;Mostar International Airport;OMO
+Mosul، Iraq;Mosul International Airport;OSM
+Mount Hagen، Papua New Guinea;Mount Hagen Airport;HGU
+Mount Pleasant، Falkland Islands;RAF Mount Pleasant;MPN
+Muan، South Korea;Muan International Airport;MWX
+Mudanjiang، China;Mudanjiang Hailang International Airport;MDG
+Mukalla، Yemen;Riyan International Airport;RIY
+Mulhouse، France;EuroAirport Basel Mulhouse Freiburg;BSL/MLH/EAP
+Multan، Pakistan;Multan International Airport;MUX
+Mumbai، India;Chhatrapati Shivaji Maharaj International Airport;BOM
+Munich، Germany;Munich Airport;MUC
+Murcia، Spain;Región de Murcia International Airport;RMU
+Murmansk، Russia;Murmansk Airport;MMK
+Muscat، Oman;Muscat International Airport;MCT
+Mwanza, Tanzania;Mwanza Airport;MWZ
+Mykolaiv، Ukraine;Mykolaiv International Airport;NLV
+Mykonos، Greece;Mykonos Airport;JMK
+Myrtle Beach، United States;Myrtle Beach International Airport;MYR
+Mytilene، Greece;Mytilene International Airport;MJT
+Nadi، Fiji;Nadi International Airport;NAN
+Nador, Morocco;Nador International Airport;NDR
+Nagasaki، Japan;Nagasaki Airport;NGS
+Nagoya، Japan;Chubu Centrair International Airport;NGO
+Nagpur، India;Dr. Babasaheb Ambedkar International Airport;NAG
+Naha، Japan;Naha Airport;OKA
+Nairobi, Kenya;Jomo Kenyatta International Airport;NBO
+Najran، Saudi Arabia;Najran Domestic Airport;EAM
+Nakhchivan، Azerbaijan;Nakhchivan Airport;NAJ
+Nalchik، Russia;Nalchik Airport;NAL
+Namangan، Uzbekistan;Namangan Airport;NMA
+Nampula, Mozambique;Nampula Airport;APL
+Nanchang، China;Nanchang Changbei International Airport;KHN
+Nanjing، China;Nanjing Lukou International Airport;NKG
+Nanning، China;Nanning Wuxu International Airport;NNG
+Nantes، France;Nantes Atlantique Airport;NTE
+Nantong، China;Nantong Xingdong International Airport;NTG
+Naples، Italy;Naples International Airport;NAP
+Narsarsuaq، Greenland;Narsarsuaq Airport;UAK
+Nashik، India;Nashik Airport;ISK
+Nashville، United States;Nashville International Airport;BNA
+Nasiriyah، Iraq;Nasiriyah Airport;XNH
+Nassau, The Bahamas;Lynden Pindling International Airport;NAS
+Natal، Brazil;Greater Natal International Airport;NAT
+Navi Mumbai، India;Navi Mumbai International Airport;NMI
+Navoiy، Uzbekistan;Navoiy International Airport;NVI
+Nay Pyi Taw، Myanmar;Naypyidaw International Airport;NYT
+N'Djamena, Chad;N'Djamena International Airport;NDJ
+Ndola, Zambia;Simon Mwansa Kapwepwe International Airport;NLA
+Neiva، Colombia;Benito Salas Airport;NVA
+Nelspruit, South Africa;Kruger Mpumalanga International Airport;MQP
+Neom، Saudi Arabia;Neom Bay Airport;NUM
+Neuquén، Argentina;Presidente Perón International Airport;NQN
+Nevşehir، Turkey;Kapadokya Airport;NAV
+New Orleans، United States;Louis Armstrong New Orleans International Airport;MSY
+New York City (Queens)، United States;John F. Kennedy International Airport;JFK
+Newark، United States;Newark Liberty International Airport;EWR
+Newburgh، United States;Stewart International Airport;SWF
+Newcastle upon Tyne، England;Newcastle International Airport;NCL
+Newcastle، Australia;Newcastle Airport[2];NTL
+Newport News، United States;Newport News/Williamsburg International Airport;PHF
+Newquay، England;Newquay Airport;NQY
+Nha Trang، Vietnam;Cam Ranh International Airport;CXR
+Niagara Falls، United States;Niagara Falls International Airport;IAG
+Niamey, Niger;Diori Hamani International Airport;NIM
+Nice، France;Nice Côte d'Azur Airport;NCE
+Niigata، Japan;Niigata Airport;KIJ
+Nîmes، France;Nîmes–Alès–Camargue–Cévennes Airport;FNI
+Ningbo، China;Ningbo Lishe International Airport;NGB
+Niš، Serbia;Niš Constantine the Great Airport;INI
+Nizhnekamsk، Russia;Begishevo Airport;NBC
+Nizhnevartovsk، Russia;Nizhnevartovsk Airport;NJC
+Nizhny Novgorod، Russia;Strigino Airport;GOJ
+Noida (Delhi NCR)، India;Noida International Airport;JWR
+Norfolk (VA)، United States;Norfolk International Airport;ORF
+Norrköping، Sweden;Norrköping Airport;NRK
+North Eleuthera, The Bahamas;North Eleuthera Airport;ELH
+North Goa، India;Manohar International Airport;GOX
+North Nicosia، Cyprus;Ercan International Airport;ECN
+Norwich، England;Norwich Airport;NWI
+Nosy Be, Madagascar;Fascene Airport;NOS
+Nottingham، England;East Midlands Airport;EMA
+Nouadhibou, Mauritania;Nouadhibou International Airport;NDB
+Nouakchott, Mauritania;Nouakchott–Oumtounsy International Airport;NKC
+Nouméa، New Caledonia;La Tontouta International Airport;NOU
+Novokuznetsk، Russia;Spichenkovo Airport;NOZ
+Novosibirsk، Russia;Tolmachevo Airport;OVB
+Nukuʻalofa، Tonga;Fuaʻamotu International Airport;TBU
+Nukus، Uzbekistan;Nukus Airport;NCU
+Nuremberg، Germany;Nuremberg Airport;NUE
+Nuuk، Greenland;Nuuk Airport;GOH
+Oakland، United States;Oakland International Airport;OAK
+Oaxaca، Mexico;Oaxaca International Airport;OAX
+Odesa، Ukraine;Odesa International Airport;ODS
+Ohrid، North Macedonia;Ohrid St. Paul the Apostle Airport;OHD
+Ōita، Japan;Oita Airport;OIT
+Okayama، Japan;Okayama Airport;OKJ
+Oklahoma City، United States;Will Rogers World Airport;OKC
+Olbia، Italy;Costa Smeralda Airport;OLB
+Ölgii، Mongolia;Ölgii International Airport;ULG
+Olongapo، Philippines;Subic Bay International Airport;SFS
+Olsztyn، Poland;Olsztyn-Mazury Airport;SZY
+Omaha، United States;Eppley Airfield;OMA
+Omsk، Russia;Omsk Tsentralny Airport;OMS
+Ontario، United States;Ontario International Airport;ONT
+Oradea، Romania;Oradea International Airport;OMR
+Oral، Kazakhstan;Oral Ak Zhol Airport;URA
+Oran, Algeria;Oran Es Senia Airport;ORN
+Orange County (CA)، United States;John Wayne Airport;SNA
+Oranjestad, Aruba;Queen Beatrix International Airport;AUA
+Oranjestad, Sint Eustatius, Caribbean Netherlands;F. D. Roosevelt Airport;EUX
+Ordos City، China;Ordos Ejin Horo International Airport;DSN
+Orenburg، Russia;Orenburg Tsentralny Airport;REN
+Orlando، United States;Orlando International Airport;MCO
+Orsk، Russia;Orsk Airport;OSW
+Osaka، Japan;Kansai International Airport;KIX
+Osh، Kyrgyzstan;Osh Airport;OSS
+Osijek، Croatia;Osijek Airport;OSI
+Oskemen، Kazakhstan;Oskemen Airport;UKK
+Oslo، Norway;Oslo Airport, Gardermoen;OSL
+Ostend/Bruges، Belgium;Ostend–Bruges International Airport;OST
+Östersund، Sweden;Åre Östersund Airport;OSD
+Ostrava، Czech Republic;Leoš Janáček Airport;OSR
+Ottawa، Canada;Ottawa Macdonald–Cartier International Airport;YOW
+Ouagadougou, Burkina Faso;Thomas Sankara International Airport Ouagadougou;OUA
+Ouarzazate, Morocco;Ouarzazate Airport;OZZ
+Oujda, Morocco;Angads Airport;OUD
+Oulu، Finland;Oulu Airport;OUL
+Oumache, Algeria;Biskra Airport;BSK
+Padang، Indonesia;Minangkabau International Airport;PDG
+Pago Pago، American Samoa;Pago Pago International Airport;PPG
+Pakse، Laos;Pakse International Airport;PKZ
+Palanga، Lithuania;Palanga International Airport;PLQ
+Palembang، Indonesia;Sultan Mahmud Badaruddin II International Airport;PLM
+Palermo، Italy;Palermo Airport;PMO
+Palm Springs، United States;Palm Springs International Airport;PSP
+Palma de Mallorca، Spain;Palma de Mallorca Airport;PMI
+Pamplona، Spain;Pamplona Airport;PNA
+Panama City (FL)، United States;Northwest Florida Beaches International Airport;ECP
+Panama City، Panama;Albrook Marcos A. Gelabert International Airport;PAC
+Panglao Island، Philippines;Bohol–Panglao International Airport;TAG
+Papeete، French Polynesia;Faa'a International Airport;PPT
+Paphos، Cyprus;Paphos International Airport;PFO
+Paramارibo، Suriname;Johan Adolf Pengel International Airport;PBM
+Pardubice، Czech Republic;Pardubice Airport;PED
+Paris، France;Charles de Gaulle Airport;CDG
+Pärnu، Estonia;Pärnu Airport;EPU
+Paro، Bhutan;Paro International Airport;PBH
+Parما، Italy;Giuseppe Verdi Airport;PMF
+Pasto، Colombia;Antonio Nariño Airport;PSO
+Pau، France;Pau Pyrénées Airport;PUF
+Pavlodar، Kazakhstan;Pavlodar Airport;PWQ
+Pécs، Hungary;Pécs-Pogány International Airport;QPJ
+Pekanbaru، Indonesia;Sultan Syarif Kasim II International Airport;PKU
+Pemba, Mozambique;Pemba Airport;POL
+Penang، Malaysia;Penang International Airport;PEN
+Pensacola، United States;Pensacola International Airport;PNS
+Pereira، Colombia;Matecaña International Airport;PEI
+Perm، Russia;Perm International Airport;PEE
+Perpignan، France;Perpignan–Rivesaltes Airport;PGF
+Perth، Australia;Perth Airport;PER
+Perugia، Italy;San Egidio Airport;PEG
+Pescara، Italy;Abruzzo Airport;PSR
+Peshawar، Pakistan;Bacha Khan International Airport;PEW
+Petrolina، Brazil;Petrolina Airport;PNZ
+Petropavl، Kazakhstan;Petropavl Airport;PPK
+Petropavlovsk-Kamchatsky، Russia;Yelizovo Airport;PKC
+Petrozavodsk، Russia;Petrozavodsk Airport;PES
+Philadelphia، United States;Philadelphia International Airport;PHL
+Philipsburg، Sint Maarten;Princess Juliana International Airport;SXM
+Phnom Penh، Cambodia;Techo International Airport;KTI
+Phnom Penh، Cambodia;Phnom Penh International Airport;PNH
+Phoenix/Mesa، United States;Phoenix–Mesa Gateway Airport;AZA
+Phoenix، United States;Phoenix Sky Harbor International Airport;PHX
+Phú Quốc، Vietnam;Phu Quoc International Airport;PQC
+Phuket، Thailand;Phuket International Airport;HKT
+Piešťany، Slovakia;Piešťany Airport;PZY
+Pisa، Italy;Galileo Galilei Airport;PSA
+Pittsburgh، United States;Pittsburgh International Airport;PIT
+Plaine Magnien, Mauritius;Sir Seewoosagur Ramgoolam International Airport;MRU
+Plovdiv، Bulgaria;Plovdiv Airport;PDV
+Podgorica، Montenegro;Podgorica Airport;TGD
+Pohnpei، Federated States of Micronesia;Pohnpei International Airport;PNI
+Pointe-à-Pitre, Guadeloupe;Pointe-à-Pitre International Airport;PTP
+Pointe-Noire, Republic of the Congo;Agostinho-Neto International Airport;PNR
+Poitiers، France;Poitiers–Biard Airport;PIS
+Pokhara، Nepal;Pokhara Regional International Airport;PKR
+Polokwane, South Africa;Polokwane International Airport;PTG
+Poltava، Ukraine;Poltava Airport;PLV
+Ponce, Puerto Rico;Mercedita International Airport;PSE
+Ponta Delgada، Portugal;João Paulo II Airport;PDL
+Pontianak، Indonesia;Supadio International Airport;PNK
+Popayán، Colombia;Guillermo León Valencia Airport;PPN
+Poprad، Slovakia;Poprad-Tatry Airport;TAT
+Port Harcourt, Nigeria;Port Harcourt International Airport;PHC
+Port Moresby، Papua New Guinea;Jacksons International Airport;POM
+Port of Spain، Trinidad and Tobago;Piarco International Airport;POS
+Port Sudan, Sudan;Port Sudan New International Airport;PZU
+Port Vila، Vanuatu;Bauerfield International Airport;VLI
+Port-au-Prince, Haiti;Toussaint Louverture International Airport;PAP
+Port-Gentil, Gabon;Port-Gentil International Airport;POG
+Portland (ME)، United States;Portland International Jetport;PWM
+Portland (OR)، United States;Portland International Airport;PDX
+Porto Alegre، Brazil;Salgado Filho Porto Alegre International Airport;POA
+Porto Santo Island، Portugal;Porto Santo Airport;PXO
+Porto Velho، Brazil;Governador Jorge Teixeira de Oliveira International Airport;PVH
+Porto، Portugal;Porto Airport;OPO
+Portorož، Slovenia;Portorož Airport;POW
+Posadas، Argentina;Libertador General José de San Martín Airport;PSS
+Poznań، Poland;Poznań–Ławica Airport;POZ
+Prague، Czech Republic;Václav Havel Airport;PRG
+Praia, Santiago Island, Cape Verde;Nelson Mandela International Airport;RAI
+Preveza، Greece;Aktion National Airport;PVK
+Pristina، Kosovo;Pristina International Airport;PRN
+Providence (Warwick)، United States;Rhode Island T. F. Green International Airport;PVD
+Providence Island، Colombia;El Embrujo Airport;PVA
+Provideniya، Russia;Provideniya Bay Airport;PVS
+Pskov، Russia;Pskov Airport;PKV
+Puebla، Mexico;Puebla International Airport;PBC
+Puerto Escondido، Mexico;Puerto Escondido International Airport;PXM
+Puerto Iguazú، Argentina;Cataratas del Iguazú International Airport;IGR
+Puerto Montt، Chile;El Tepual International Airport;PMC
+Puerto Princesa، Philippines;Puerto Princesa International Airport;PPS
+Puerto Vallarta، Mexico;Puerto Vallarta International Airport;PVR
+Pula، Croatia;Pula Airport;PUY
+Pune، India;Pune Airport;PNQ
+Punta Arenas، Chile;Presidente Carlos Ibáñez del Campo International Airport;PUQ
+Punta Cana, Dominican Republic;Punta Cana International Airport;PUJ
+Punta del Este، Uruguay;Capitán de Corbeta Carlos A. Curbelo International Airport;PDP
+Pyongyang، North Korea;Pyongyang International Airport;FNJ
+Qabala، Azerbaijan;Qabala International Airport;GBB
+Qamishli، Syria;Qamishli Airport;KAC
+Qarshi، Uzbekistan;Karshi Airport;KSQ
+Qeshm Island، Iran;Qeshm International Airport;GSM
+Qingdao، China;Qingdao Jiaodong International Airport;TAO
+Qinhuangdao، China;Qinhuangdao Beidaihe Airport;BPE
+Qionghai، China;Qionghai Bo'ao International Airport;BAR
+Qiqihar، China;Qiqihar Sanjiazi Airport;NDG
+Quảng Nam، Vietnam;Chu Lai Airport;VCL
+Quanzhou، China;Quanzhou Jinjiang International Airport;JJN
+Québec City، Canada;Québec City Jean Lesage International Airport;YQB
+Queenstown، New Zealand;Queenstown Airport;ZQN
+Querétaro، Mexico;Querétaro Intercontinental Airport;QRO
+Quetta، Pakistan;Quetta International Airport;UET
+Quibdó، Colombia;El Caraño Airport;UIB
+Quito، Ecuador;Mariscal Sucre International Airport;UIO
+Rabat, Morocco;Rabat–Salé Airport;RBA
+Racine، United States;Batten International Airport;RAC
+Rahim Yar Khan، Pakistan;Shaikh Zayed International Airport;RYK
+Rajshahi، Bangladesh;Shah Makhdum Airport;RJH
+Raleigh/Durham، United States;Raleigh–Durham International Airport;RDU
+Ranchi، India;Birsa Munda Airport;IXR
+Rangpur، Bangladesh;Saidpur Airport;SPD
+Ras Al Khaimah، United Arab Emirates;Ras Al Khaimah International Airport;RKT
+Rasht، Iran;Rasht Airport;RAS
+Rayong/Pattaya، Thailand;U-Tapao International Airport;UTP
+Recife، Brazil;Guararapes International Airport;REC
+Regina، Canada;Regina International Airport;YQR
+Reno، United States;Reno–Tahoe International Airport;RNO
+Resistencia، Argentina;Resistencia International Airport;RES
+Reus، Spain;Reus Airport;REU
+Reykjavík، Iceland;Keflavik International Airport;KEF
+Reynosa، Mexico;Reynosa International Airport;REX
+Rhodes، Greece;Rhodes International Airport;RHO
+Richmond (VA) (Sandston)، United States;Richmond International Airport;RIC
+Riga، Latvia;Riga International Airport;RIX
+Rijeka، Croatia;Rijeka Airport;RJK
+Rimini، Italy;Federico Fellini Airport;RMI
+Rio Branco، Brazil;Rio Branco International Airport;RBR
+Rio de Janeiro، Brazil;Rio de Janeiro/Galeão International Airport;GIG
+Río Gallegos، Argentina;Piloto Civil Norberto Fernández International Airport;RGL
+Río Grande، Argentina;Hermes Quijada International Airport;RGA
+Rio Hato، Panama;Scarlett Martínez International Airport;RIH
+Riohacha، Colombia;Almirante Padilla Airport;RCH
+Rivera، Uruguay;Rivera International Airport;RVY
+Riyadh، Saudi Arabia;King Khalid International Airport;RUH
+Road Town, British Virgin Islands;Terrance B. Lettsome International Airport;EIS
+Roatán، Honduras;Juan Manuel Gálvez International Airport;RTB
+Rochester (MN)، United States;Rochester International Airport;RST
+Rochester (NY)، United States;Greater Rochester International Airport;ROC
+Rockford (IL)، United States;Chicago Rockford International Airport;RFD
+Rodez، France;Rodez–Aveyron Airport;RDZ
+Rome، Italy;Leonardo da Vinci–Fiumicino Airport;FCO
+Rosario، Argentina;Rosario – Islas Malvinas International Airport;ROS
+Rostov-on-Don، Russia;Platov International Airport;ROV
+Rota، Northern Mariana Islands;Rota International Airport;ROP
+Rotterdam، Netherlands;Rotterdam The Hague Airport;RTM
+Rovaniemi، Finland;Rovaniemi Airport;RVN
+Rzeszów، Poland;Rzeszów–Jasionka Airport;RZE
+Sabha, Libya;Sabha Airport;SEB
+Sacramento، United States;Sacramento International Airport;SMF
+Saint Catherine, Egypt;St. Catherine International Airport;SKV
+Saint Helena, Saint Helena, Ascension and Tristan da Cunha;Saint Helena Airport;HLE
+Saint Helier (Jersey)، Crown Dependencies;Jersey Airport;JER
+Saint Jean, Saint Barthélemy;Gustaf III Airport;SBH
+Saint John، Canada;Saint John Airport;YSJ
+Saint Peter Port (Guernsey)، Crown Dependencies;Guernsey Airport;GCI
+Saint-Denis, Réunion;Roland Garros Airport;RUN
+Saint-Étienne، France;Saint-Étienne–Bouthéon Airport;EBU
+Saint-Pierre، Saint Pierre and Miquelon;Saint-Pierre Airport;FSP
+Saipan، Northern Mariana Islands;Saipan International Airport;SPN
+Sal Island, Cape Verde;Amílcar Cabral International Airport;SID
+Salalah، Oman;Salalah International Airport;SLL
+Salerno، Italy;Salerno Costa d'Amalfi Airport;QSR
+Salt Lake City، United States;Salt Lake City International Airport;SLC
+Salta، Argentina;Martín Miguel de Güemes International Airport;SLA
+Saltillo، Mexico;Saltillo International Airport;SLW
+Salvador، Brazil;Deputado Luís Eduardo Magalhães International Airport;SSA
+Salzburg، Austria;Salzburg Airport;SZG
+Samana, Dominican Republic;Samaná El Catey International Airport;AZS
+Samara، Russia;Samara Kurumoch Airport;KUF
+Samarinda، Indonesia;Aji Pangeran Tumenggung Pranoto International Airport;AAP
+Samarkand، Uzbekistan;Samarkand International Airport;SKD
+Samos، Greece;Samos International Airport;SMI
+Samsun، Turkey;Samsun-Çarşamba Airport;SZF
+San Andrés، Colombia;Gustavo Rojas Pinilla International Airport;ADZ
+San Antonio، United States;San Antonio International Airport;SAT
+San Bernardino، United States;San Bernardino International Airport;SBD
+San Diego، United States;San Diego International Airport;SAN
+San Felipe de Puerto Plata, Dominican Republic;Gregorio Luperón International Airport;POP
+San Francisco، United States;San Francisco International Airport;SFO
+San Jose (CA)، United States;San Jose International Airport;SJC
+San José، Costa Rica;Juan Santamaría International Airport;SJO
+San Juan, Puerto Rico;Fernando Luis Ribas Dominicci Airport;SIG
+San Luis Potosí، Mexico;San Luis Potosí International Airport;SLP
+San Miguel de Tucumán، Argentina;Teniente Benjamín Matienzo International Airport;TUC
+San Pedro Sula، Honduras;Ramón Villeda Morales International Airport;SAP
+San Salvador de Jujuy، Argentina;Goberنador Horacio Guzmán International Airport;JUJ
+San Salvador، El Salvador;El Salvador International Airport;SAL
+Sanaa، Yemen;Sanaa International Airport;SAH
+Sanford (FL)، United States;Orlando Sanford International Airport;SFB
+Santa Clara, Cuba;Abel Santamaría Airport;SNU
+Santa Cruz de la Sierra، Bolivia;Viru Viru International Airport;VVI
+Santa Marta، Colombia;Simón Bolívar International Airport;SMR
+Santa Rosa del Conlara، Argentina;Valle del Conlara Airport;RLO
+Santander، Spain;Santander Airport;SDR
+Santiago de Compostela، Spain;Santiago de Compostela Airport;SCQ
+Santiago de Cuba, Cuba;Antonio Maceo Airport;SCU
+Santiago de los Caballeros, Dominican Republic;Cibao International Airport;STI
+Santiago، Chile;Arturo Merino Benítez International Airport;SCL
+Santo Domingo, Dominican Republic;Las Américas International Airport;SDQ
+Santorini، Greece;Santorini (Thira) International Airport;JTR
+Sanya، China;Sanya Phoenix International Airport;SYX
+São Luís، Brazil;Marechal Cunha Machado International Airport;SLZ
+São Paulo، Brazil;São Paulo–Congonhas Airport;CGH
+São Tomé, São Tomé and Príncipe;São Tomé International Airport;TMS
+São Vicente, Cape Verde;Cesária Évora Airport;VXE
+Sapporo، Japan;New Chitose Airport;CTS
+Sarajevo، Bosnia and Herzegovina;Sarajevo International Airport;SJJ
+Sarasota/Bradenton، United States;Sarasota–Bradenton International Airport;SRQ
+Saratov، Russia;Saratov Gagarin Airport;GSV
+Sari، Iran;Dasht-e Naz Airport;SRY
+Satu Mare، Romania;Satu Mare International Airport;SUJ
+Savannah (GA)، United States;Savannah/Hilton Head International Airport;SAV
+Savannakhet، Laos;Savannakhet Airport;ZVK
+Savonlinna، Finland;Savonlinna Airport;SVL
+Seattle، United States;Kenmore Air Harbor Seaplane Base;LKE
+Seiyun، Yemen;Seiyun Airport;GXF
+Semarang، Indonesia;Jenderal Ahmad Yani International Airport;SRG
+Semey، Kazakhstan;Semey Airport;PLX
+Sendai، Japan;Sendai Airport;SDJ
+Seoul، South Korea;Gimpo International Airport;GMP
+Sétif, Algeria;Ain Arnat Airport;QSF
+Seville، Spain;Seville Airport;SVQ
+Sfax, Tunisia;Sfax–Thyna International Airport;SFA
+Shanghai، China;Shanghai Hongqiao International Airport;SHA
+Shannon، Ireland;Shannon Airport;SNN
+Sharjah، United Arab Emirates;Sharjah International Airport;SHJ
+Sharm El Sheikh, Egypt;Sharm El Sheikh International Airport;SSH
+Sheboygan، United States;Sheboygan County Memorial Airport;SBM
+Shenyang، China;Shenyang Taoxian International Airport;SHE
+Shenzhen، China;Shenzhen Bao'an International Airport;SZX
+Shijiazhuang، China;Shijiazhuang Zhengding International Airport;SJW
+Shiraz، Iran;Shiraz International Airport;SYZ
+Shizuoka، Japan;Shizuoka Airport;FSZ
+Sialkot، Pakistan;Sialkot International Airport;SKT
+Šiauliai، Lithuania;Šiauliai International Airport;SQQ
+Sibiu، Romania;Sibiu International Airport;SBZ
+Siddharthanagar، Nepal;Gautam Buddha International Airport;BWA
+Siem Reap، Cambodia;Siem Reap International Airport;REP
+Sihanoukville، Cambodia;Sihanouk International Airport;KOS
+Siliguri، India;Bagdogra International Airport;IXB
+Simferopol، Ukraine;Simferopol International Airport;SIP
+Sincelejo، Colombia;Las Brujas Airport;CZU
+Singapore، Singapore;Changi Airport;SIN
+Skiathos، Greece;Skiathos International Airport;JSI
+Skopje، North Macedonia;Skopje International Airport;SKP
+Skyros، Greece;Skyros Island National Airport;SKU
+Sochi، Russia;Sochi International Airport;AER
+Socotra، Yemen;Socotra Airport;SCT
+Sofia، Bulgaria;Sofia Airport;SOF
+Sohag, Egypt;Sohag International Airport;HMB
+Sohar، Oman;Sohar International Airport;OHS
+Sokhumi، Georgia;Sukhumi Babushara Airport;SUI
+Sokoto, Nigeria;Sadiq Abubakar III International Airport;SKO
+Sorong، Indonesia;Domine Eduard Osok International Airport;SOQ
+South Eleuthera, The Bahamas;Rock Sound International Airport;RSD
+South Goa، India;Dabolim Airport;GOI
+Southampton، England;Southampton Airport;SOU
+Split، Croatia;Split Airport;SPU
+Spokane، United States;Spokane International Airport;GEG
+Srinagar، India;Srinagar Airport;SXR
+St George’s, Grenada;Maurice Bishop International Airport;GND
+St. Gallen، Switzerland;St. Gallen–Altenrhein Airport;ACH
+St. John’s, Antigua and Barbuda;V. C. Bird International Airport;ANU
+St. John's، Canada;St. John's International Airport;YYT
+St. Louis، United States;St. Louis Lambert International Airport;STL
+St. Petersburg (FL)، United States;St. Pete–Clearwater International Airport;PIE
+St. Petersburg، Russia;Pulkovo Airport;LED
+Stavanger، Norway;Stavanger Airport;SVG
+Stavropol، Russia;Stavropol Shpakovskoye Airport;STW
+Stockholm، Sweden;Stockholm Arlanda Airport;ARN
+Strasbourg، France;Strasbourg Airport;SXB
+Stuttgart، Germany;Stuttgart Airport;STR
+Suceava، Romania;Suceava International Airport;SCV
+Sulaymaniyah، Iraq;Sulaimaniyah International Airport;ISU
+Sundsvall، Sweden;Sundsvall–Timrå Airport;SDL
+Sunshine Coast، Australia;Sunshine Coast Airport;MCY
+Sunyani, Ghana;Sunyani Airport;NYI
+Surabaya، Indonesia;Juanda International Airport;SUB
+Surakarta، Indonesia;Adisoemarmo International Airport;SOC
+Surat Thani، Thailand;Surat Thani International Airport;URT
+Surat، India;Surat Airport;STV
+Surgut، Russia;Farman Salmanov Surgut Airport;SGC
+Suva، Fiji;Nausori International Airport;SUV
+Sydney، Australia;Sydney Airport;SYD
+Sydney، Canada;JA Douglas McCurdy Sydney Airport;YQY
+Syktyvkar، Russia;Syktyvkar Airport;SCW
+Sylhet، Bangladesh;Osmani International Airport;ZYL
+Şymkent، Kazakhstan;Şymkent International Airport;CIT
+Syracuse، United States;Syracuse Hancock International Airport;SYR
+Szczecin، Poland;Solidarity Szczecin–Goleniów Airport;SZZ
+Taba, Egypt;Taba International Airport;TCP
+Tabarka, Tunisia;Tabarka–Aïn Draham International Airport;TBJ
+Tabriz، Iran;Tabriz International Airport;TBZ
+Tabuk، Saudi Arabia;Prince Sultan bin Abdulaziz Airport;TUU
+Taichung، Taiwan;Taichung International Airport;RMQ
+Ta'if، Saudi Arabia;Taif International Airport;TIF
+Tainan، Taiwan;Tainan Airport;TNN
+Taipa، Macau;Macau International Airport;MFM
+Taipei، Taiwan;Taipei Songshan Airport;TSA
+Taiyuan، China;Taiyuan Wusu International Airport;TYN
+Tajoura, Libya;Mitiga International Airport;MJI
+Takoradi, Ghana;Takoradi Airport;TKD
+Tallahassee، United States;Tallahassee International Airport;TLH
+Tallinn، Estonia;Lennart Meri Tallinn Airport;TLL
+Tamale, Ghana;Tamale Airport;TML
+Tampa، United States;Tampa International Airport;TPA
+Tampere، Finland;Tampere–Pirkkala Airport;TMP
+Tampico، Mexico;Tampico International Airport;TAM
+Tanga, Tanzania;Tanga Airport;TGT
+Tangier, Morocco;Tangier Ibn Battouta Airport;TNG
+Tanjungpandan، Indonesia;H.A.S. Hanandjoeddin International Airport;TJQ
+Tarawa، Kiribati;Bonriki International Airport;TRW
+Taraz، Kazakhstan;Taraz Airport;DMB
+Târgu Mureș، Romania;Târgu Mureș International Airport;TGM
+Tartu، Estonia;Tartu Airport;TAY
+Tashkent، Uzbekistan;Islam Karimov Tashkent International Airport;TAS
+Tbilisi، Georgia;Tbilisi International Airport;TBS
+Tegucigalpa، Honduras;Toncontín International Airport;TGU
+Tehran، Iran;Imam Khomeini International Airport;IKA
+Tel Aviv، Palestine;Ben Gurion Airport;TLV
+Tenerife، Spain;Tenerife North–Ciudad de La Laguna Airport;TFN
+Tepic، Mexico;Tepic International Airport;TPQ
+Terceira Island، Portugal;Lajes Airport;TER
+Teresina، Brazil;Teresina Airport;THE
+Termas de Río Hondo، Argentina;Termas de Río Hondo International Airport;RHD
+Termez، Uzbekistan;Termez Airport;TMJ
+Tete, Mozambique;Chingozi Airport;TET
+Tetouan, Morocco;Sania Ramel Airport;TTU
+The Valley, Anguilla;Clayton J. Lloyd International Airport;AXA
+Thessaloniki، Greece;Thessaloniki Airport;SKG
+Thiruvananthapuram، India;Trivandrum International Airport;TRV
+Thunder Bay، Canada;Thunder Bay International Airport;YQT
+Tianjin، China;Tianjin Binhai International Airport;TSN
+Tijuana، Mexico;Tijuana International Airport;TIJ
+Timișoara، Romania;Timișoara Traian Vuia International Airport;TSR
+Tinian، Northern Mariana Islands;Tinian International Airport;TIQ
+Tirana، Albania;Tirana International Airport Nënë Tereza;TIA
+Tiruchirappalli، India;Tiruchirappalli International Airport;TRZ
+Tirupati، India;Tirupati International Airport;TIR
+Tivat، Montenegro;Tivat Airport;TIV
+Tlemcen, Algeria;Zenata – Messali El Hadj Airport;TLM
+Toamasina, Madagascar;Toamasina Airport;TMM
+Tobago، Trinidad and Tobago;A.N.R. Robinson International Airport;TAB
+Tokyo، Japan;Haneda Airport;HND
+Tôlanaro, Madagascar;Tôlanaro Airport;FTU
+Toliara, Madagascar;Toliara Airport;TLE
+Tolú، Colombia;Golfo de Morrosquillo Airport;TLU
+Toluca، Mexico;Toluca International Airport;TLC
+Tomsk، Russia;Bogashevo Airport;TOF
+Toronto (Mississauga)، Canada;Toronto Pearson International Airport;YYZ
+Toronto، Canada;Billy Bishop Toronto City Airport;YTZ
+Torreón، Mexico;Torreón International Airport;TRC
+Toulon، France;Toulon–Hyères Airport;TLN
+Toulouse، France;Toulouse–Blagnac Airport;TLS
+Tours، France;Tours Val de Loire Airport;TUF
+Tozeur, Tunisia;Tozeur–Nefta International Airport;TOE
+Trabzon، Turkey;Trabzon Airport;TZX
+Trapani، Italy;Vincenzo Florio Airport;TPS
+Trelew، Argentina;Almirante Marcos A. Zar Airport;REL
+Trieste، Italy;Friuli Venezia Giulia Airport;TRS
+Tripoli, Libya;Tripoli International Airport;TIP
+Tromsø، Norway;Tromsø Airport;TOS
+Trondheim، Norway;Trondheim Airport;TRD
+Trujillo، Peru;Carlos Martínez de Pinillos International Airport;TRU
+Tucson، United States;Tucson International Airport;TUS
+Tulcán، Ecuador;Teniente Coronel Luis a Mantilla International Airport;TUA
+Tulsa، United States;Tulsa International Airport;TUL
+Tulum، Mexico;Tulum International Airport;TQO
+Tumaco، Colombia;La Florida Airport;TCO
+Tunis, Tunisia;Tunis–Carthage International Airport;TUN
+Turbat، Pakistan;Turbat International Airport;TUK
+Turin، Italy;Caselle Airport;TRN
+Türkmenabat، Turkmenistan;Turkmenabat International Airport;CRZ
+Turkmenbashi، Turkmenistan;Turkmenbashi International Airport;KRW
+Turku، Finland;Turku Airport;TKU
+Tuxtla Gutiérrez، Mexico;Tuxtla Gutiérrez International Airport;TGZ
+Tuzla، Bosnia and Herzegovina;Tuzla International Airport;TZL
+Tyumen، Russia;Roshchino International Airport;TJM
+Uberlândia، Brazil;Uberlândia Airport;UDI
+Udon Thani، Thailand;Udon Thani International Airport;UTH
+Ufa، Russia;Ufa International Airport;UFA
+Ulaanbaatar، Mongolia;Chinggis Khaan International Airport;UBN
+Ulanqab، China;Ulanqab Jining Airport;UCB
+Ulan-Ude، Russia;Baikal International Airport;UUD
+Ulyanovsk، Russia;Ulyanovsk Baratayevka Airport;ULV
+Umeå، Sweden;Umeå Airport;UME
+Unguja, Zanzibar, Tanzania;Abeid Amani Karume International Airport;ZNZ
+Urgench، Uzbekistan;Urgench International Airport;UGC
+Urmia، Iran;Urmia Airport;OMH
+Uruapan، Mexico;Uruapan International Airport;UPN
+Ürümqi، China;Ürümqi Diwopu International Airport;URC
+Ushuaia، Argentina;Ushuaia – Malvinas Argentinas International Airport;USH
+Uzhhorod، Ukraine;Uzhhorod International Airport;UDJ
+Vaasa، Finland;Vaasa Airport;VAA
+Vadodara، India;Vadodara Airport;BDQ
+Vágar (Faroe Islands)، Kingdom of Denmark;Vágar Airport;FAE
+Valencia، Spain;Valencia Airport;VLC
+Valencia، Venezuela;Arturo Michelena International Airport;VLN
+Valladolid، Spain;Valladolid Airport;VLL
+Valledupar، Colombia;Alfonso López Pumarejo Airport;VUP
+Vân Đồn، Vietnam;Van Don International Airport;VDO
+Vancouver (Richmond)، Canada;Vancouver International Airport;YVR
+Varadero, Cuba;Juan Gualberto Gómez Airport;VRA
+Varanasi، India;Lal Bahadur Shastri Airport;VNS
+Varna، Bulgaria;Varna Airport;VAR
+Vavaʻu، Tonga;Vavaʻu International Airport;VAV
+Växjö، Sweden;Växjö Airport;VXO
+Venice، Italy;Venice Marco Polo Airport;VCE
+Ventspils، Latvia;Ventspils International Airport;VNT
+Veracruz، Mexico;Veracruz International Airport;VER
+Verona، Italy;Verona Villafranca Airport;VRN
+Victoria (Sidney)، Canada;Victoria International Airport;YYJ
+Victoria Falls, Zimbabwe;Victoria Falls Airport;VFA
+Victoria, Seychelles;Seychelles International Airport;SEZ
+Vienna، Austria;Vienna International Airport;VIE
+Vientiane، Laos;Wattay International Airport;VTE
+Vieux Fort Quarter, Saint Lucia;Hewanorra International Airport;UVF
+Vigo، Spain;Vigo–Peinador Airport;VGO
+Vijayawada، India;Vijayawada International Airport;VGA
+Vilankulo, Mozambique;Vilankulo Airport;VNX
+Villahermosa، Mexico;Villahermosa International Airport;VSA
+Villavicencio، Colombia;La Vanguardia Airport;VVC
+Vilnius، Lithuania;Vilnius Airport;VNO
+Visakhapatnam، India;Visakhapatnam International Airport;VTZ
+Visby، Sweden;Visby Airport;VBY
+Vitória، Brazil;Eurico de Aguiar Salles Airport;VIX
+Vitoria-Gasteiz، Spain;Vitoria Airport;VIT
+Vladikavkaz، Russia;Beslan Airport;OGZ
+Vladivostok، Russia;Vladivostok International Airport;VVO
+Volgograd، Russia;Volgograd International Airport;VOG
+Volos، Greece;Nea Anchialos National Airport;VOL
+Voronezh، Russia;Voronezh International Airport;VOZ
+Wa, Ghana;Wa Airport;WZA
+Wallis، Wallis and Futuna;Hihifo Airport;WLS
+Walvis Bay, Namibia;Walvis Bay Airport;WVB
+Wanzhou، China;Wanzhou Wuqiao Airport;WXN
+Warsaw، Poland;Warsaw Chopin Airport;WAW
+Washington, D.C.، United States;Ronald Reagan Washington National Airport;DCA
+Weeze، Germany;Weeze Airport;NRN
+Weihai، China;Weihai Dashuibo Airport;WEH
+Wellington، New Zealand;Wellington Airport;WLG
+Wenzhou، China;Wenzhou Yongqiang Airport;WNZ
+West Palm Beach، United States;Palm Beach International Airport;PBI
+Whitehorse، Canada;Erik Nielsen Whitehorse International Airport;YXY
+Wilkes-Barre/Scranton، United States;Wilkes-Barre/Scranton International Airport;AVP
+Willemstad, Curaçao;Curaçao International Airport;CUR
+Wilmington (NC)، United States;Wilmington International Airport;ILM
+Windhoek, Namibia;Hosea Kutako International Airport;WDH
+Windsor، Canada;Windsor International Airport;YQG
+Winnipeg، Canada;Winnipeg James Armstrong Richardson International Airport;YWG
+Wrocław، Poland;Wrocław Airport;WRO
+Wuhan، China;Wuhan Tianhe International Airport;WUH
+Wuxi، China;Sunan Shuofang International Airport;WUX
+Wuyishan، China;Wuyishan Airport;WUS
+Xiamen، China;Xiamen Gaoqi International Airport;XMN
+Xi'an، China;Xi'an Xianyang International Airport;XIY
+Xining، China;Xining Caojiabao International Airport;XNN
+Xinzhou، China;Xinzhou Wutaishan Airport;WUT
+Xishuangbanna، China;Xishuangbanna Gasa International Airport;JHG
+Xuzhou، China;Xuzhou Guanyin Airport;XUZ
+Yakutsk، Russia;Yakutsk Airport;YKS
+Yanbu، Saudi Arabia;Yanbu Airport;YNB
+Yancheng، China;Yancheng Nanyang Airport;YNZ
+Yangon، Myanmar;Yangon International Airport;RGN
+Yangyang، South Korea;Yangyang International Airport;YNY
+Yangzhou، China;Yangzhou Taizhou International Airport;YTY
+Yanji، China;Yanji Airport;YNJ
+Yantai، China;Yantai Penglai International Airport;YNT
+Yaoundé, Cameroon;Yaoundé Nsimalen International Airport;NSI
+Yap، Federated States of Micronesia;Yap International Airport;YAP
+Yaren District، Nauru;Nauru International Airport;INU
+Yaroslavl، Russia;Tunoshna Airport;IAR
+Yazd، Iran;Shahid Sadooghi Airport;AZD
+Yekaterinburg، Russia;Koltsovo International Airport;SVX
+Yerevan، Armenia;Zvartnots International Airport;EVN
+Yichang، China;Yichang Sanxia Airport;YIH
+Yinchuan، China;Yinchuan Hedong International Airport;INC
+Yiwu، China;Yiwu Airport;YIW
+Yogyakarta، Indonesia;Yogyakarta International Airport;YIA
+Yopal، Colombia;El Alcaraván Airport;EYP
+Yuncheng، China;Yuncheng Guangong Airport;YCU
+Yuzhno-Sakhalinsk، Russia;Yuzhno-Sakhalinsk Airport;UUS
+Zacatecas، Mexico;Zacatecas International Airport;ZCL
+Zadar، Croatia;Zadar Airport;ZAD
+Zagreb، Croatia;Zagreb Airport;ZAG
+Zahedan، Iran;Zahedan Airport;ZAH
+Zakynthos، Greece;Zakynthos International Airport;ZTH
+Zamboanga City، Philippines;Zamboanga International Airport;ZAM
+Zangilan، Azerbaijan;Zangilan International Airport;ZZE
+Zaporizhzhia، Ukraine;Zaporizhzhia International Airport;OZH
+Zaqatala، Azerbaijan;Zaqatala International Airport;ZTU
+Zaragoza، Spain;Zaragoza Airport;ZAZ
+Zhangjiajie، China;Zhangjiajie Hehua Airport;DYG
+Zhanjiang، China;Zhanjiang Wuchuan Airport;ZHA
+Zhengzhou، China;Zhengzhou Xinzheng International Airport;CGO
+Zhuhai، China;Zhuhai Jinwan Airport;ZUH
+Žilina، Slovakia;Žilina Airport;ILZ
+Zonguldak، Turkey;Zonguldak Airport;ONQ
+Zunyi، China;Zunyi Xinzhou Airport;ZYI
+Zürich، Switzerland;Zurich Airport;ZRH

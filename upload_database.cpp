@@ -151,7 +151,7 @@ void upload_airports() {
         pos = 0, data = 0;
         airport_data airport_data;
         while (pos != -1) {
-            pos = line.find(',');
+            pos = line.find(';');
             mycut = line.substr(0, pos);
             if (data == 0) {
                 airport_data.city = mycut;
