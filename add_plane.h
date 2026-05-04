@@ -9,7 +9,6 @@ struct plane_data {
     int rows;
     int nom_of_seats;
 	string place;
-
 };
 
 extern skyPort_array<plane_data> planes;
