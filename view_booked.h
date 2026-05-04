@@ -1,5 +1,7 @@
 #pragma once
 
+#include "view_user_tickets.h"
+
 using namespace System;
 using namespace System::ComponentModel;
 using namespace System::Collections;
@@ -16,8 +18,10 @@ namespace skyPort {
 	public ref class view_booked : public System::Windows::Forms::UserControl
 	{
 	public:
-		view_booked(void)
+		Form^ userForm;
+		view_booked(Form^ f)
 		{
+			userForm = f;
 			InitializeComponent();
 			//
 			//TODO: Add the constructor code here
@@ -26,7 +30,7 @@ namespace skyPort {
 
 		void viewbooked(String^ fname, String^ mname,
 			String^ lname, String^ date, String^ passport, String^ gender,
-			String^ seat, String^ from_to, String^ time, String^ category, String^ meal, String^ flight_num, String^ price) {
+			String^ seat, String^ from_to, String^ time, String^ category, String^ meal, String^ flight_num, String^ price, String^ ticket_idx, String^ traveler_idx) {
 
 			this->fname_label->Text = fname + " " + mname + " " + lname;
 			this->date_view_label->Text = date;
@@ -39,7 +43,8 @@ namespace skyPort {
 			this->price_view_label->Text = price + " $";
 			this->flight_num_label->Text = flight_num;
 			this->category_view_label->Text = category;
-
+			this->ticket_idx->Text = ticket_idx;
+			this->traveler_idx->Text = traveler_idx;
 		}
 
 	protected:
@@ -76,6 +81,9 @@ namespace skyPort {
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::Label^ flight_num_label;
 	private: System::Windows::Forms::Label^ flight_num;
+	private: System::Windows::Forms::Button^ cancel_button;
+	private: System::Windows::Forms::Label^ ticket_idx;
+	private: System::Windows::Forms::Label^ traveler_idx;
 
 	private:
 		/// <summary>
@@ -110,6 +118,9 @@ namespace skyPort {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->flight_num_label = (gcnew System::Windows::Forms::Label());
 			this->flight_num = (gcnew System::Windows::Forms::Label());
+			this->cancel_button = (gcnew System::Windows::Forms::Button());
+			this->ticket_idx = (gcnew System::Windows::Forms::Label());
+			this->traveler_idx = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// category_view_label
@@ -361,10 +372,52 @@ namespace skyPort {
 			this->flight_num->Text = L"Flight number";
 			this->flight_num->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
+			// cancel_button
+			// 
+			this->cancel_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(7)), static_cast<System::Int32>(static_cast<System::Byte>(85)),
+				static_cast<System::Int32>(static_cast<System::Byte>(184)));
+			this->cancel_button->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->cancel_button->Cursor = System::Windows::Forms::Cursors::Default;
+			this->cancel_button->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->cancel_button->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->cancel_button->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
+			this->cancel_button->Location = System::Drawing::Point(1262, 190);
+			this->cancel_button->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->cancel_button->Name = L"cancel_button";
+			this->cancel_button->Size = System::Drawing::Size(175, 41);
+			this->cancel_button->TabIndex = 54;
+			this->cancel_button->Text = L"Cancel ticket";
+			this->cancel_button->UseVisualStyleBackColor = false;
+			this->cancel_button->Click += gcnew System::EventHandler(this, &view_booked::cancel_button_Click);
+			// 
+			// ticket_idx
+			// 
+			this->ticket_idx->AutoSize = true;
+			this->ticket_idx->Location = System::Drawing::Point(1126, 37);
+			this->ticket_idx->Name = L"ticket_idx";
+			this->ticket_idx->Size = System::Drawing::Size(62, 16);
+			this->ticket_idx->TabIndex = 55;
+			this->ticket_idx->Text = L"ticket_idx";
+			this->ticket_idx->Visible = false;
+			// 
+			// traveler_idx
+			// 
+			this->traveler_idx->AutoSize = true;
+			this->traveler_idx->Location = System::Drawing::Point(1211, 37);
+			this->traveler_idx->Name = L"traveler_idx";
+			this->traveler_idx->Size = System::Drawing::Size(76, 16);
+			this->traveler_idx->TabIndex = 56;
+			this->traveler_idx->Text = L"traveler_idx";
+			this->traveler_idx->Visible = false;
+			// 
 			// view_booked
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->Controls->Add(this->traveler_idx);
+			this->Controls->Add(this->ticket_idx);
+			this->Controls->Add(this->cancel_button);
 			this->Controls->Add(this->flight_num_label);
 			this->Controls->Add(this->flight_num);
 			this->Controls->Add(this->category_view_label);
@@ -392,5 +445,6 @@ namespace skyPort {
 
 		}
 #pragma endregion
+private: System::Void cancel_button_Click(System::Object^ sender, System::EventArgs^ e);
 };
 }

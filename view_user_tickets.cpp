@@ -2,10 +2,13 @@
 #include "Booking.h"
 #include "skyPort_array.h"
 #include "view_user_tickets.h"
+#include "view_booked.h"
+#include "user_home_page.h"
 using namespace std;
 
 skyPort_array<Booking>tickets;
 skyPort_array<int> user_tickets;
+
 
 void getUserTickets(string currentUser)
 {
@@ -16,6 +19,39 @@ void getUserTickets(string currentUser)
         if (tickets[i].user_name == currentUser)
         {
             user_tickets.push_back(i);
+        }
+    }
+}
+
+namespace skyPort {
+    System::Void view_booked::cancel_button_Click(System::Object^ sender, System::EventArgs^ e) {
+        MessageBox::Show("Are you sure about canceling your ticket reservation?", "warning", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+
+        int ticket_indx = stoi(marshal_as<string>(ticket_idx->Text));
+        int traveler_indx = stoi(marshal_as<string>(traveler_idx->Text));
+        
+        int flight_indx = tickets[ticket_indx].flight_index;
+
+        int seat_index = 0;
+        for (int i = 0; i < flights[flight_indx].seats.size(); i++) {
+            if (tickets[ticket_indx].travelers[traveler_indx].number_seats == flights[flight_indx].seats[i].seat_number) {
+                seat_index = i;
+            }
+        }
+        flights[flight_indx].seats[seat_index].is_booked = false;
+        
+        if (tickets[ticket_indx].travelers.size() > 1) {
+
+            tickets[ticket_indx].travelers.erase(traveler_indx);
+        }
+        else {
+            tickets.erase(ticket_indx);
+        }
+
+        if (userForm != nullptr) {
+
+            user_home_page^ main = safe_cast<user_home_page^>(userForm);
+            main->Booked_tickets_button_Click(sender, e);
         }
     }
 }

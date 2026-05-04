@@ -106,7 +106,7 @@ namespace skyPort {
 
 				int flight_index = tickets[i].flight_index;
 
-				view_booked^ card = gcnew view_booked();
+				view_booked^ card = gcnew view_booked(this);
 
 				card->viewbooked(
 					marshal_as<String^>(tickets[i].travelers[j].first_name),
@@ -121,7 +121,8 @@ namespace skyPort {
 					marshal_as<String^>(tickets[i].category),
 					marshal_as<String^>(tickets[i].travelers[j].meal_preference),
 					marshal_as<String^>(flights[flight_index].number_flight),
-					marshal_as<String^>(to_string(tickets[i].travelers[j].price)));
+					marshal_as<String^>(to_string(tickets[i].travelers[j].price)),
+					i.ToString(),j.ToString());
 
 				booked_layout->Controls->Add(card);
 			}
@@ -220,8 +221,8 @@ private: System::ComponentModel::IContainer^ components;
 			this->Booked_tickets_button = (gcnew System::Windows::Forms::Button());
 			this->Flights_button = (gcnew System::Windows::Forms::Button());
 			this->skyport_title = (gcnew System::Windows::Forms::Label());
-			this->log_out = (gcnew System::Windows::Forms::Button());
 			this->sign_in_button = (gcnew System::Windows::Forms::Button());
+			this->log_out = (gcnew System::Windows::Forms::Button());
 			this->search_flights_panel = (gcnew System::Windows::Forms::Panel());
 			this->sort_by_faster = (gcnew System::Windows::Forms::RadioButton());
 			this->sort_by_cheaper = (gcnew System::Windows::Forms::RadioButton());
@@ -438,6 +439,29 @@ private: System::ComponentModel::IContainer^ components;
 			this->skyport_title->Text = L"SkyPort";
 			this->skyport_title->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
+			// sign_in_button
+			// 
+			this->sign_in_button->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
+			this->sign_in_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(28)), static_cast<System::Int32>(static_cast<System::Byte>(55)),
+				static_cast<System::Int32>(static_cast<System::Byte>(85)));
+			this->sign_in_button->DialogResult = System::Windows::Forms::DialogResult::OK;
+			this->sign_in_button->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->sign_in_button->FlatAppearance->BorderSize = 2;
+			this->sign_in_button->FlatAppearance->MouseOverBackColor = System::Drawing::Color::DodgerBlue;
+			this->sign_in_button->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->sign_in_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->sign_in_button->ForeColor = System::Drawing::Color::White;
+			this->sign_in_button->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"sign_in_button.Image")));
+			this->sign_in_button->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->sign_in_button->Location = System::Drawing::Point(34, 734);
+			this->sign_in_button->Name = L"sign_in_button";
+			this->sign_in_button->Size = System::Drawing::Size(201, 72);
+			this->sign_in_button->TabIndex = 2;
+			this->sign_in_button->Text = L"sign in";
+			this->sign_in_button->UseVisualStyleBackColor = false;
+			this->sign_in_button->Click += gcnew System::EventHandler(this, &user_home_page::sign_in_click);
+			// 
 			// log_out
 			// 
 			this->log_out->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
@@ -461,29 +485,6 @@ private: System::ComponentModel::IContainer^ components;
 			this->log_out->UseVisualStyleBackColor = false;
 			this->log_out->Visible = false;
 			this->log_out->Click += gcnew System::EventHandler(this, &user_home_page::log_out_Click);
-			// 
-			// sign_in_button
-			// 
-			this->sign_in_button->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
-			this->sign_in_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(28)), static_cast<System::Int32>(static_cast<System::Byte>(55)),
-				static_cast<System::Int32>(static_cast<System::Byte>(85)));
-			this->sign_in_button->DialogResult = System::Windows::Forms::DialogResult::OK;
-			this->sign_in_button->FlatAppearance->BorderColor = System::Drawing::Color::White;
-			this->sign_in_button->FlatAppearance->BorderSize = 2;
-			this->sign_in_button->FlatAppearance->MouseOverBackColor = System::Drawing::Color::DodgerBlue;
-			this->sign_in_button->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->sign_in_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->sign_in_button->ForeColor = System::Drawing::Color::White;
-			this->sign_in_button->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"sign_in_button.Image")));
-			this->sign_in_button->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->sign_in_button->Location = System::Drawing::Point(34, 734);
-			this->sign_in_button->Name = L"sign_in_button";
-			this->sign_in_button->Size = System::Drawing::Size(201, 72);
-			this->sign_in_button->TabIndex = 2;
-			this->sign_in_button->Text = L"sign in";
-			this->sign_in_button->UseVisualStyleBackColor = false;
-			this->sign_in_button->Click += gcnew System::EventHandler(this, &user_home_page::sign_in_click);
 			// 
 			// search_flights_panel
 			// 
@@ -523,6 +524,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->sort_by_faster->TabStop = true;
 			this->sort_by_faster->Text = L"Sort by faster";
 			this->sort_by_faster->UseVisualStyleBackColor = true;
+			this->sort_by_faster->Visible = false;
 			this->sort_by_faster->CheckedChanged += gcnew System::EventHandler(this, &user_home_page::sort_by_faster_CheckedChanged);
 			// 
 			// sort_by_cheaper
@@ -536,6 +538,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->sort_by_cheaper->TabStop = true;
 			this->sort_by_cheaper->Text = L"Sort by price";
 			this->sort_by_cheaper->UseVisualStyleBackColor = true;
+			this->sort_by_cheaper->Visible = false;
 			this->sort_by_cheaper->CheckedChanged += gcnew System::EventHandler(this, &user_home_page::sort_by_cheaper_CheckedChanged);
 			// 
 			// travler_panel
@@ -1105,9 +1108,9 @@ private: System::ComponentModel::IContainer^ components;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->ClientSize = System::Drawing::Size(1924, 894);
+			this->Controls->Add(this->search_flights_panel);
 			this->Controls->Add(this->panel_booked);
 			this->Controls->Add(this->fav_view_panel);
-			this->Controls->Add(this->search_flights_panel);
 			this->Controls->Add(this->chat_panel);
 			this->Controls->Add(this->data_booking_panal);
 			this->Controls->Add(this->home_user_panal);
@@ -1230,50 +1233,14 @@ private: System::ComponentModel::IContainer^ components;
 		
 		if (a_airport->Text == "") {
 			no_results->Visible = false;
-		
-			skyPort_array <pair<int, flight_struct>> temp_flights;
 
-			int traveleres = (adult_cnt_value + children_cnt_value);
-			total_travelers = traveleres + infants_cnt_value;
+			flight_layout_panel->Controls->Clear();
 
 			for (int i = 0; i < flights.size(); i++) {
-
-
-
-				if (category->Text == "Economy" && flights[i].seats_in_economy >= traveleres) {
-					temp_flights.push_back(make_pair(i, flights[i]));
-				}
-				else if (category->Text == "Premium Economy" && flights[i].seats_in_premium_economy >= traveleres) {
-					temp_flights.push_back(make_pair(i, flights[i]));
-				}
-				else if (category->Text == "Business" && flights[i].seats_in_business >= traveleres) {
-					temp_flights.push_back(make_pair(i, flights[i]));
-				}
-				else if (category->Text == "First Class" && flights[i].seats_in_first_class >= traveleres) {
-					temp_flights.push_back(make_pair(i, flights[i]));
-				}
-
-			}
-
-
-
-			
-				sort_by_faster->Visible = false;
-				sort_by_cheaper->Visible = false;
-			
-
-			if (sort_by_cheaper->Checked) {
-				sort_flights(temp_flights, current_sort_criteria);
-			}
-			if (sort_by_faster->Checked) {
-				sort_flights(temp_flights, current_sort_criteria);
-			}
-
-			for (int i = 0; i < temp_flights.size(); i++) {
-				view_flight_search_result(temp_flights[i].first);
+				view_flight_search_result(i);
 
 				flight_layout_panel->Controls->Add(flight_card);
-				if (in_fav(temp_flights[i].first)) {
+				if (in_fav(i)) {
 					flight_card->add_to_fav->Visible = false;
 					flight_card->remove_from_fav->Visible = true;
 				}
@@ -1283,9 +1250,9 @@ private: System::ComponentModel::IContainer^ components;
 				}
 			}
 		}
-		
+		else search_Click(sender, e);
 	}
-	private: System::Void Booked_tickets_button_Click(System::Object^ sender, System::EventArgs^ e) {
+	public: System::Void Booked_tickets_button_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (!is_signed_in) {
 			MessageBox::Show("Please sign in to show your favourite flights.", "Not Signed In", MessageBoxButtons::OK, MessageBoxIcon::Information);
 			return;
@@ -1406,7 +1373,7 @@ private: System::ComponentModel::IContainer^ components;
 
 		   
 	private: System::Void search_Click(System::Object^ sender, System::EventArgs^ e) {
-		if (d_airport->Text != "") {
+		if (d_airport->Text != "" && a_airport->Text != "") {
 
 			flight_layout_panel->Controls->Clear();
 			skyPort_array <pair<int, flight_struct>> temp_flights;
@@ -1579,23 +1546,24 @@ private: System::ComponentModel::IContainer^ components;
 			e->SuppressKeyPress = true;
 		}
 	}
-private: System::Void timer1_Tick(System::Object^ sender, System::EventArgs^ e) {
-	for (int i = 0; i < flights.size(); i++)
-	{
-		String^ departure_date_str = gcnew String(flights[i].departure_date.c_str());
-		String^ departure_time_str = gcnew String(flights[i].time_departure.c_str());
-		String^ arrival_date_str = gcnew String(flights[i].arrival_date.c_str());
-		String^ arrival_time_str = gcnew String(flights[i].time_arrival.c_str());
-		DateTime departure = DateTime::ParseExact(departure_date_str + " " + departure_time_str, "ddd,dd/MMM/yyyy hh:mm tt", nullptr);
-		DateTime arrival = DateTime::ParseExact(arrival_date_str + " " + arrival_time_str, "ddd,dd/MMM/yyyy hh:mm tt", nullptr);
-		DateTime now = DateTime::Now;
-		if(arrival < now && flights[i].state != "compeleted") {
-			flights[i].state = "compeleted";
-		}
-		if (departure <= now && now <= arrival && flights[i].state != "in air") {
-			flights[i].state = "in air";
+
+	private: System::Void timer1_Tick(System::Object^ sender, System::EventArgs^ e) {
+		for (int i = 0; i < flights.size(); i++)
+		{
+			String^ departure_date_str = gcnew String(flights[i].departure_date.c_str());
+			String^ departure_time_str = gcnew String(flights[i].time_departure.c_str());
+			String^ arrival_date_str = gcnew String(flights[i].arrival_date.c_str());
+			String^ arrival_time_str = gcnew String(flights[i].time_arrival.c_str());
+			DateTime departure = DateTime::ParseExact(departure_date_str + " " + departure_time_str, "ddd,dd/MMM/yyyy hh:mm tt", nullptr);
+			DateTime arrival = DateTime::ParseExact(arrival_date_str + " " + arrival_time_str, "ddd,dd/MMM/yyyy hh:mm tt", nullptr);
+			DateTime now = DateTime::Now;
+			if(arrival < now && flights[i].state != "arrived") {
+				flights[i].state = "arrived";
+			}
+			if (departure <= now && now <= arrival && flights[i].state != "in air") {
+				flights[i].state = "in air";
+			}
 		}
 	}
-}
 };
 }
