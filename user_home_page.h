@@ -55,6 +55,8 @@ namespace skyPort {
 	public:
 	private: System::Windows::Forms::RadioButton^ sort_by_cheaper;
 	private: System::Windows::Forms::Timer^ timer1;
+	public: System::Windows::Forms::Panel^ check_out_panal;
+
 
 
 
@@ -270,6 +272,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->booked_layout = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->data_booking_panal = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
+			this->check_out_panal = (gcnew System::Windows::Forms::Panel());
 			this->home_user_panal->SuspendLayout();
 			this->search_flights_panel->SuspendLayout();
 			this->travler_panel->SuspendLayout();
@@ -1101,6 +1104,16 @@ private: System::ComponentModel::IContainer^ components;
 			this->timer1->Interval = 1000;
 			this->timer1->Tick += gcnew System::EventHandler(this, &user_home_page::timer1_Tick);
 			// 
+			// check_out_panal
+			// 
+			this->check_out_panal->BackColor = System::Drawing::Color::White;
+			this->check_out_panal->Dock = System::Windows::Forms::DockStyle::Right;
+			this->check_out_panal->Location = System::Drawing::Point(1519, 0);
+			this->check_out_panal->Name = L"check_out_panal";
+			this->check_out_panal->Size = System::Drawing::Size(405, 894);
+			this->check_out_panal->TabIndex = 23;
+			this->check_out_panal->Visible = false;
+			// 
 			// user_home_page
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -1112,6 +1125,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->Controls->Add(this->panel_booked);
 			this->Controls->Add(this->fav_view_panel);
 			this->Controls->Add(this->chat_panel);
+			this->Controls->Add(this->check_out_panal);
 			this->Controls->Add(this->data_booking_panal);
 			this->Controls->Add(this->home_user_panal);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
