@@ -215,13 +215,13 @@ private: System::ComponentModel::IContainer^ components;
 			this->home_user_panal = (gcnew System::Windows::Forms::Panel());
 			this->customer_service = (gcnew System::Windows::Forms::Button());
 			this->welcome_user = (gcnew System::Windows::Forms::Label());
-			this->sign_in_button = (gcnew System::Windows::Forms::Button());
 			this->Exit_button = (gcnew System::Windows::Forms::Button());
 			this->favourite_flights_button = (gcnew System::Windows::Forms::Button());
 			this->Booked_tickets_button = (gcnew System::Windows::Forms::Button());
 			this->Flights_button = (gcnew System::Windows::Forms::Button());
 			this->skyport_title = (gcnew System::Windows::Forms::Label());
 			this->log_out = (gcnew System::Windows::Forms::Button());
+			this->sign_in_button = (gcnew System::Windows::Forms::Button());
 			this->search_flights_panel = (gcnew System::Windows::Forms::Panel());
 			this->sort_by_faster = (gcnew System::Windows::Forms::RadioButton());
 			this->sort_by_cheaper = (gcnew System::Windows::Forms::RadioButton());
@@ -285,12 +285,12 @@ private: System::ComponentModel::IContainer^ components;
 				static_cast<System::Int32>(static_cast<System::Byte>(40)));
 			this->home_user_panal->Controls->Add(this->customer_service);
 			this->home_user_panal->Controls->Add(this->welcome_user);
-			this->home_user_panal->Controls->Add(this->sign_in_button);
 			this->home_user_panal->Controls->Add(this->Exit_button);
 			this->home_user_panal->Controls->Add(this->favourite_flights_button);
 			this->home_user_panal->Controls->Add(this->Booked_tickets_button);
 			this->home_user_panal->Controls->Add(this->Flights_button);
 			this->home_user_panal->Controls->Add(this->skyport_title);
+			this->home_user_panal->Controls->Add(this->sign_in_button);
 			this->home_user_panal->Controls->Add(this->log_out);
 			this->home_user_panal->Dock = System::Windows::Forms::DockStyle::Left;
 			this->home_user_panal->Location = System::Drawing::Point(0, 0);
@@ -334,29 +334,6 @@ private: System::ComponentModel::IContainer^ components;
 			this->welcome_user->Text = L"Welcome";
 			this->welcome_user->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->welcome_user->Visible = false;
-			// 
-			// sign_in_button
-			// 
-			this->sign_in_button->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
-			this->sign_in_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(28)), static_cast<System::Int32>(static_cast<System::Byte>(55)),
-				static_cast<System::Int32>(static_cast<System::Byte>(85)));
-			this->sign_in_button->DialogResult = System::Windows::Forms::DialogResult::OK;
-			this->sign_in_button->FlatAppearance->BorderColor = System::Drawing::Color::White;
-			this->sign_in_button->FlatAppearance->BorderSize = 2;
-			this->sign_in_button->FlatAppearance->MouseOverBackColor = System::Drawing::Color::DodgerBlue;
-			this->sign_in_button->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->sign_in_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->sign_in_button->ForeColor = System::Drawing::Color::White;
-			this->sign_in_button->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"sign_in_button.Image")));
-			this->sign_in_button->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->sign_in_button->Location = System::Drawing::Point(34, 734);
-			this->sign_in_button->Name = L"sign_in_button";
-			this->sign_in_button->Size = System::Drawing::Size(201, 72);
-			this->sign_in_button->TabIndex = 2;
-			this->sign_in_button->Text = L"sign in";
-			this->sign_in_button->UseVisualStyleBackColor = false;
-			this->sign_in_button->Click += gcnew System::EventHandler(this, &user_home_page::sign_in_click);
 			// 
 			// Exit_button
 			// 
@@ -484,6 +461,29 @@ private: System::ComponentModel::IContainer^ components;
 			this->log_out->UseVisualStyleBackColor = false;
 			this->log_out->Visible = false;
 			this->log_out->Click += gcnew System::EventHandler(this, &user_home_page::log_out_Click);
+			// 
+			// sign_in_button
+			// 
+			this->sign_in_button->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
+			this->sign_in_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(28)), static_cast<System::Int32>(static_cast<System::Byte>(55)),
+				static_cast<System::Int32>(static_cast<System::Byte>(85)));
+			this->sign_in_button->DialogResult = System::Windows::Forms::DialogResult::OK;
+			this->sign_in_button->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->sign_in_button->FlatAppearance->BorderSize = 2;
+			this->sign_in_button->FlatAppearance->MouseOverBackColor = System::Drawing::Color::DodgerBlue;
+			this->sign_in_button->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->sign_in_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->sign_in_button->ForeColor = System::Drawing::Color::White;
+			this->sign_in_button->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"sign_in_button.Image")));
+			this->sign_in_button->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->sign_in_button->Location = System::Drawing::Point(34, 734);
+			this->sign_in_button->Name = L"sign_in_button";
+			this->sign_in_button->Size = System::Drawing::Size(201, 72);
+			this->sign_in_button->TabIndex = 2;
+			this->sign_in_button->Text = L"sign in";
+			this->sign_in_button->UseVisualStyleBackColor = false;
+			this->sign_in_button->Click += gcnew System::EventHandler(this, &user_home_page::sign_in_click);
 			// 
 			// search_flights_panel
 			// 
@@ -1201,7 +1201,8 @@ private: System::ComponentModel::IContainer^ components;
 		if (is_admin && is_signed_in) {
 			admin_home_page^ admin_page = gcnew admin_home_page();
 			admin_page->ShowDialog();
-			this->Close();
+			if (is_admin) this->Close();
+			else this->Show();
 			return;
 		}
 		if (is_signed_in) {
@@ -1362,7 +1363,12 @@ private: System::ComponentModel::IContainer^ components;
 		current_user_name = "null";
 		sign_in_button->Visible = true;
 		welcome_user->Visible = false;
-		log_out->Visible = false;
+		log_out->Visible = false; 
+		search_flights_panel->Visible = false;
+		panel_booked->Visible = false;
+		fav_view_panel->Visible = false;
+		chat_panel->Visible = false;
+
 	}
 
 		   //search flights panel events

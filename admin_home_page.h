@@ -276,6 +276,7 @@ private: System::Windows::Forms::Panel^ chat_bot_panal;
 private: System::Windows::Forms::FlowLayoutPanel^ chatbox;
 public: System::Windows::Forms::TextBox^ txtMessage;
 private: System::Windows::Forms::Button^ send_button;
+private: System::Windows::Forms::Button^ log_out;
 
 
 
@@ -372,6 +373,7 @@ private: System::Windows::Forms::Button^ send_button;
 			this->a_airport = (gcnew System::Windows::Forms::TextBox());
 			this->open_home_pg = (gcnew System::Windows::Forms::LinkLabel());
 			this->home_pg_panel = (gcnew System::Windows::Forms::Panel());
+			this->log_out = (gcnew System::Windows::Forms::Button());
 			this->btn_customer_service = (gcnew System::Windows::Forms::Button());
 			this->btn_add_plane = (gcnew System::Windows::Forms::Button());
 			this->title = (gcnew System::Windows::Forms::Label());
@@ -1558,6 +1560,7 @@ private: System::Windows::Forms::Button^ send_button;
 			// 
 			this->home_pg_panel->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(100)), static_cast<System::Int32>(static_cast<System::Byte>(210)),
 				static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(228)));
+			this->home_pg_panel->Controls->Add(this->log_out);
 			this->home_pg_panel->Controls->Add(this->btn_customer_service);
 			this->home_pg_panel->Controls->Add(this->btn_add_plane);
 			this->home_pg_panel->Controls->Add(this->title);
@@ -1570,6 +1573,29 @@ private: System::Windows::Forms::Button^ send_button;
 			this->home_pg_panel->Name = L"home_pg_panel";
 			this->home_pg_panel->Size = System::Drawing::Size(1612, 938);
 			this->home_pg_panel->TabIndex = 21;
+			// 
+			// log_out
+			// 
+			this->log_out->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
+			this->log_out->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(85)),
+				static_cast<System::Int32>(static_cast<System::Byte>(170)));
+			this->log_out->DialogResult = System::Windows::Forms::DialogResult::OK;
+			this->log_out->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->log_out->FlatAppearance->BorderSize = 2;
+			this->log_out->FlatAppearance->MouseOverBackColor = System::Drawing::Color::DodgerBlue;
+			this->log_out->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->log_out->Font = (gcnew System::Drawing::Font(L"Segoe UI", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->log_out->ForeColor = System::Drawing::Color::White;
+			this->log_out->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"log_out.Image")));
+			this->log_out->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->log_out->Location = System::Drawing::Point(1408, 830);
+			this->log_out->Name = L"log_out";
+			this->log_out->Size = System::Drawing::Size(201, 72);
+			this->log_out->TabIndex = 8;
+			this->log_out->Text = L"Log out";
+			this->log_out->UseVisualStyleBackColor = false;
+			this->log_out->Click += gcnew System::EventHandler(this, &admin_home_page::log_out_Click);
 			// 
 			// btn_customer_service
 			// 
@@ -1584,7 +1610,7 @@ private: System::Windows::Forms::Button^ send_button;
 			this->btn_customer_service->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->btn_customer_service->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_customer_service.Image")));
 			this->btn_customer_service->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->btn_customer_service->Location = System::Drawing::Point(1231, 581);
+			this->btn_customer_service->Location = System::Drawing::Point(1231, 526);
 			this->btn_customer_service->Name = L"btn_customer_service";
 			this->btn_customer_service->Size = System::Drawing::Size(308, 272);
 			this->btn_customer_service->TabIndex = 7;
@@ -1607,7 +1633,7 @@ private: System::Windows::Forms::Button^ send_button;
 			this->btn_add_plane->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->btn_add_plane->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_add_plane.Image")));
 			this->btn_add_plane->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->btn_add_plane->Location = System::Drawing::Point(673, 232);
+			this->btn_add_plane->Location = System::Drawing::Point(673, 224);
 			this->btn_add_plane->Name = L"btn_add_plane";
 			this->btn_add_plane->Size = System::Drawing::Size(308, 272);
 			this->btn_add_plane->TabIndex = 3;
@@ -1643,7 +1669,7 @@ private: System::Windows::Forms::Button^ send_button;
 			this->btn_search_flights->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->btn_search_flights->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_search_flights.Image")));
 			this->btn_search_flights->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->btn_search_flights->Location = System::Drawing::Point(673, 586);
+			this->btn_search_flights->Location = System::Drawing::Point(673, 531);
 			this->btn_search_flights->Name = L"btn_search_flights";
 			this->btn_search_flights->Size = System::Drawing::Size(308, 272);
 			this->btn_search_flights->TabIndex = 6;
@@ -1660,7 +1686,7 @@ private: System::Windows::Forms::Button^ send_button;
 			this->welcome->Font = (gcnew System::Drawing::Font(L"Segoe UI", 28.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->welcome->ForeColor = System::Drawing::SystemColors::Window;
-			this->welcome->Location = System::Drawing::Point(579, 143);
+			this->welcome->Location = System::Drawing::Point(579, 135);
 			this->welcome->Name = L"welcome";
 			this->welcome->Size = System::Drawing::Size(257, 62);
 			this->welcome->TabIndex = 2;
@@ -1679,7 +1705,7 @@ private: System::Windows::Forms::Button^ send_button;
 			this->btn_search_planes->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->btn_search_planes->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_search_planes.Image")));
 			this->btn_search_planes->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->btn_search_planes->Location = System::Drawing::Point(115, 586);
+			this->btn_search_planes->Location = System::Drawing::Point(115, 531);
 			this->btn_search_planes->Name = L"btn_search_planes";
 			this->btn_search_planes->Size = System::Drawing::Size(308, 272);
 			this->btn_search_planes->TabIndex = 5;
@@ -1702,7 +1728,7 @@ private: System::Windows::Forms::Button^ send_button;
 			this->btn_add_flight->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->btn_add_flight->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_add_flight.Image")));
 			this->btn_add_flight->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->btn_add_flight->Location = System::Drawing::Point(1231, 232);
+			this->btn_add_flight->Location = System::Drawing::Point(1231, 224);
 			this->btn_add_flight->Name = L"btn_add_flight";
 			this->btn_add_flight->Size = System::Drawing::Size(308, 272);
 			this->btn_add_flight->TabIndex = 4;
@@ -1725,7 +1751,7 @@ private: System::Windows::Forms::Button^ send_button;
 			this->btn_add_admin->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->btn_add_admin->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_add_admin.Image")));
 			this->btn_add_admin->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->btn_add_admin->Location = System::Drawing::Point(115, 232);
+			this->btn_add_admin->Location = System::Drawing::Point(115, 224);
 			this->btn_add_admin->Name = L"btn_add_admin";
 			this->btn_add_admin->Size = System::Drawing::Size(308, 272);
 			this->btn_add_admin->TabIndex = 1;
@@ -1803,10 +1829,10 @@ private: System::Windows::Forms::Button^ send_button;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1924, 1055);
+			this->Controls->Add(this->home_pg_panel);
 			this->Controls->Add(this->add_flight_panel);
 			this->Controls->Add(this->add_admin_panel);
 			this->Controls->Add(this->add_plane_panel);
-			this->Controls->Add(this->home_pg_panel);
 			this->Controls->Add(this->chat_bot_panal);
 			this->Controls->Add(this->search_flights_panel);
 			this->Controls->Add(this->search_plane_panel);
@@ -2677,6 +2703,13 @@ private: System::Windows::Forms::Button^ send_button;
 		chat_bot_panal->Visible = false;
 		home_pg_panel->Visible = true;
 		open_home_pg->BringToFront();
+	}
+	private: System::Void log_out_Click(System::Object^ sender, System::EventArgs^ e) {
+		is_signed_in = false;
+		is_admin = false;
+		first_name = "";
+		current_user_name = "null";
+		this->Close();
 	}
 
 		   // chat bot events
