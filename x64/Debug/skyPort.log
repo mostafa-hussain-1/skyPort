@@ -1,0 +1,11 @@
+﻿  add_flights.cpp
+E:\skyPort\add_flights.cpp(22,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\skyPort\add_flights.cpp(23,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\skyPort\add_flights.cpp(24,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\skyPort\add_flights.cpp(25,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\skyPort\add_flights.cpp(38,65): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\skyPort\add_flights.cpp(39,73): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\skyPort\add_flights.cpp(40,66): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\skyPort\add_flights.cpp(41,69): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  add_flights.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  skyPort.vcxproj -> E:\skyPort\x64\Debug\skyPort.exe

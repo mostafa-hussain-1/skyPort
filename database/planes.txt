@@ -1,0 +1,11 @@
+SU-BUP;Airbus A320neo;10;13;Salzburg Airport
+SU-GCR;Boeing 737-800;15;10;Mexico City International Airport
+SU-GFO;Airbus A320neo;9;15;Chicago Rockford International Airport
+SU-GFM;Airbus A320neo;15;10;Mexico City International Airport
+VH-OGF;Airbus A321 XLR;12;11;Chicago Rockford International Airport
+B-228D;Boeing 737 MAX 8;10;10;Philadelphia International Airport
+SE-RSH;Airbus A350-900;15;11;Chicago Rockford International Airport
+N555DE;Airbus A321neo;14;10;Philadelphia International Airport
+LY-MLI;Airbus A320-200;14;11;Philadelphia International Airport
+HA-LDF;Airbus A321neo;15;12;Chicago Rockford International Airport
+CEO_1;test2;10;10;Chicago Rockford International Airport
