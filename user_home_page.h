@@ -89,7 +89,7 @@ namespace skyPort {
 				marshal_as<String^>(flights[i].arrival_date),
 				marshal_as<String^>(flights[i].state),
 				marshal_as<String^>(to_string(price)));
-			if(flights[i].state=="compeleted")
+			if(flights[i].state!="open to book")
 				flight_card->hide_book_button();
 		}
 
