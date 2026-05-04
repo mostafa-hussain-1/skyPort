@@ -55,6 +55,8 @@ namespace skyPort {
 	public:
 	private: System::Windows::Forms::RadioButton^ sort_by_cheaper;
 	private: System::Windows::Forms::Timer^ timer1;
+	public: System::Windows::Forms::Panel^ check_out_panal;
+
 
 
 
@@ -220,8 +222,8 @@ private: System::ComponentModel::IContainer^ components;
 			this->Booked_tickets_button = (gcnew System::Windows::Forms::Button());
 			this->Flights_button = (gcnew System::Windows::Forms::Button());
 			this->skyport_title = (gcnew System::Windows::Forms::Label());
-			this->log_out = (gcnew System::Windows::Forms::Button());
 			this->sign_in_button = (gcnew System::Windows::Forms::Button());
+			this->log_out = (gcnew System::Windows::Forms::Button());
 			this->search_flights_panel = (gcnew System::Windows::Forms::Panel());
 			this->sort_by_faster = (gcnew System::Windows::Forms::RadioButton());
 			this->sort_by_cheaper = (gcnew System::Windows::Forms::RadioButton());
@@ -269,6 +271,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->booked_layout = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->data_booking_panal = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
+			this->check_out_panal = (gcnew System::Windows::Forms::Panel());
 			this->home_user_panal->SuspendLayout();
 			this->search_flights_panel->SuspendLayout();
 			this->travler_panel->SuspendLayout();
@@ -438,6 +441,29 @@ private: System::ComponentModel::IContainer^ components;
 			this->skyport_title->Text = L"SkyPort";
 			this->skyport_title->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
+			// sign_in_button
+			// 
+			this->sign_in_button->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
+			this->sign_in_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(28)), static_cast<System::Int32>(static_cast<System::Byte>(55)),
+				static_cast<System::Int32>(static_cast<System::Byte>(85)));
+			this->sign_in_button->DialogResult = System::Windows::Forms::DialogResult::OK;
+			this->sign_in_button->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->sign_in_button->FlatAppearance->BorderSize = 2;
+			this->sign_in_button->FlatAppearance->MouseOverBackColor = System::Drawing::Color::DodgerBlue;
+			this->sign_in_button->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->sign_in_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->sign_in_button->ForeColor = System::Drawing::Color::White;
+			this->sign_in_button->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"sign_in_button.Image")));
+			this->sign_in_button->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->sign_in_button->Location = System::Drawing::Point(34, 734);
+			this->sign_in_button->Name = L"sign_in_button";
+			this->sign_in_button->Size = System::Drawing::Size(201, 72);
+			this->sign_in_button->TabIndex = 2;
+			this->sign_in_button->Text = L"sign in";
+			this->sign_in_button->UseVisualStyleBackColor = false;
+			this->sign_in_button->Click += gcnew System::EventHandler(this, &user_home_page::sign_in_click);
+			// 
 			// log_out
 			// 
 			this->log_out->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
@@ -461,29 +487,6 @@ private: System::ComponentModel::IContainer^ components;
 			this->log_out->UseVisualStyleBackColor = false;
 			this->log_out->Visible = false;
 			this->log_out->Click += gcnew System::EventHandler(this, &user_home_page::log_out_Click);
-			// 
-			// sign_in_button
-			// 
-			this->sign_in_button->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
-			this->sign_in_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(28)), static_cast<System::Int32>(static_cast<System::Byte>(55)),
-				static_cast<System::Int32>(static_cast<System::Byte>(85)));
-			this->sign_in_button->DialogResult = System::Windows::Forms::DialogResult::OK;
-			this->sign_in_button->FlatAppearance->BorderColor = System::Drawing::Color::White;
-			this->sign_in_button->FlatAppearance->BorderSize = 2;
-			this->sign_in_button->FlatAppearance->MouseOverBackColor = System::Drawing::Color::DodgerBlue;
-			this->sign_in_button->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->sign_in_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->sign_in_button->ForeColor = System::Drawing::Color::White;
-			this->sign_in_button->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"sign_in_button.Image")));
-			this->sign_in_button->ImageAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			this->sign_in_button->Location = System::Drawing::Point(34, 734);
-			this->sign_in_button->Name = L"sign_in_button";
-			this->sign_in_button->Size = System::Drawing::Size(201, 72);
-			this->sign_in_button->TabIndex = 2;
-			this->sign_in_button->Text = L"sign in";
-			this->sign_in_button->UseVisualStyleBackColor = false;
-			this->sign_in_button->Click += gcnew System::EventHandler(this, &user_home_page::sign_in_click);
 			// 
 			// search_flights_panel
 			// 
@@ -1098,6 +1101,16 @@ private: System::ComponentModel::IContainer^ components;
 			this->timer1->Interval = 1000;
 			this->timer1->Tick += gcnew System::EventHandler(this, &user_home_page::timer1_Tick);
 			// 
+			// check_out_panal
+			// 
+			this->check_out_panal->BackColor = System::Drawing::Color::White;
+			this->check_out_panal->Dock = System::Windows::Forms::DockStyle::Right;
+			this->check_out_panal->Location = System::Drawing::Point(1519, 0);
+			this->check_out_panal->Name = L"check_out_panal";
+			this->check_out_panal->Size = System::Drawing::Size(405, 894);
+			this->check_out_panal->TabIndex = 23;
+			this->check_out_panal->Visible = false;
+			// 
 			// user_home_page
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -1109,6 +1122,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->Controls->Add(this->fav_view_panel);
 			this->Controls->Add(this->search_flights_panel);
 			this->Controls->Add(this->chat_panel);
+			this->Controls->Add(this->check_out_panal);
 			this->Controls->Add(this->data_booking_panal);
 			this->Controls->Add(this->home_user_panal);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
