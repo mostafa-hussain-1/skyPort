@@ -1,5 +1,7 @@
+.vs/
 Debug/
 x64/
-*.exe
+*.ipch
 *.obj
+*.exe
 *.pdb
