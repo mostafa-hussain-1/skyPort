@@ -5,6 +5,7 @@ int adult_cnt_value = 1;
 int children_cnt_value = 0;
 int infants_cnt_value = 0;
 int total_travelers = 1;
+int adult_price;
 
 namespace skyPort {
 	System::Void booking::book_button_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -66,26 +67,26 @@ namespace skyPort {
 						else
 							t.male = false;
 						
-						int price;
+						
 						
 						if (f.category == "Economy") {
-							price = flights[f.flight_index].price.economy_price;
+							adult_price = flights[f.flight_index].price.economy_price;
 							flights[f.flight_index].seats_in_economy--;
 						}
 						else if (f.category == "Business") {
-							price = flights[f.flight_index].price.business_price;
+							adult_price = flights[f.flight_index].price.business_price;
 							flights[f.flight_index].seats_in_business--;
 						}
 						else if (f.category == "Premium Economy") {
-							price = flights[f.flight_index].price.premium_economy_price;
+							adult_price = flights[f.flight_index].price.premium_economy_price;
 							flights[f.flight_index].seats_in_premium_economy--;
 						}
 						else {
-							price = flights[f.flight_index].price.first_class_price;
+							adult_price = flights[f.flight_index].price.first_class_price;
 							flights[f.flight_index].seats_in_first_class--;
 						}
 						if (adult_cnt_value--) {
-							t.price = price;
+							t.price = adult_price;
 							total_price += t.price;
 							for (int i = 0; i < flights[f.flight_index].seats.size(); i++)
 							{
@@ -97,7 +98,7 @@ namespace skyPort {
 							}
 						}
 						else if (children_cnt_value--) {
-							t.price = price * 0.75;
+							t.price = adult_price * 0.75;
 							total_price += t.price;
 							for (int i = 0; i < flights[f.flight_index].seats.size(); i++)
 							{
@@ -109,14 +110,15 @@ namespace skyPort {
 							}
 						}
 						else if (infants_cnt_value--) {
-							t.price = price * 0.1;
+							t.price = adult_price * 0.1;
 							total_price += t.price;
 						}
 						f.travelers.push_back(t);
 					}
 				}
 				tickets.push_back(f);
-				MessageBox::Show("Booking successful!\nTotal price is " + total_price.ToString() + "$", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
+				MessageBox::Show("Booking successful!", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
+				main->check_out_panal->Visible = false;
 				main->data_booking_panal->Visible = false;
 			}
 		}
