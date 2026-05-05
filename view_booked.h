@@ -30,7 +30,7 @@ namespace skyPort {
 
 		void viewbooked(String^ fname, String^ mname,
 			String^ lname, String^ date, String^ passport, String^ gender,
-			String^ seat, String^ from_to, String^ time, String^ category, String^ meal, String^ flight_num, String^ price, String^ ticket_idx, String^ traveler_idx) {
+			String^ seat, String^ from_to, String^ time, String^ category, String^ meal, String^ flight_num, String^ price, String^ ticket_idx, String^ traveler_idx, String^ flight_idx) {
 
 			this->fname_label->Text = fname + " " + mname + " " + lname;
 			this->date_view_label->Text = date;
@@ -45,6 +45,7 @@ namespace skyPort {
 			this->category_view_label->Text = category;
 			this->ticket_idx->Text = ticket_idx;
 			this->traveler_idx->Text = traveler_idx;
+			this->flight_idx->Text = flight_idx;
 		}
 
 	protected:
@@ -81,9 +82,11 @@ namespace skyPort {
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::Label^ flight_num_label;
 	private: System::Windows::Forms::Label^ flight_num;
-	private: System::Windows::Forms::Button^ cancel_button;
+	public: System::Windows::Forms::Button^ cancel_button;
 	private: System::Windows::Forms::Label^ ticket_idx;
 	private: System::Windows::Forms::Label^ traveler_idx;
+	private: System::Windows::Forms::Label^ flight_idx;
+
 
 	private:
 		/// <summary>
@@ -121,6 +124,7 @@ namespace skyPort {
 			this->cancel_button = (gcnew System::Windows::Forms::Button());
 			this->ticket_idx = (gcnew System::Windows::Forms::Label());
 			this->traveler_idx = (gcnew System::Windows::Forms::Label());
+			this->flight_idx = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// category_view_label
@@ -411,10 +415,21 @@ namespace skyPort {
 			this->traveler_idx->Text = L"traveler_idx";
 			this->traveler_idx->Visible = false;
 			// 
+			// flight_idx
+			// 
+			this->flight_idx->AutoSize = true;
+			this->flight_idx->Location = System::Drawing::Point(1144, 75);
+			this->flight_idx->Name = L"flight_idx";
+			this->flight_idx->Size = System::Drawing::Size(58, 16);
+			this->flight_idx->TabIndex = 57;
+			this->flight_idx->Text = L"flight_idx";
+			this->flight_idx->Visible = false;
+			// 
 			// view_booked
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->Controls->Add(this->flight_idx);
 			this->Controls->Add(this->traveler_idx);
 			this->Controls->Add(this->ticket_idx);
 			this->Controls->Add(this->cancel_button);

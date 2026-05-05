@@ -124,9 +124,12 @@ namespace skyPort {
 					marshal_as<String^>(tickets[i].travelers[j].meal_preference),
 					marshal_as<String^>(flights[flight_index].number_flight),
 					marshal_as<String^>(to_string(tickets[i].travelers[j].price)),
-					i.ToString(),j.ToString());
+					i.ToString(),j.ToString(), flight_index.ToString());
 
 				booked_layout->Controls->Add(card);
+				if (flights[flight_index].state != "open to book") {
+					card->cancel_button->Visible = false;
+				}
 			}
 		}
 

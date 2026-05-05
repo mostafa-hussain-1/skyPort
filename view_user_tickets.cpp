@@ -25,7 +25,9 @@ void getUserTickets(string currentUser)
 
 namespace skyPort {
     System::Void view_booked::cancel_button_Click(System::Object^ sender, System::EventArgs^ e) {
-        MessageBox::Show("Are you sure about canceling your ticket reservation?", "warning", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+        DialogResult result = MessageBox::Show("Are you sure about canceling your ticket reservation?", "warning", MessageBoxButtons::YesNo, MessageBoxIcon::Warning);
+        
+        if (result == DialogResult::No) return;
 
         int ticket_indx = stoi(marshal_as<string>(ticket_idx->Text));
         int traveler_indx = stoi(marshal_as<string>(traveler_idx->Text));
