@@ -41,7 +41,11 @@ namespace skyPort {
             }
         }
         flights[flight_indx].seats[seat_index].is_booked = false;
-        
+        if (flight_category == "Economy") flights[flight_indx].seats_in_economy += 1;
+        else if (flight_category == "Premium Economy") flights[flight_indx].seats_in_premium_economy += 1;
+        else if (flight_category == "Business") flights[flight_indx].seats_in_business += 1;
+        else if (flight_category == "First Class") flights[flight_indx].seats_in_first_class += 1;
+
         if (tickets[ticket_indx].travelers.size() > 1) {
 
             tickets[ticket_indx].travelers.erase(traveler_indx);

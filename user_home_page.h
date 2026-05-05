@@ -1275,9 +1275,9 @@ private: System::ComponentModel::IContainer^ components;
 				static_cast<System::Byte>(0)));
 			this->cnt_infant->Location = System::Drawing::Point(31, 396);
 			this->cnt_infant->Name = L"cnt_infant";
-			this->cnt_infant->Size = System::Drawing::Size(101, 41);
+			this->cnt_infant->Size = System::Drawing::Size(102, 41);
 			this->cnt_infant->TabIndex = 3;
-			this->cnt_infant->Text = L"infant ";
+			this->cnt_infant->Text = L"Infant ";
 			this->cnt_infant->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// cnt_child
