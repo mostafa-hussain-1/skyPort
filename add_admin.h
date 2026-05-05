@@ -16,5 +16,6 @@ extern skyPort_array<admin> admins;
 extern bool new_admin;
 extern string ad_pass_word;
 extern long long ad_hashed;
+long  long n;
 
 void add_new_admin(String^ ad_name, String^ ad_user_name, String^ ad_password, String^ ad_phone);
