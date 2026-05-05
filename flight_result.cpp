@@ -19,6 +19,25 @@ namespace skyPort {
 			main->data_booking_panal->Controls->Clear();
 			main->data_booking_panal->Visible = true;
 			main->check_out_panal->Visible = true;
+			if (flight_category == "Economy") {
+				adult_price = flights[selected_flight_idx].price.economy_price;
+			}
+			else if (flight_category == "Business") {
+				adult_price = flights[selected_flight_idx].price.business_price;
+			}
+			else if (flight_category == "Premium Economy") {
+				adult_price = flights[selected_flight_idx].price.premium_economy_price;
+			}
+			else {
+				adult_price = flights[selected_flight_idx].price.first_class_price;
+			}
+			main->cnt_adult->Text = "Adult " + "(" + adult_cnt_value.ToString()+")";
+			main->cnt_child->Text ="Child " + "(" + children_cnt_value.ToString() + ")";
+			main->cnt_infant->Text = "Infant " + "(" + infants_cnt_value.ToString() + ")";
+			main->price_adult->Text = (adult_cnt_value*adult_price).ToString() + " $";
+			main->price_child->Text = (children_cnt_value * adult_price * 0.75).ToString() + " $";
+			main->price_infant->Text = (infants_cnt_value * adult_price * 0.1).ToString() + " $";
+			main->total_price->Text = ((adult_cnt_value * adult_price) + (children_cnt_value * adult_price * 0.75) + (infants_cnt_value * adult_price * 0.1)).ToString() + " $";
 
 
 			for (int i = 1; i <= total_travelers; i++)

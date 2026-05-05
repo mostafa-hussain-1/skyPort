@@ -20,6 +20,7 @@ extern int adult_cnt_value;
 extern int children_cnt_value;
 extern int infants_cnt_value;
 extern int total_travelers;
+extern int adult_price;
 
 
 namespace skyPort {

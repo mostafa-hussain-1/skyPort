@@ -56,6 +56,31 @@ namespace skyPort {
 	private: System::Windows::Forms::RadioButton^ sort_by_cheaper;
 	private: System::Windows::Forms::Timer^ timer1;
 	public: System::Windows::Forms::Panel^ check_out_panal;
+	public: System::Windows::Forms::Label^ label1;
+	public: System::Windows::Forms::Label^ cnt_adult;
+	public: System::Windows::Forms::Label^ cnt_infant;
+
+
+	public: System::Windows::Forms::Label^ cnt_child;
+	public: System::Windows::Forms::Label^ total_price;
+
+
+	public: System::Windows::Forms::Label^ Total;
+
+
+	public: System::Windows::Forms::Label^ price_infant;
+	public: System::Windows::Forms::Label^ price_child;
+	public: System::Windows::Forms::Label^ price_adult;
+	private: System::Windows::Forms::Button^ get_discount_button;
+
+
+
+
+
+	private: System::Windows::Forms::Label^ label11;
+	private: System::Windows::Forms::Label^ label10;
+		  
+	public:
 
 
 
@@ -273,6 +298,18 @@ private: System::ComponentModel::IContainer^ components;
 			this->data_booking_panal = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
 			this->check_out_panal = (gcnew System::Windows::Forms::Panel());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->label10 = (gcnew System::Windows::Forms::Label());
+			this->get_discount_button = (gcnew System::Windows::Forms::Button());
+			this->total_price = (gcnew System::Windows::Forms::Label());
+			this->Total = (gcnew System::Windows::Forms::Label());
+			this->price_infant = (gcnew System::Windows::Forms::Label());
+			this->price_child = (gcnew System::Windows::Forms::Label());
+			this->price_adult = (gcnew System::Windows::Forms::Label());
+			this->cnt_infant = (gcnew System::Windows::Forms::Label());
+			this->cnt_child = (gcnew System::Windows::Forms::Label());
+			this->cnt_adult = (gcnew System::Windows::Forms::Label());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->home_user_panal->SuspendLayout();
 			this->search_flights_panel->SuspendLayout();
 			this->travler_panel->SuspendLayout();
@@ -281,6 +318,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->chat_panel->SuspendLayout();
 			this->panel_booked->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->booked_icon_ticket))->BeginInit();
+			this->check_out_panal->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// home_user_panal
@@ -1107,12 +1145,174 @@ private: System::ComponentModel::IContainer^ components;
 			// check_out_panal
 			// 
 			this->check_out_panal->BackColor = System::Drawing::Color::White;
+			this->check_out_panal->Controls->Add(this->label11);
+			this->check_out_panal->Controls->Add(this->label10);
+			this->check_out_panal->Controls->Add(this->get_discount_button);
+			this->check_out_panal->Controls->Add(this->total_price);
+			this->check_out_panal->Controls->Add(this->Total);
+			this->check_out_panal->Controls->Add(this->price_infant);
+			this->check_out_panal->Controls->Add(this->price_child);
+			this->check_out_panal->Controls->Add(this->price_adult);
+			this->check_out_panal->Controls->Add(this->cnt_infant);
+			this->check_out_panal->Controls->Add(this->cnt_child);
+			this->check_out_panal->Controls->Add(this->cnt_adult);
+			this->check_out_panal->Controls->Add(this->label1);
 			this->check_out_panal->Dock = System::Windows::Forms::DockStyle::Right;
+			this->check_out_panal->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->check_out_panal->Location = System::Drawing::Point(1519, 0);
 			this->check_out_panal->Name = L"check_out_panal";
 			this->check_out_panal->Size = System::Drawing::Size(405, 894);
 			this->check_out_panal->TabIndex = 23;
 			this->check_out_panal->Visible = false;
+			// 
+			// label11
+			// 
+			this->label11->AutoSize = true;
+			this->label11->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label11->Location = System::Drawing::Point(65, 213);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(282, 41);
+			this->label11->TabIndex = 11;
+			this->label11->Text = L"----------------------";
+			this->label11->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// label10
+			// 
+			this->label10->AutoSize = true;
+			this->label10->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label10->Location = System::Drawing::Point(65, 437);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(282, 41);
+			this->label10->TabIndex = 10;
+			this->label10->Text = L"______________________";
+			this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// get_discount_button
+			// 
+			this->get_discount_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(85)), static_cast<System::Int32>(static_cast<System::Byte>(170)));
+			this->get_discount_button->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->get_discount_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->get_discount_button->ForeColor = System::Drawing::Color::White;
+			this->get_discount_button->Location = System::Drawing::Point(88, 578);
+			this->get_discount_button->Name = L"get_discount_button";
+			this->get_discount_button->Size = System::Drawing::Size(235, 68);
+			this->get_discount_button->TabIndex = 9;
+			this->get_discount_button->Text = L"Get Discount";
+			this->get_discount_button->UseVisualStyleBackColor = false;
+			// 
+			// total_price
+			// 
+			this->total_price->AutoSize = true;
+			this->total_price->Font = (gcnew System::Drawing::Font(L"Segoe UI", 19.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->total_price->Location = System::Drawing::Point(233, 496);
+			this->total_price->Name = L"total_price";
+			this->total_price->Size = System::Drawing::Size(39, 45);
+			this->total_price->TabIndex = 8;
+			this->total_price->Text = L"$";
+			this->total_price->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// Total
+			// 
+			this->Total->AutoSize = true;
+			this->Total->Font = (gcnew System::Drawing::Font(L"Segoe UI", 19.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->Total->Location = System::Drawing::Point(30, 496);
+			this->Total->Name = L"Total";
+			this->Total->Size = System::Drawing::Size(181, 45);
+			this->Total->TabIndex = 7;
+			this->Total->Text = L"Total Price";
+			this->Total->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// price_infant
+			// 
+			this->price_infant->AutoSize = true;
+			this->price_infant->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->price_infant->Location = System::Drawing::Point(195, 396);
+			this->price_infant->Name = L"price_infant";
+			this->price_infant->Size = System::Drawing::Size(170, 41);
+			this->price_infant->TabIndex = 6;
+			this->price_infant->Text = L"price_infant";
+			this->price_infant->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// price_child
+			// 
+			this->price_child->AutoSize = true;
+			this->price_child->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->price_child->Location = System::Drawing::Point(195, 345);
+			this->price_child->Name = L"price_child";
+			this->price_child->Size = System::Drawing::Size(158, 41);
+			this->price_child->TabIndex = 5;
+			this->price_child->Text = L"price_child";
+			this->price_child->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// price_adult
+			// 
+			this->price_adult->AutoSize = true;
+			this->price_adult->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->price_adult->Location = System::Drawing::Point(195, 297);
+			this->price_adult->Name = L"price_adult";
+			this->price_adult->Size = System::Drawing::Size(162, 41);
+			this->price_adult->TabIndex = 4;
+			this->price_adult->Text = L"price_adult";
+			this->price_adult->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// cnt_infant
+			// 
+			this->cnt_infant->AutoSize = true;
+			this->cnt_infant->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->cnt_infant->Location = System::Drawing::Point(31, 396);
+			this->cnt_infant->Name = L"cnt_infant";
+			this->cnt_infant->Size = System::Drawing::Size(101, 41);
+			this->cnt_infant->TabIndex = 3;
+			this->cnt_infant->Text = L"infant ";
+			this->cnt_infant->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// cnt_child
+			// 
+			this->cnt_child->AutoSize = true;
+			this->cnt_child->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->cnt_child->Location = System::Drawing::Point(31, 345);
+			this->cnt_child->Name = L"cnt_child";
+			this->cnt_child->Size = System::Drawing::Size(102, 41);
+			this->cnt_child->TabIndex = 2;
+			this->cnt_child->Text = L"Child  ";
+			this->cnt_child->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// cnt_adult
+			// 
+			this->cnt_adult->AutoSize = true;
+			this->cnt_adult->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->cnt_adult->Location = System::Drawing::Point(31, 297);
+			this->cnt_adult->Name = L"cnt_adult";
+			this->cnt_adult->Size = System::Drawing::Size(97, 41);
+			this->cnt_adult->TabIndex = 1;
+			this->cnt_adult->Text = L"Adult ";
+			this->cnt_adult->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// label1
+			// 
+			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 19.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"label1.Image")));
+			this->label1->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
+			this->label1->Location = System::Drawing::Point(92, 19);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(211, 203);
+			this->label1->TabIndex = 0;
+			this->label1->Text = L"Check Out";
+			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// user_home_page
 			// 
@@ -1121,11 +1321,11 @@ private: System::ComponentModel::IContainer^ components;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->ClientSize = System::Drawing::Size(1924, 894);
+			this->Controls->Add(this->check_out_panal);
 			this->Controls->Add(this->panel_booked);
 			this->Controls->Add(this->search_flights_panel);
 			this->Controls->Add(this->fav_view_panel);
 			this->Controls->Add(this->chat_panel);
-			this->Controls->Add(this->check_out_panal);
 			this->Controls->Add(this->data_booking_panal);
 			this->Controls->Add(this->home_user_panal);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
@@ -1147,6 +1347,8 @@ private: System::ComponentModel::IContainer^ components;
 			this->panel_booked->ResumeLayout(false);
 			this->panel_booked->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->booked_icon_ticket))->EndInit();
+			this->check_out_panal->ResumeLayout(false);
+			this->check_out_panal->PerformLayout();
 			this->ResumeLayout(false);
 
 		}
@@ -1243,28 +1445,10 @@ private: System::ComponentModel::IContainer^ components;
 		chat_panel->Visible = false;
 		panel_booked->Visible = false;
 		data_booking_panal->Visible = false;
+		check_out_panal->Visible = false;
 		getUserFavorites(current_user_name);
 		
-		if (a_airport->Text == "") {
-			no_results->Visible = false;
-
-			flight_layout_panel->Controls->Clear();
-
-			for (int i = 0; i < flights.size(); i++) {
-				view_flight_search_result(i);
-
-				flight_layout_panel->Controls->Add(flight_card);
-				if (in_fav(i)) {
-					flight_card->add_to_fav->Visible = false;
-					flight_card->remove_from_fav->Visible = true;
-				}
-				else {
-					flight_card->add_to_fav->Visible = true;
-					flight_card->remove_from_fav->Visible = false;
-				}
-			}
-		}
-		else search_Click(sender, e);
+		 search_Click(sender, e);
 	}
 	public: System::Void Booked_tickets_button_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (!is_signed_in) {
@@ -1278,6 +1462,7 @@ private: System::ComponentModel::IContainer^ components;
 		fav_view_panel->Visible = false;
 		chat_panel->Visible = false;
 		data_booking_panal->Visible = false;
+		check_out_panal->Visible = false;
 		booked_layout->Controls->Clear();
 		getUserTickets(current_user_name);
 		for (int i = 0; i < user_tickets.size(); i++)
@@ -1296,6 +1481,7 @@ private: System::ComponentModel::IContainer^ components;
 		chat_panel->Visible = false;
 		panel_booked->Visible = false;
 		data_booking_panal->Visible = false;
+		check_out_panal->Visible = false;
 		fav_view_panel->Visible = true;
 		fav_view_panel->BringToFront();
 
@@ -1329,6 +1515,7 @@ private: System::ComponentModel::IContainer^ components;
 		fav_view_panel->Visible = false;
 		panel_booked->Visible = false;
 		data_booking_panal->Visible = false;
+		check_out_panal->Visible = false;
 
 		messages_Load(sender, e);
 		
@@ -1349,6 +1536,7 @@ private: System::ComponentModel::IContainer^ components;
 		panel_booked->Visible = false;
 		fav_view_panel->Visible = false;
 		chat_panel->Visible = false;
+		check_out_panal->Visible = false;
 
 	}
 
@@ -1416,6 +1604,66 @@ private: System::ComponentModel::IContainer^ components;
 						temp_flights.push_back(make_pair(i, flights[i]));
 					}
 				}
+			}
+
+			if (temp_flights.size() == 0) no_results->Visible = true;
+			else no_results->Visible = false;
+
+			if (temp_flights.size() > 1) {
+				sort_by_faster->Visible = true;
+				sort_by_cheaper->Visible = true;
+			}
+			else {
+				sort_by_faster->Visible = false;
+				sort_by_cheaper->Visible = false;
+			}
+
+			if (sort_by_cheaper->Checked) {
+				sort_flights(temp_flights, current_sort_criteria);
+			}
+			if (sort_by_faster->Checked) {
+				sort_flights(temp_flights, current_sort_criteria);
+			}
+
+			for (int i = 0; i < temp_flights.size(); i++) {
+				view_flight_search_result(temp_flights[i].first);
+
+				flight_layout_panel->Controls->Add(flight_card);
+				if (in_fav(temp_flights[i].first)) {
+					flight_card->add_to_fav->Visible = false;
+					flight_card->remove_from_fav->Visible = true;
+				}
+				else {
+					flight_card->add_to_fav->Visible = true;
+					flight_card->remove_from_fav->Visible = false;
+				}
+			}
+		}
+		else {
+
+			flight_layout_panel->Controls->Clear();
+			skyPort_array <pair<int, flight_struct>> temp_flights;
+			
+			int traveleres = (adult_cnt_value + children_cnt_value);
+			total_travelers = traveleres + infants_cnt_value;
+
+			for (int i = 0; i < flights.size(); i++) {
+
+				
+					
+					if (category->Text == "Economy" && flights[i].seats_in_economy >= traveleres) {
+						temp_flights.push_back(make_pair(i, flights[i]));
+					}
+					else if (category->Text == "Premium Economy" && flights[i].seats_in_premium_economy >= traveleres) {
+						temp_flights.push_back(make_pair(i, flights[i]));
+					}
+					else if (category->Text == "Business" && flights[i].seats_in_business >= traveleres) {
+						temp_flights.push_back(make_pair(i, flights[i]));
+					}
+					else if (category->Text == "First Class" && flights[i].seats_in_first_class >= traveleres) {
+						temp_flights.push_back(make_pair(i, flights[i]));
+					}
+				
 			}
 
 			if (temp_flights.size() == 0) no_results->Visible = true;
@@ -1579,5 +1827,6 @@ private: System::ComponentModel::IContainer^ components;
 			}
 		}
 	}
+
 };
 }
