@@ -37,8 +37,8 @@ namespace skyPort {
 			main->price_adult->Text = (adult_cnt_value*adult_price).ToString() + " $";
 			main->price_child->Text = (children_cnt_value * adult_price * 0.75).ToString() + " $";
 			main->price_infant->Text = (infants_cnt_value * adult_price * 0.1).ToString() + " $";
-			main->total_price->Text = ((adult_cnt_value * adult_price) + (children_cnt_value * adult_price * 0.75) + (infants_cnt_value * adult_price * 0.1)).ToString() + " $";
-
+			main->total_price->Text = ((adult_cnt_value * adult_price) + (children_cnt_value * adult_price * 0.75) + (infants_cnt_value * adult_price * 0.1)).ToString();
+			main->get_discount_button->Visible = true;
 
 			for (int i = 1; i <= total_travelers; i++)
 			{
