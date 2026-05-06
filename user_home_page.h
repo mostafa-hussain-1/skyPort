@@ -72,6 +72,7 @@ namespace skyPort {
 	public: System::Windows::Forms::Label^ price_child;
 	public: System::Windows::Forms::Label^ price_adult;
 
+	public: System::Windows::Forms::Button^ get_discount_button;
 
 
 
@@ -79,7 +80,18 @@ namespace skyPort {
 
 	private: System::Windows::Forms::Label^ label11;
 	private: System::Windows::Forms::Label^ label10;
-		  
+	private: System::Windows::Forms::Panel^ mst_panel;
+	private: System::Windows::Forms::Button^ mst2;
+	private: System::Windows::Forms::Button^ mst4;
+	private: System::Windows::Forms::Button^ mst5;
+	private: System::Windows::Forms::Button^ mst1;
+	private: System::Windows::Forms::Label^ mst_gft;
+	private: System::Windows::Forms::Button^ mst_start;
+	private: System::Windows::Forms::Button^ mst3;
+	private: System::Windows::Forms::Button^ mst6;
+	private: System::Windows::Forms::Label^ mst_hook;
+	private: System::Windows::Forms::Timer^ mst_timer;
+
 	public:
 
 
@@ -222,6 +234,12 @@ namespace skyPort {
 	private: System::Windows::Forms::Label^ no_fav_label;
 	private: System::Windows::Forms::Label^ fav_describe_label;
 
+	private: int currentIndex;
+	private: int stopIndex;
+	private: int steps;
+	private: int timerInterval;
+	private: bool spinning;
+	private: System::Random^ rng;
 
 	private: System::Windows::Forms::Label^ fav_label;
 	private: System::Windows::Forms::FlowLayoutPanel^ fav_flights_layout_panel;
@@ -295,9 +313,9 @@ private: System::ComponentModel::IContainer^ components;
 			this->send_button = (gcnew System::Windows::Forms::Button());
 			this->txtMessage = (gcnew System::Windows::Forms::TextBox());
 			this->panel_booked = (gcnew System::Windows::Forms::Panel());
+			this->booked_layout = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->booked_icon_ticket = (gcnew System::Windows::Forms::PictureBox());
 			this->hook_booked_label = (gcnew System::Windows::Forms::Label());
-			this->booked_layout = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->data_booking_panal = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
 			this->check_out_panal = (gcnew System::Windows::Forms::Panel());
@@ -312,6 +330,17 @@ private: System::ComponentModel::IContainer^ components;
 			this->cnt_child = (gcnew System::Windows::Forms::Label());
 			this->cnt_adult = (gcnew System::Windows::Forms::Label());
 			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->mst_panel = (gcnew System::Windows::Forms::Panel());
+			this->mst2 = (gcnew System::Windows::Forms::Button());
+			this->mst4 = (gcnew System::Windows::Forms::Button());
+			this->mst5 = (gcnew System::Windows::Forms::Button());
+			this->mst1 = (gcnew System::Windows::Forms::Button());
+			this->mst_gft = (gcnew System::Windows::Forms::Label());
+			this->mst_start = (gcnew System::Windows::Forms::Button());
+			this->mst3 = (gcnew System::Windows::Forms::Button());
+			this->mst6 = (gcnew System::Windows::Forms::Button());
+			this->mst_hook = (gcnew System::Windows::Forms::Label());
+			this->mst_timer = (gcnew System::Windows::Forms::Timer(this->components));
 			this->home_user_panal->SuspendLayout();
 			this->search_flights_panel->SuspendLayout();
 			this->travler_panel->SuspendLayout();
@@ -321,6 +350,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->panel_booked->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->booked_icon_ticket))->BeginInit();
 			this->check_out_panal->SuspendLayout();
+			this->mst_panel->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// home_user_panal
@@ -1085,14 +1115,24 @@ private: System::ComponentModel::IContainer^ components;
 			// 
 			this->panel_booked->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(210)),
 				static_cast<System::Int32>(static_cast<System::Byte>(216)), static_cast<System::Int32>(static_cast<System::Byte>(228)));
+			this->panel_booked->Controls->Add(this->booked_layout);
 			this->panel_booked->Controls->Add(this->booked_icon_ticket);
 			this->panel_booked->Controls->Add(this->hook_booked_label);
-			this->panel_booked->Controls->Add(this->booked_layout);
 			this->panel_booked->Location = System::Drawing::Point(285, 0);
 			this->panel_booked->Name = L"panel_booked";
 			this->panel_booked->Size = System::Drawing::Size(1650, 1004);
 			this->panel_booked->TabIndex = 22;
 			this->panel_booked->Visible = false;
+			// 
+			// booked_layout
+			// 
+			this->booked_layout->AutoScroll = true;
+			this->booked_layout->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(150)), static_cast<System::Int32>(static_cast<System::Byte>(250)),
+				static_cast<System::Int32>(static_cast<System::Byte>(250)), static_cast<System::Int32>(static_cast<System::Byte>(250)));
+			this->booked_layout->Location = System::Drawing::Point(76, 64);
+			this->booked_layout->Name = L"booked_layout";
+			this->booked_layout->Size = System::Drawing::Size(1505, 900);
+			this->booked_layout->TabIndex = 0;
 			// 
 			// booked_icon_ticket
 			// 
@@ -1115,16 +1155,6 @@ private: System::ComponentModel::IContainer^ components;
 			this->hook_booked_label->Size = System::Drawing::Size(374, 50);
 			this->hook_booked_label->TabIndex = 1;
 			this->hook_booked_label->Text = L"Your booked Tickets";
-			// 
-			// booked_layout
-			// 
-			this->booked_layout->AutoScroll = true;
-			this->booked_layout->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(150)), static_cast<System::Int32>(static_cast<System::Byte>(250)),
-				static_cast<System::Int32>(static_cast<System::Byte>(250)), static_cast<System::Int32>(static_cast<System::Byte>(250)));
-			this->booked_layout->Location = System::Drawing::Point(76, 64);
-			this->booked_layout->Name = L"booked_layout";
-			this->booked_layout->Size = System::Drawing::Size(1505, 900);
-			this->booked_layout->TabIndex = 0;
 			// 
 			// data_booking_panal
 			// 
@@ -1191,6 +1221,22 @@ private: System::ComponentModel::IContainer^ components;
 			this->label10->Text = L"______________________";
 			this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
+			// get_discount_button
+			// 
+			this->get_discount_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(85)), static_cast<System::Int32>(static_cast<System::Byte>(170)));
+			this->get_discount_button->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->get_discount_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->get_discount_button->ForeColor = System::Drawing::Color::White;
+			this->get_discount_button->Location = System::Drawing::Point(88, 578);
+			this->get_discount_button->Name = L"get_discount_button";
+			this->get_discount_button->Size = System::Drawing::Size(235, 68);
+			this->get_discount_button->TabIndex = 9;
+			this->get_discount_button->Text = L"Get Discount";
+			this->get_discount_button->UseVisualStyleBackColor = false;
+			this->get_discount_button->Click += gcnew System::EventHandler(this, &user_home_page::get_discount_button_Click);
+			// 
 			// total_price
 			// 
 			this->total_price->AutoSize = true;
@@ -1198,9 +1244,8 @@ private: System::ComponentModel::IContainer^ components;
 				static_cast<System::Byte>(0)));
 			this->total_price->Location = System::Drawing::Point(233, 496);
 			this->total_price->Name = L"total_price";
-			this->total_price->Size = System::Drawing::Size(39, 45);
+			this->total_price->Size = System::Drawing::Size(0, 45);
 			this->total_price->TabIndex = 8;
-			this->total_price->Text = L"$";
 			this->total_price->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// Total
@@ -1300,6 +1345,145 @@ private: System::ComponentModel::IContainer^ components;
 			this->label1->Text = L"Check Out";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
+			// mst_panel
+			// 
+			this->mst_panel->BackColor = System::Drawing::Color::Transparent;
+			this->mst_panel->Controls->Add(this->mst2);
+			this->mst_panel->Controls->Add(this->mst4);
+			this->mst_panel->Controls->Add(this->mst5);
+			this->mst_panel->Controls->Add(this->mst1);
+			this->mst_panel->Controls->Add(this->mst_gft);
+			this->mst_panel->Controls->Add(this->mst_start);
+			this->mst_panel->Controls->Add(this->mst3);
+			this->mst_panel->Controls->Add(this->mst6);
+			this->mst_panel->Controls->Add(this->mst_hook);
+			this->mst_panel->Location = System::Drawing::Point(285, 0);
+			this->mst_panel->Name = L"mst_panel";
+			this->mst_panel->Size = System::Drawing::Size(1872, 1054);
+			this->mst_panel->TabIndex = 24;
+			this->mst_panel->Visible = false;
+			// 
+			// mst2
+			// 
+			this->mst2->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->mst2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"mst2.BackgroundImage")));
+			this->mst2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->mst2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 30, System::Drawing::FontStyle::Bold));
+			this->mst2->Location = System::Drawing::Point(850, 132);
+			this->mst2->Name = L"mst2";
+			this->mst2->Size = System::Drawing::Size(277, 237);
+			this->mst2->TabIndex = 5;
+			this->mst2->UseVisualStyleBackColor = false;
+			// 
+			// mst4
+			// 
+			this->mst4->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->mst4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"mst4.BackgroundImage")));
+			this->mst4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->mst4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 30, System::Drawing::FontStyle::Bold));
+			this->mst4->Location = System::Drawing::Point(305, 452);
+			this->mst4->Name = L"mst4";
+			this->mst4->Size = System::Drawing::Size(277, 237);
+			this->mst4->TabIndex = 4;
+			this->mst4->UseVisualStyleBackColor = false;
+			// 
+			// mst5
+			// 
+			this->mst5->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->mst5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"mst5.BackgroundImage")));
+			this->mst5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->mst5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 30, System::Drawing::FontStyle::Bold));
+			this->mst5->Location = System::Drawing::Point(850, 452);
+			this->mst5->Name = L"mst5";
+			this->mst5->Size = System::Drawing::Size(277, 237);
+			this->mst5->TabIndex = 2;
+			this->mst5->UseVisualStyleBackColor = false;
+			// 
+			// mst1
+			// 
+			this->mst1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->mst1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"mst1.BackgroundImage")));
+			this->mst1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->mst1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 30, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->mst1->Location = System::Drawing::Point(306, 132);
+			this->mst1->Name = L"mst1";
+			this->mst1->Size = System::Drawing::Size(277, 237);
+			this->mst1->TabIndex = 1;
+			this->mst1->UseVisualStyleBackColor = false;
+			// 
+			// mst_gft
+			// 
+			this->mst_gft->AutoSize = true;
+			this->mst_gft->BackColor = System::Drawing::Color::Transparent;
+			this->mst_gft->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 35, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->mst_gft->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
+			this->mst_gft->Location = System::Drawing::Point(0, 0);
+			this->mst_gft->Name = L"mst_gft";
+			this->mst_gft->Size = System::Drawing::Size(0, 67);
+			this->mst_gft->TabIndex = 8;
+			// 
+			// mst_start
+			// 
+			this->mst_start->BackColor = System::Drawing::SystemColors::ScrollBar;
+			this->mst_start->Font = (gcnew System::Drawing::Font(L"Bernard MT Condensed", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->mst_start->Location = System::Drawing::Point(418, 841);
+			this->mst_start->Name = L"mst_start";
+			this->mst_start->Size = System::Drawing::Size(93, 50);
+			this->mst_start->TabIndex = 7;
+			this->mst_start->Text = L"start";
+			this->mst_start->UseVisualStyleBackColor = false;
+			this->mst_start->Click += gcnew System::EventHandler(this, &user_home_page::mst_start_Click);
+			// 
+			// mst3
+			// 
+			this->mst3->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->mst3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"mst3.BackgroundImage")));
+			this->mst3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->mst3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 30, System::Drawing::FontStyle::Bold));
+			this->mst3->Location = System::Drawing::Point(1401, 132);
+			this->mst3->Name = L"mst3";
+			this->mst3->Size = System::Drawing::Size(277, 237);
+			this->mst3->TabIndex = 6;
+			this->mst3->UseVisualStyleBackColor = false;
+			// 
+			// mst6
+			// 
+			this->mst6->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->mst6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"mst6.BackgroundImage")));
+			this->mst6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->mst6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 30, System::Drawing::FontStyle::Bold));
+			this->mst6->Location = System::Drawing::Point(1401, 452);
+			this->mst6->Name = L"mst6";
+			this->mst6->Size = System::Drawing::Size(277, 237);
+			this->mst6->TabIndex = 3;
+			this->mst6->UseVisualStyleBackColor = false;
+			// 
+			// mst_hook
+			// 
+			this->mst_hook->AutoSize = true;
+			this->mst_hook->BackColor = System::Drawing::Color::Transparent;
+			this->mst_hook->Font = (gcnew System::Drawing::Font(L"Segoe UI", 22.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->mst_hook->ForeColor = System::Drawing::SystemColors::MenuText;
+			this->mst_hook->Location = System::Drawing::Point(409, 51);
+			this->mst_hook->Name = L"mst_hook";
+			this->mst_hook->Size = System::Drawing::Size(1000, 50);
+			this->mst_hook->TabIndex = 0;
+			this->mst_hook->Text = L"________Get exclusive discounts on your next flight________";
+			// 
+			// mst_timer
+			// 
+			this->mst_timer->Tick += gcnew System::EventHandler(this, &user_home_page::mst_timer_Tick);
+			// 
 			// user_home_page
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -1308,12 +1492,13 @@ private: System::ComponentModel::IContainer^ components;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->ClientSize = System::Drawing::Size(1924, 894);
 			this->Controls->Add(this->check_out_panal);
-			this->Controls->Add(this->panel_booked);
+			this->Controls->Add(this->mst_panel);
 			this->Controls->Add(this->search_flights_panel);
 			this->Controls->Add(this->fav_view_panel);
 			this->Controls->Add(this->chat_panel);
 			this->Controls->Add(this->data_booking_panal);
 			this->Controls->Add(this->home_user_panal);
+			this->Controls->Add(this->panel_booked);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"user_home_page";
 			this->Text = L"Home page";
@@ -1335,6 +1520,8 @@ private: System::ComponentModel::IContainer^ components;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->booked_icon_ticket))->EndInit();
 			this->check_out_panal->ResumeLayout(false);
 			this->check_out_panal->PerformLayout();
+			this->mst_panel->ResumeLayout(false);
+			this->mst_panel->PerformLayout();
 			this->ResumeLayout(false);
 
 		}
@@ -1355,6 +1542,48 @@ private: System::ComponentModel::IContainer^ components;
 
 			hook_booked_label->Left = (this->panel_booked->Width - hook_booked_label->Width) / 2;
 			booked_icon_ticket->Left = hook_booked_label->Left + hook_booked_label->Width - 2;
+
+			System::String^ path1 = System::IO::Path::Combine(System::Windows::Forms::Application::StartupPath, L"img1.png");
+			System::String^ path2 = System::IO::Path::Combine(System::Windows::Forms::Application::StartupPath, L"img2.png");
+			System::String^ path3 = System::IO::Path::Combine(System::Windows::Forms::Application::StartupPath, L"img3.png");
+			System::String^ path4 = System::IO::Path::Combine(System::Windows::Forms::Application::StartupPath, L"img4.png");
+			System::String^ path5 = System::IO::Path::Combine(System::Windows::Forms::Application::StartupPath, L"img5.png");
+			System::String^ path6 = System::IO::Path::Combine(System::Windows::Forms::Application::StartupPath, L"img6.png");
+
+			if (System::IO::File::Exists(path1)) mst1->BackgroundImage = System::Drawing::Image::FromFile(path1);
+			if (System::IO::File::Exists(path2)) mst2->BackgroundImage = System::Drawing::Image::FromFile(path2);
+			if (System::IO::File::Exists(path3)) mst3->BackgroundImage = System::Drawing::Image::FromFile(path3);
+			if (System::IO::File::Exists(path4)) mst4->BackgroundImage = System::Drawing::Image::FromFile(path4);
+			if (System::IO::File::Exists(path5)) mst5->BackgroundImage = System::Drawing::Image::FromFile(path5);
+			if (System::IO::File::Exists(path6)) mst6->BackgroundImage = System::Drawing::Image::FromFile(path6);
+
+			mst1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			mst2->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			mst3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			mst4->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			mst5->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			mst6->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+
+			mst1->Text = L"";
+			mst2->Text = L"";
+			mst3->Text = L"";
+			mst4->Text = L"";
+			mst5->Text = L"";
+			mst6->Text = L"";
+
+			mst1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			mst2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			mst3->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			mst4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			mst5->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			mst6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+
+			rng = gcnew System::Random();
+			currentIndex = 0;
+			stopIndex = 0;
+			steps = 0;
+			timerInterval = 80;
+			spinning = false;
 	}
 	
 	private: System::Void messages_Load(System::Object^ sender, System::EventArgs^ e)
@@ -1814,5 +2043,123 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
+		   void ResetButtons() {
+			   mst1->BackColor = System::Drawing::Color::FromArgb(192, 255, 255);
+			   mst2->BackColor = System::Drawing::Color::FromArgb(192, 255, 255);
+			   mst3->BackColor = System::Drawing::Color::FromArgb(192, 255, 255);
+			   mst4->BackColor = System::Drawing::Color::FromArgb(192, 255, 255);
+			   mst5->BackColor = System::Drawing::Color::FromArgb(192, 255, 255);
+			   mst6->BackColor = System::Drawing::Color::FromArgb(192, 255, 255);
+
+			   mst1->ForeColor = System::Drawing::Color::Black;
+			   mst2->ForeColor = System::Drawing::Color::Black;
+			   mst3->ForeColor = System::Drawing::Color::Black;
+			   mst4->ForeColor = System::Drawing::Color::Black;
+			   mst5->ForeColor = System::Drawing::Color::Black;
+			   mst6->ForeColor = System::Drawing::Color::Black;
+		   }
+
+		   // Get button by index
+		   System::Windows::Forms::Button^ GetButton(int index) {
+			   switch (index) {
+			   case 0: return mst1;
+			   case 1: return mst2;
+			   case 2: return mst3;
+			   case 3: return mst4;
+			   case 4: return mst5;
+			   case 5: return mst6;
+			   default: return mst1;
+			   }
+		   }
+
+		   // Get discount text by index
+		   System::String^ GetDiscountText(int index) {
+			   switch (index) {
+			   case 0: return "20";
+			   case 1: return "50";
+			   case 2: return "10";
+			   case 3: return "30";
+			   case 4: return "40";
+			   case 5: return "Hard Luck";
+			   default: return "0";
+			   }
+		   }
+
+		   void mst_timer_Tick(System::Object^ sender, System::EventArgs^ e) {
+			   ResetButtons();
+
+			   System::Windows::Forms::Button^ currentButton = GetButton(currentIndex);
+			   currentButton->BackColor = System::Drawing::Color::Yellow;
+			   currentButton->ForeColor = System::Drawing::Color::Black;
+
+			   steps++;
+
+			   if (steps > 30 && currentIndex == stopIndex) {
+				   mst_timer->Stop();
+				   spinning = false;
+
+				   System::Windows::Forms::Button^ winner = GetButton(currentIndex);
+				   winner->BackgroundImage = nullptr;
+				   winner->Text = GetDiscountText(currentIndex);
+				   winner->BackColor = System::Drawing::Color::LimeGreen;
+				   winner->ForeColor = System::Drawing::Color::White;
+				   winner->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+
+				   if (currentIndex == 5) {
+					   MessageBox::Show("Hard Luck", "may be next time", MessageBoxButtons::OK, MessageBoxIcon::Information);
+				   }
+				   else {
+					   MessageBox::Show("you saved " + GetDiscountText(currentIndex) + "%", "Congratulations !", MessageBoxButtons::OK, MessageBoxIcon::Information);
+				   
+					   int disc = safe_cast<int>(Int32::Parse(GetDiscountText(currentIndex)));
+					   double Total_price = safe_cast<double>(Double::Parse(total_price->Text));
+					   Total_price = Total_price * (100 - disc) / 100.0;
+					   total_price->Text = Total_price.ToString("F2");
+				   }
+
+
+				   mst_panel->Visible = false;
+				   check_out_panal->Visible = true;
+				   data_booking_panal->Visible = true;
+				   get_discount_button->Visible = false;
+
+				   mst_gft->BackColor = System::Drawing::Color::LightYellow;
+				   mst_start->Enabled = true;
+				   mst_start->Text = L"start";
+				   return;
+			   }
+
+			   currentIndex = (currentIndex + 1) % 6;
+		   }
+
+		   void mst_start_Click(System::Object^ sender, System::EventArgs^ e) {
+			   if (spinning) return;
+
+			   ResetButtons();
+
+			   stopIndex = rng->Next(0, 6);
+			   currentIndex = 0;
+			   steps = 0;
+			   timerInterval = 80;
+			   spinning = true;
+
+			   mst_hook->Text = L"________Get exclusive discounts on your next flight________";
+			   mst_gft->Text = L"";
+
+			   mst_timer->Stop();
+			   mst_timer->Interval = timerInterval;
+			   mst_timer->Start();
+
+			   mst_start->Enabled = false;
+			   mst_start->Text = L"wait";
+		   }
+
+private: System::Void get_discount_button_Click(System::Object^ sender, System::EventArgs^ e) {
+
+	mst_panel->Visible = true;
+	check_out_panal->Visible = false;
+	data_booking_panal->Visible = false;
+
+}
 };
 }
