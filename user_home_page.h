@@ -71,7 +71,7 @@ namespace skyPort {
 	public: System::Windows::Forms::Label^ price_infant;
 	public: System::Windows::Forms::Label^ price_child;
 	public: System::Windows::Forms::Label^ price_adult;
-	private: System::Windows::Forms::Button^ get_discount_button;
+
 
 
 
@@ -303,7 +303,6 @@ private: System::ComponentModel::IContainer^ components;
 			this->check_out_panal = (gcnew System::Windows::Forms::Panel());
 			this->label11 = (gcnew System::Windows::Forms::Label());
 			this->label10 = (gcnew System::Windows::Forms::Label());
-			this->get_discount_button = (gcnew System::Windows::Forms::Button());
 			this->total_price = (gcnew System::Windows::Forms::Label());
 			this->Total = (gcnew System::Windows::Forms::Label());
 			this->price_infant = (gcnew System::Windows::Forms::Label());
@@ -1150,7 +1149,6 @@ private: System::ComponentModel::IContainer^ components;
 			this->check_out_panal->BackColor = System::Drawing::Color::White;
 			this->check_out_panal->Controls->Add(this->label11);
 			this->check_out_panal->Controls->Add(this->label10);
-			this->check_out_panal->Controls->Add(this->get_discount_button);
 			this->check_out_panal->Controls->Add(this->total_price);
 			this->check_out_panal->Controls->Add(this->Total);
 			this->check_out_panal->Controls->Add(this->price_infant);
@@ -1192,21 +1190,6 @@ private: System::ComponentModel::IContainer^ components;
 			this->label10->TabIndex = 10;
 			this->label10->Text = L"______________________";
 			this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			// 
-			// get_discount_button
-			// 
-			this->get_discount_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(85)), static_cast<System::Int32>(static_cast<System::Byte>(170)));
-			this->get_discount_button->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->get_discount_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->get_discount_button->ForeColor = System::Drawing::Color::White;
-			this->get_discount_button->Location = System::Drawing::Point(88, 578);
-			this->get_discount_button->Name = L"get_discount_button";
-			this->get_discount_button->Size = System::Drawing::Size(235, 68);
-			this->get_discount_button->TabIndex = 9;
-			this->get_discount_button->Text = L"Get Discount";
-			this->get_discount_button->UseVisualStyleBackColor = false;
 			// 
 			// total_price
 			// 
