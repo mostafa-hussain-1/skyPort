@@ -12,7 +12,7 @@ mostafa_1;:D;1;1
 mazen_1;Hello, I need help;1;0
 mazen_1;hello how can i help you;1;1
 mohsen_1;Hello, I need some help please;1;0
-youssef_1;Hello;0;0
+youssef_1;Hello;1;0
 n00r_1;Hi, I need help to book;1;0
 mostafa_1;kfgbkfddhf;1;0
 mostafa_1;khdgshdfgks;1;1
@@ -22,3 +22,4 @@ saifmohsen;?? ???;1;1
 mohsen_1;hi;1;0
 mohsen_1;how much;1;0
 mohsen_1;50;1;1
+youssef_1;hi, can i help you?;1;1

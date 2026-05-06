@@ -1165,7 +1165,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->data_booking_panal->Dock = System::Windows::Forms::DockStyle::Fill;
 			this->data_booking_panal->Location = System::Drawing::Point(284, 0);
 			this->data_booking_panal->Name = L"data_booking_panal";
-			this->data_booking_panal->Size = System::Drawing::Size(1235, 894);
+			this->data_booking_panal->Size = System::Drawing::Size(1640, 894);
 			this->data_booking_panal->TabIndex = 5;
 			this->data_booking_panal->Visible = false;
 			// 
@@ -1178,6 +1178,7 @@ private: System::ComponentModel::IContainer^ components;
 			// check_out_panal
 			// 
 			this->check_out_panal->BackColor = System::Drawing::Color::White;
+			this->check_out_panal->Controls->Add(this->get_discount_button);
 			this->check_out_panal->Controls->Add(this->label11);
 			this->check_out_panal->Controls->Add(this->label10);
 			this->check_out_panal->Controls->Add(this->total_price);
@@ -1477,7 +1478,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->get_discount_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->get_discount_button->ForeColor = System::Drawing::Color::White;
-			this->get_discount_button->Location = System::Drawing::Point(88, 578);
+			this->get_discount_button->Location = System::Drawing::Point(91, 572);
 			this->get_discount_button->Name = L"get_discount_button";
 			this->get_discount_button->Size = System::Drawing::Size(235, 68);
 			this->get_discount_button->TabIndex = 9;
@@ -1492,12 +1493,12 @@ private: System::ComponentModel::IContainer^ components;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->ClientSize = System::Drawing::Size(1924, 894);
+			this->Controls->Add(this->check_out_panal);
 			this->Controls->Add(this->fav_view_panel);
 			this->Controls->Add(this->chat_panel);
 			this->Controls->Add(this->data_booking_panal);
 			this->Controls->Add(this->home_user_panal);
 			this->Controls->Add(this->panel_booked);
-			this->Controls->Add(this->check_out_panal);
 			this->Controls->Add(this->mst_panel);
 			this->Controls->Add(this->search_flights_panel);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));

@@ -10,3 +10,4 @@ LY-MLI;Airbus A320-200;14;11;Philadelphia International Airport
 HA-LDF;Airbus A321neo;15;12;Chicago Rockford International Airport
 CEO_1;test2;10;10;Chicago Rockford International Airport
 SU_GBU;Airbus neo-322;10;12;Alexandria International Airport
+SU-GLO;Airbus 320neo1;10;10;Sharm El Sheikh International Airport
