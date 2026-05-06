@@ -341,6 +341,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->mst6 = (gcnew System::Windows::Forms::Button());
 			this->mst_hook = (gcnew System::Windows::Forms::Label());
 			this->mst_timer = (gcnew System::Windows::Forms::Timer(this->components));
+			this->get_discount_button = (gcnew System::Windows::Forms::Button());
 			this->home_user_panal->SuspendLayout();
 			this->search_flights_panel->SuspendLayout();
 			this->travler_panel->SuspendLayout();
@@ -1164,7 +1165,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->data_booking_panal->Dock = System::Windows::Forms::DockStyle::Fill;
 			this->data_booking_panal->Location = System::Drawing::Point(284, 0);
 			this->data_booking_panal->Name = L"data_booking_panal";
-			this->data_booking_panal->Size = System::Drawing::Size(1640, 894);
+			this->data_booking_panal->Size = System::Drawing::Size(1235, 894);
 			this->data_booking_panal->TabIndex = 5;
 			this->data_booking_panal->Visible = false;
 			// 
@@ -1220,22 +1221,6 @@ private: System::ComponentModel::IContainer^ components;
 			this->label10->TabIndex = 10;
 			this->label10->Text = L"______________________";
 			this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			// 
-			// get_discount_button
-			// 
-			this->get_discount_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(85)), static_cast<System::Int32>(static_cast<System::Byte>(170)));
-			this->get_discount_button->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->get_discount_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->get_discount_button->ForeColor = System::Drawing::Color::White;
-			this->get_discount_button->Location = System::Drawing::Point(88, 578);
-			this->get_discount_button->Name = L"get_discount_button";
-			this->get_discount_button->Size = System::Drawing::Size(235, 68);
-			this->get_discount_button->TabIndex = 9;
-			this->get_discount_button->Text = L"Get Discount";
-			this->get_discount_button->UseVisualStyleBackColor = false;
-			this->get_discount_button->Click += gcnew System::EventHandler(this, &user_home_page::get_discount_button_Click);
 			// 
 			// total_price
 			// 
@@ -1484,6 +1469,22 @@ private: System::ComponentModel::IContainer^ components;
 			// 
 			this->mst_timer->Tick += gcnew System::EventHandler(this, &user_home_page::mst_timer_Tick);
 			// 
+			// get_discount_button
+			// 
+			this->get_discount_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(85)), static_cast<System::Int32>(static_cast<System::Byte>(170)));
+			this->get_discount_button->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->get_discount_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->get_discount_button->ForeColor = System::Drawing::Color::White;
+			this->get_discount_button->Location = System::Drawing::Point(88, 578);
+			this->get_discount_button->Name = L"get_discount_button";
+			this->get_discount_button->Size = System::Drawing::Size(235, 68);
+			this->get_discount_button->TabIndex = 9;
+			this->get_discount_button->Text = L"Get Discount";
+			this->get_discount_button->UseVisualStyleBackColor = false;
+			this->get_discount_button->Click += gcnew System::EventHandler(this, &user_home_page::get_discount_button_Click);
+			// 
 			// user_home_page
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -1491,14 +1492,14 @@ private: System::ComponentModel::IContainer^ components;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->ClientSize = System::Drawing::Size(1924, 894);
-			this->Controls->Add(this->check_out_panal);
-			this->Controls->Add(this->mst_panel);
-			this->Controls->Add(this->search_flights_panel);
 			this->Controls->Add(this->fav_view_panel);
 			this->Controls->Add(this->chat_panel);
 			this->Controls->Add(this->data_booking_panal);
 			this->Controls->Add(this->home_user_panal);
 			this->Controls->Add(this->panel_booked);
+			this->Controls->Add(this->check_out_panal);
+			this->Controls->Add(this->mst_panel);
+			this->Controls->Add(this->search_flights_panel);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"user_home_page";
 			this->Text = L"Home page";
