@@ -91,6 +91,7 @@ namespace skyPort {
 	private: System::Windows::Forms::Button^ mst6;
 	private: System::Windows::Forms::Label^ mst_hook;
 	private: System::Windows::Forms::Timer^ mst_timer;
+	private: System::Windows::Forms::Label^ dollar_lbl;
 
 	public:
 
@@ -240,6 +241,9 @@ namespace skyPort {
 	private: int timerInterval;
 	private: bool spinning;
 	private: System::Random^ rng;
+	private: System::Collections::Generic::Dictionary<int, int>^ flight_discounts;
+		   private: int discounted_flight_index;
+private: int saved_discount;
 
 	private: System::Windows::Forms::Label^ fav_label;
 	private: System::Windows::Forms::FlowLayoutPanel^ fav_flights_layout_panel;
@@ -319,6 +323,8 @@ private: System::ComponentModel::IContainer^ components;
 			this->data_booking_panal = (gcnew System::Windows::Forms::FlowLayoutPanel());
 			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
 			this->check_out_panal = (gcnew System::Windows::Forms::Panel());
+			this->dollar_lbl = (gcnew System::Windows::Forms::Label());
+			this->get_discount_button = (gcnew System::Windows::Forms::Button());
 			this->label11 = (gcnew System::Windows::Forms::Label());
 			this->label10 = (gcnew System::Windows::Forms::Label());
 			this->total_price = (gcnew System::Windows::Forms::Label());
@@ -341,7 +347,6 @@ private: System::ComponentModel::IContainer^ components;
 			this->mst6 = (gcnew System::Windows::Forms::Button());
 			this->mst_hook = (gcnew System::Windows::Forms::Label());
 			this->mst_timer = (gcnew System::Windows::Forms::Timer(this->components));
-			this->get_discount_button = (gcnew System::Windows::Forms::Button());
 			this->home_user_panal->SuspendLayout();
 			this->search_flights_panel->SuspendLayout();
 			this->travler_panel->SuspendLayout();
@@ -1178,6 +1183,7 @@ private: System::ComponentModel::IContainer^ components;
 			// check_out_panal
 			// 
 			this->check_out_panal->BackColor = System::Drawing::Color::White;
+			this->check_out_panal->Controls->Add(this->dollar_lbl);
 			this->check_out_panal->Controls->Add(this->get_discount_button);
 			this->check_out_panal->Controls->Add(this->label11);
 			this->check_out_panal->Controls->Add(this->label10);
@@ -1198,6 +1204,33 @@ private: System::ComponentModel::IContainer^ components;
 			this->check_out_panal->Size = System::Drawing::Size(405, 894);
 			this->check_out_panal->TabIndex = 23;
 			this->check_out_panal->Visible = false;
+			// 
+			// dollar_lbl
+			// 
+			this->dollar_lbl->AutoSize = true;
+			this->dollar_lbl->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->dollar_lbl->Location = System::Drawing::Point(352, 499);
+			this->dollar_lbl->Name = L"dollar_lbl";
+			this->dollar_lbl->Size = System::Drawing::Size(35, 41);
+			this->dollar_lbl->TabIndex = 12;
+			this->dollar_lbl->Text = L"$";
+			// 
+			// get_discount_button
+			// 
+			this->get_discount_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(85)), static_cast<System::Int32>(static_cast<System::Byte>(170)));
+			this->get_discount_button->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->get_discount_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->get_discount_button->ForeColor = System::Drawing::Color::White;
+			this->get_discount_button->Location = System::Drawing::Point(91, 572);
+			this->get_discount_button->Name = L"get_discount_button";
+			this->get_discount_button->Size = System::Drawing::Size(235, 68);
+			this->get_discount_button->TabIndex = 9;
+			this->get_discount_button->Text = L"Get Discount";
+			this->get_discount_button->UseVisualStyleBackColor = false;
+			this->get_discount_button->Click += gcnew System::EventHandler(this, &user_home_page::get_discount_button_Click);
 			// 
 			// label11
 			// 
@@ -1228,7 +1261,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->total_price->AutoSize = true;
 			this->total_price->Font = (gcnew System::Drawing::Font(L"Segoe UI", 19.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->total_price->Location = System::Drawing::Point(233, 496);
+			this->total_price->Location = System::Drawing::Point(234, 497);
 			this->total_price->Name = L"total_price";
 			this->total_price->Size = System::Drawing::Size(0, 45);
 			this->total_price->TabIndex = 8;
@@ -1239,7 +1272,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->Total->AutoSize = true;
 			this->Total->Font = (gcnew System::Drawing::Font(L"Segoe UI", 19.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->Total->Location = System::Drawing::Point(30, 496);
+			this->Total->Location = System::Drawing::Point(34, 497);
 			this->Total->Name = L"Total";
 			this->Total->Size = System::Drawing::Size(181, 45);
 			this->Total->TabIndex = 7;
@@ -1419,7 +1452,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->mst_start->BackColor = System::Drawing::SystemColors::ScrollBar;
 			this->mst_start->Font = (gcnew System::Drawing::Font(L"Bernard MT Condensed", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->mst_start->Location = System::Drawing::Point(418, 841);
+			this->mst_start->Location = System::Drawing::Point(942, 808);
 			this->mst_start->Name = L"mst_start";
 			this->mst_start->Size = System::Drawing::Size(93, 50);
 			this->mst_start->TabIndex = 7;
@@ -1470,22 +1503,6 @@ private: System::ComponentModel::IContainer^ components;
 			// 
 			this->mst_timer->Tick += gcnew System::EventHandler(this, &user_home_page::mst_timer_Tick);
 			// 
-			// get_discount_button
-			// 
-			this->get_discount_button->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)),
-				static_cast<System::Int32>(static_cast<System::Byte>(85)), static_cast<System::Int32>(static_cast<System::Byte>(170)));
-			this->get_discount_button->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->get_discount_button->Font = (gcnew System::Drawing::Font(L"Segoe UI", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->get_discount_button->ForeColor = System::Drawing::Color::White;
-			this->get_discount_button->Location = System::Drawing::Point(91, 572);
-			this->get_discount_button->Name = L"get_discount_button";
-			this->get_discount_button->Size = System::Drawing::Size(235, 68);
-			this->get_discount_button->TabIndex = 9;
-			this->get_discount_button->Text = L"Get Discount";
-			this->get_discount_button->UseVisualStyleBackColor = false;
-			this->get_discount_button->Click += gcnew System::EventHandler(this, &user_home_page::get_discount_button_Click);
-			// 
 			// user_home_page
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -1494,12 +1511,12 @@ private: System::ComponentModel::IContainer^ components;
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Center;
 			this->ClientSize = System::Drawing::Size(1924, 894);
 			this->Controls->Add(this->check_out_panal);
+			this->Controls->Add(this->mst_panel);
 			this->Controls->Add(this->fav_view_panel);
 			this->Controls->Add(this->chat_panel);
 			this->Controls->Add(this->data_booking_panal);
 			this->Controls->Add(this->home_user_panal);
 			this->Controls->Add(this->panel_booked);
-			this->Controls->Add(this->mst_panel);
 			this->Controls->Add(this->search_flights_panel);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"user_home_page";
@@ -1586,6 +1603,9 @@ private: System::ComponentModel::IContainer^ components;
 			steps = 0;
 			timerInterval = 80;
 			spinning = false;
+			flight_discounts = gcnew System::Collections::Generic::Dictionary<int, int>();
+			discounted_flight_index = -1;  
+			saved_discount = 0;   
 	}
 	
 	private: System::Void messages_Load(System::Object^ sender, System::EventArgs^ e)
@@ -1685,6 +1705,21 @@ private: System::ComponentModel::IContainer^ components;
 		for (int i = 0; i < user_tickets.size(); i++)
 		{
 			view_user_booked(user_tickets[i]);
+		}
+		for each (Control ^ ctrl in booked_layout->Controls) {
+			view_booked^ card = dynamic_cast<view_booked^>(ctrl);
+			if (card != nullptr) {
+				int card_flight_idx = Int32::Parse(card->flight_idx->Text);
+				if (flight_discounts->ContainsKey(card_flight_idx)) {
+					int disc = flight_discounts[card_flight_idx];
+					String^ priceStr = card->price_view_label->Text
+						->Replace(" $", "")
+						->Trim();
+					double cardPrice = Double::Parse(priceStr);
+					double newPrice = cardPrice * (1.0 - disc / 100.0);
+					card->price_view_label->Text = newPrice.ToString("F2") + " $";
+				}
+			}
 		}
 	}
 	private: System::Void favourite_flights_button_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -2077,11 +2112,11 @@ private: System::ComponentModel::IContainer^ components;
 		   // Get discount text by index
 		   System::String^ GetDiscountText(int index) {
 			   switch (index) {
-			   case 0: return "20";
-			   case 1: return "50";
-			   case 2: return "10";
-			   case 3: return "30";
-			   case 4: return "40";
+			   case 0: return "20%";
+			   case 1: return "50%";
+			   case 2: return "10%";
+			   case 3: return "30%";
+			   case 4: return "40%";
 			   case 5: return "Hard Luck";
 			   default: return "0";
 			   }
@@ -2111,14 +2146,16 @@ private: System::ComponentModel::IContainer^ components;
 					   MessageBox::Show("Hard Luck", "may be next time", MessageBoxButtons::OK, MessageBoxIcon::Information);
 				   }
 				   else {
-					   MessageBox::Show("you saved " + GetDiscountText(currentIndex) + "%", "Congratulations !", MessageBoxButtons::OK, MessageBoxIcon::Information);
-				   
-					   int disc = safe_cast<int>(Int32::Parse(GetDiscountText(currentIndex)));
-					   double Total_price = safe_cast<double>(Double::Parse(total_price->Text));
-					   Total_price = Total_price * (100 - disc) / 100.0;
-					   total_price->Text = Total_price.ToString("F2");
-				   }
+					   MessageBox::Show("you saved " + GetDiscountText(currentIndex), "Congratulations !", MessageBoxButtons::OK, MessageBoxIcon::Information);
 
+					   String^ discStr = GetDiscountText(currentIndex)->Replace("%", "");
+					   int disc = Int32::Parse(discStr);
+					   double Total_price = safe_cast<double>(Double::Parse(total_price->Text));
+					   Total_price = Total_price * (100 - disc) / 100;
+					   total_price->Text = Total_price.ToString("F2");
+					   flight_discounts[discounted_flight_index] = disc;
+
+				   }
 
 				   mst_panel->Visible = false;
 				   check_out_panal->Visible = true;
@@ -2158,6 +2195,7 @@ private: System::ComponentModel::IContainer^ components;
 
 private: System::Void get_discount_button_Click(System::Object^ sender, System::EventArgs^ e) {
 
+	discounted_flight_index = selected_flight_idx;
 	mst_panel->Visible = true;
 	check_out_panal->Visible = false;
 	data_booking_panal->Visible = false;

@@ -62,7 +62,7 @@ namespace skyPort {
 	private: System::Windows::Forms::Label^ category_view_label;
 	protected:
 	private: System::Windows::Forms::Label^ category_label;
-	private: System::Windows::Forms::Label^ price_view_label;
+	public: System::Windows::Forms::Label^ price_view_label;
 	private: System::Windows::Forms::Label^ departure_date;
 
 	private: System::Windows::Forms::Label^ time_label;
@@ -85,7 +85,7 @@ namespace skyPort {
 	public: System::Windows::Forms::Button^ cancel_button;
 	private: System::Windows::Forms::Label^ ticket_idx;
 	private: System::Windows::Forms::Label^ traveler_idx;
-	private: System::Windows::Forms::Label^ flight_idx;
+	public: System::Windows::Forms::Label^ flight_idx;
 
 
 	private:
