@@ -23,3 +23,6 @@ mohsen_1;hi;1;0
 mohsen_1;how much;1;0
 mohsen_1;50;1;1
 youssef_1;hi, can i help you?;1;1
+mostafa_1;hello man;1;0
+mostafa_1;hello man;1;0
+mostafa_1;hello;1;1
