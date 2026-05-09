@@ -32,10 +32,8 @@ void sign_up_user(String^ name, String^ user_name, String^ password, String^ pho
 	}
 	if (new_user == true)
 	{
-		srand(time(0));
-		int magic = rand() + 1;
-		user_data.magic = magic;
-		hashed = hashing(pass_word, magic);
+		user_data.magic = magic();
+		hashed = hashing(pass_word, user_data.magic);
 		user_data.hashed_password = to_string(hashed);
 
 		users.push_back(user_data);

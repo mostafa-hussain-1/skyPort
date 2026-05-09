@@ -13,11 +13,8 @@ bool forget_password(bool isadmin, string username, string phone, string newpass
 
 			if (users[i].user_name == username && users[i].phone == phone) {
 
-
-				srand(time(0));
-				int magic = rand() + 1;
-				users[i].magic = magic;
-				hashed = hashing(newpass, magic);
+				users[i].magic = magic();
+				hashed = hashing(newpass, users[i].magic);
 				users[i].hashed_password = to_string(hashed);
 				return true;
 
@@ -31,11 +28,8 @@ bool forget_password(bool isadmin, string username, string phone, string newpass
 
 			if (admins[i].ad_user_name == username && admins[i].ad_phone == phone) {
 
-
-				srand(time(0));
-				int magic = rand() + 1;
-				admins[i].ad_magic = magic;
-				hashed = hashing(newpass, magic);
+				admins[i].ad_magic = magic();
+				hashed = hashing(newpass, admins[i].ad_magic);
 				admins[i].ad_hashed_password = to_string(hashed);
 				return true;
 			}

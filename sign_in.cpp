@@ -10,16 +10,14 @@ bool is_admin = false;
 bool is_signed_in = false;
 string current_user_name = "null";
 string first_name = "null";
-int magic;
 
 bool sign_in_user(string user_name, string password) {
 
 	for (int i = 0; i < users.size(); i++) {
 
 		if (users[i].user_name == user_name) {
-			magic = users[i].magic;
 			string hash_password = "*";
-			hash_password = to_string(hashing(password, magic));
+			hash_password = to_string(hashing(password, users[i].magic));
 			if (users[i].hashed_password == hash_password) {
 
 				int spacePos = users[i].name.find(' ');
@@ -48,9 +46,8 @@ bool sign_in_admin(string admin_user_name, string password) {
 	for (int i = 0; i < admins.size(); i++) {
 
 		if (admins[i].ad_user_name == admin_user_name) {
-			magic = admins[i].ad_magic;
 			string hash_password = "*";
-			hash_password = to_string(hashing(password, magic));
+			hash_password = to_string(hashing(password, admins[i].ad_magic));
 			if (admins[i].ad_hashed_password == hash_password) {
 				int spacePos = admins[i].ad_name.find(' ');
 
