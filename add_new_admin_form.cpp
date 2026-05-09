@@ -29,10 +29,8 @@ void add_new_admin(String^ ad_name, String^ ad_user_name, String^ ad_password, S
     }
     if (new_admin == true)
     {
-        srand(time(0));
-        int magic = rand() + 1;
-        admin_data.ad_magic = magic;
-        ad_hashed = hashing(ad_pass_word, magic);
+        admin_data.ad_magic = magic();
+        ad_hashed = hashing(ad_pass_word, admin_data.ad_magic);
         admin_data.ad_hashed_password = to_string(ad_hashed);
 
         admins.push_back(admin_data);
