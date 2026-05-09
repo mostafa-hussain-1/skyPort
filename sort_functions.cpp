@@ -1,5 +1,6 @@
 ﻿#include<iostream>
 #include <string>
+#include<ctime>
 #include"skyPort_array.h"
 #include "add_flights.h"
 #include<ctime>
