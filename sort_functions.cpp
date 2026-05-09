@@ -2,10 +2,14 @@
 #include <string>
 #include"skyPort_array.h"
 #include "add_flights.h"
+#include<ctime>
 
 string current_sort_criteria = "none";
 
 int partition_price(skyPort_array<pair<int, flight_struct>>& a, int low, int high) {
+    int randomIndex = low + rand() % (high - low + 1);
+
+    swap(a[randomIndex], a[high]);
     int pivot = a[high].second.price.economy_price;
     int i = low - 1;
     for (int j = low; j < high; j++) {
@@ -28,6 +32,9 @@ void quickSort_price(skyPort_array<pair<int, flight_struct>>& b, int low, int hi
     }
 }
 int partition_flight_duration(skyPort_array<pair<int, flight_struct>>& a, int low, int high) {
+    int randomIndex = low + rand() % (high - low + 1);
+
+    swap(a[randomIndex], a[high]);
     int pivot = a[high].second.flight_duration;
     int i = low - 1;
 
@@ -52,6 +59,7 @@ void quickSort_flight_duration(skyPort_array<pair<int, flight_struct>>& b, int l
 }
 
 void sort_flights(skyPort_array<pair<int, flight_struct>>& c, string type_sort) {
+    srand(time(0));
     if (type_sort == "price") {
         // sort by price
         quickSort_price(c, 0, c.size() - 1);
