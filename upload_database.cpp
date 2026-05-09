@@ -16,7 +16,7 @@ skyPort_array<airport_data> airports;
 //upload database
 
 void upload_database() {
-    //upload_users();
+    upload_users();
     upload_admins();
     upload_planes();
 	upload_airports();
