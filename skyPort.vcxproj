@@ -78,6 +78,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies />
@@ -89,6 +90,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies />
@@ -98,6 +100,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies />
@@ -107,31 +110,31 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="add_flights.cpp" />
-    <ClCompile Include="add_new_admin_form.cpp" />
-    <ClCompile Include="add_plane.cpp" />
-    <ClCompile Include="booking.cpp" />
-    <ClCompile Include="chatBot.cpp" />
-    <ClCompile Include="chat_list.cpp" />
-    <ClCompile Include="fav_flights.cpp" />
-    <ClCompile Include="flight_result.cpp" />
-    <ClCompile Include="forget_pass.cpp" />
-    <ClCompile Include="sign_in.cpp" />
-    <ClCompile Include="download_database.cpp" />
-    <ClCompile Include="hash_function.cpp" />
-    <ClCompile Include="search_planes.cpp" />
-    <ClCompile Include="sign_up_users.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="skyport_array.h" />
-    <ClCompile Include="sort_functions.cpp" />
-    <ClCompile Include="upload_database.cpp" />
-    <ClCompile Include="view_user_tickets.cpp" />
+    <ClCompile Include="src\Core\add_flights.cpp" />
+    <ClCompile Include="src\Core\add_new_admin_form.cpp" />
+    <ClCompile Include="src\Core\add_plane.cpp" />
+    <ClCompile Include="src\Core\booking.cpp" />
+    <ClCompile Include="src\Core\chatBot.cpp" />
+    <ClCompile Include="src\Core\chat_list.cpp" />
+    <ClCompile Include="src\Core\fav_flights.cpp" />
+    <ClCompile Include="src\Core\flight_result.cpp" />
+    <ClCompile Include="src\Core\search_planes.cpp" />
+    <ClCompile Include="src\Core\sign_in.cpp" />
+    <ClCompile Include="src\Core\sign_up_users.cpp" />
+    <ClCompile Include="src\Core\sort_functions.cpp" />
+    <ClCompile Include="src\Core\view_user_tickets.cpp" />
+    <ClCompile Include="src\DataBase\download_database.cpp" />
+    <ClCompile Include="src\DataBase\upload_database.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Security\forget_pass.cpp" />
+    <ClCompile Include="src\Security\hash_function.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -141,71 +144,83 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="add_admin.h" />
-    <ClInclude Include="add_plane.h" />
-    <ClInclude Include="admin_home_page.h">
+    <ClInclude Include="src\DataStructures\skyport_array.h" />
+    <ClInclude Include="src\include\add_admin.h" />
+    <ClInclude Include="src\include\add_flights.h" />
+    <ClInclude Include="src\include\add_plane.h" />
+    <ClInclude Include="src\include\airports.h" />
+    <ClInclude Include="src\include\Booking_struct.h" />
+    <ClInclude Include="src\include\chatBot.h" />
+    <ClInclude Include="src\include\database.h" />
+    <ClInclude Include="src\include\fav_flights.h" />
+    <ClInclude Include="src\include\forget_pass.h" />
+    <ClInclude Include="src\include\hash_function.h" />
+    <ClInclude Include="src\include\search_planes.h" />
+    <ClInclude Include="src\include\sign_in.h" />
+    <ClInclude Include="src\include\sign_up_users.h" />
+    <ClInclude Include="src\include\sort_functions.h" />
+    <ClInclude Include="src\include\view_user_tickets.h" />
+    <ClInclude Include="src\UI\admin_home_page.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="airports.h" />
-    <ClInclude Include="booking.h">
+    <ClInclude Include="src\UI\booking.h">
       <FileType>CppControl</FileType>
     </ClInclude>
-    <ClInclude Include="Booking_struct.h" />
-    <ClInclude Include="chatBot.h" />
-    <ClInclude Include="chat_list.h">
+    <ClInclude Include="src\UI\chat_list.h">
       <FileType>CppControl</FileType>
     </ClInclude>
-    <ClInclude Include="database.h" />
-    <ClInclude Include="add_flights.h" />
-    <ClInclude Include="fav_flights.h" />
-    <ClInclude Include="flight_result.h">
+    <ClInclude Include="src\UI\flight_result.h">
       <FileType>CppControl</FileType>
     </ClInclude>
-    <ClInclude Include="forget_pass.h" />
-    <ClInclude Include="hash_function.h" />
-    <ClInclude Include="plane_result.h">
+    <ClInclude Include="src\UI\plane_result.h">
       <FileType>CppControl</FileType>
     </ClInclude>
-    <ClInclude Include="search_planes.h" />
-    <ClInclude Include="sign_in.h" />
-    <ClInclude Include="sign_up_users.h" />
-    <ClInclude Include="sign_up_users_form.h">
+    <ClInclude Include="src\UI\sign_up_users_form.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="sort_functions.h" />
-    <ClInclude Include="user_home_page.h">
+    <ClInclude Include="src\UI\user_home_page.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="view_booked.h">
+    <ClInclude Include="src\UI\view_booked.h">
       <FileType>CppControl</FileType>
     </ClInclude>
-    <ClInclude Include="view_user_tickets.h" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="admin_home_page.resx">
+    <EmbeddedResource Include="src\UI\admin_home_page.resx">
       <DependentUpon>admin_home_page.h</DependentUpon>
+      <LogicalName>skyPort.admin_home_page.resources</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="booking.resx">
+    <EmbeddedResource Include="src\UI\booking.resx">
       <DependentUpon>booking.h</DependentUpon>
+      <LogicalName>skyPort.booking.resources</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="chat_list.resx">
+    <EmbeddedResource Include="src\UI\chat_list.resx">
       <DependentUpon>chat_list.h</DependentUpon>
+      <LogicalName>skyPort.chat_list.resources</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="flight_result.resx">
+    <EmbeddedResource Include="src\UI\flight_result.resx">
       <DependentUpon>flight_result.h</DependentUpon>
+      <LogicalName>skyPort.flight_result.resources</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="plane_result.resx">
+    <EmbeddedResource Include="src\UI\plane_result.resx">
       <DependentUpon>plane_result.h</DependentUpon>
+      <LogicalName>skyPort.plane_result.resources</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="sign_up_users_form.resx">
+    <EmbeddedResource Include="src\UI\sign_up_users_form.resx">
       <DependentUpon>sign_up_users_form.h</DependentUpon>
+      <LogicalName>skyPort.sign_up_users_form.resources</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="user_home_page.resx">
+    <EmbeddedResource Include="src\UI\user_home_page.resx">
       <DependentUpon>user_home_page.h</DependentUpon>
+      <LogicalName>skyPort.user_home_page.resources</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="view_booked.resx">
+    <EmbeddedResource Include="src\UI\view_booked.resx">
       <DependentUpon>view_booked.h</DependentUpon>
+      <LogicalName>skyPort.view_booked.resources</LogicalName>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="label8.Image.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

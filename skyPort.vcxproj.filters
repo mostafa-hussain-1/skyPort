@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
@@ -13,135 +9,182 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{78ffa508-8148-4acf-b954-a14a081b7168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{e17ceaf4-3d28-4a50-9e3f-da6016629bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI">
+      <UniqueIdentifier>{ee638f9c-6a10-4079-a4fc-cd8572fcf337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\DataBase">
+      <UniqueIdentifier>{eab60124-1b48-491d-83cc-a6361cf215e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Security">
+      <UniqueIdentifier>{71128346-c909-428f-a32c-2ba12f9ef001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include">
+      <UniqueIdentifier>{cfcba31e-da2d-4942-b420-8cb2326f2d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\DataStructures">
+      <UniqueIdentifier>{df31e084-13a9-4f4a-9350-d05f7a387199}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\add_flights.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="download_database.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\add_new_admin_form.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="search_planes.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\add_plane.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="sign_up_users.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\booking.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="upload_database.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\chat_list.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="hash_function.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\chatBot.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="add_new_admin_form.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\fav_flights.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="add_plane.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\flight_result.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="skyport_array.h">
-      <Filter>Header Files</Filter>
+    <ClCompile Include="src\Core\search_planes.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="add_flights.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\sign_in.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="sign_in.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\sign_up_users.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="forget_pass.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\sort_functions.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="fav_flights.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Core\view_user_tickets.cpp">
+      <Filter>src\Core</Filter>
     </ClCompile>
-    <ClCompile Include="chatBot.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\DataBase\download_database.cpp">
+      <Filter>src\DataBase</Filter>
     </ClCompile>
-    <ClCompile Include="booking.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\DataBase\upload_database.cpp">
+      <Filter>src\DataBase</Filter>
     </ClCompile>
-    <ClCompile Include="view_user_tickets.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Security\forget_pass.cpp">
+      <Filter>src\Security</Filter>
     </ClCompile>
-    <ClCompile Include="sort_functions.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Security\hash_function.cpp">
+      <Filter>src\Security</Filter>
     </ClCompile>
-    <ClCompile Include="chat_list.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="flight_result.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="sign_up_users_form.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\UI\booking.h">
+      <Filter>src\UI</Filter>
     </ClInclude>
-    <ClInclude Include="database.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\UI\chat_list.h">
+      <Filter>src\UI</Filter>
     </ClInclude>
-    <ClInclude Include="sign_up_users.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\UI\flight_result.h">
+      <Filter>src\UI</Filter>
     </ClInclude>
-    <ClInclude Include="hash_function.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\UI\plane_result.h">
+      <Filter>src\UI</Filter>
     </ClInclude>
-    <ClInclude Include="add_admin.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\UI\sign_up_users_form.h">
+      <Filter>src\UI</Filter>
     </ClInclude>
-    <ClInclude Include="plane_result.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\UI\user_home_page.h">
+      <Filter>src\UI</Filter>
     </ClInclude>
-    <ClInclude Include="add_plane.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\UI\view_booked.h">
+      <Filter>src\UI</Filter>
     </ClInclude>
-    <ClInclude Include="search_planes.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\DataStructures\skyport_array.h">
+      <Filter>src\DataStructures</Filter>
     </ClInclude>
-    <ClInclude Include="flight_result.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\add_admin.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="add_flights.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\add_flights.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="airports.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\add_plane.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="sign_in.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\airports.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="admin_home_page.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\Booking_struct.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="forget_pass.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\chatBot.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="fav_flights.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\database.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="user_home_page.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\fav_flights.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="chatBot.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\forget_pass.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="booking.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\hash_function.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="Booking_struct.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\search_planes.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="view_user_tickets.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\sign_in.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="view_booked.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\sign_up_users.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="sort_functions.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\sort_functions.h">
+      <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="chat_list.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\include\view_user_tickets.h">
+      <Filter>src\include</Filter>
     </ClInclude>
+    <ClInclude Include="src\UI\admin_home_page.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="src\UI\admin_home_page.resx">
+      <Filter>src\UI</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\UI\booking.resx">
+      <Filter>src\UI</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\UI\chat_list.resx">
+      <Filter>src\UI</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\UI\flight_result.resx">
+      <Filter>src\UI</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\UI\plane_result.resx">
+      <Filter>src\UI</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\UI\sign_up_users_form.resx">
+      <Filter>src\UI</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\UI\user_home_page.resx">
+      <Filter>src\UI</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\UI\view_booked.resx">
+      <Filter>src\UI</Filter>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
